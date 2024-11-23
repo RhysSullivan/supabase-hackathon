@@ -20,6 +20,8 @@ export const env = createEnv({
     AWS_REGION: z.string(),
     BUCKET_URL: z.string().url(),
     ENDPOINT_URL: z.string().url(),
+    // ANTHROPIC
+    ANTHROPIC_API_KEY: z.string(),
     // NODE
     NODE_ENV: z
       .enum(["development", "test", "production"])
@@ -56,6 +58,8 @@ export const env = createEnv({
     AWS_REGION: process.env.AWS_REGION,
     BUCKET_URL: process.env.BUCKET_URL,
     ENDPOINT_URL: process.env.ENDPOINT_URL,
+    // ANTHROPIC
+    ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
     // NODE
     NODE_ENV: process.env.NODE_ENV,
   },
