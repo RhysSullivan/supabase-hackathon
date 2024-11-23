@@ -11,9 +11,24 @@ import { systemPrompt } from '@/lib/ai/prompts';
 import { getMostRecentUserMessage } from '@/lib/utils';
 import { Database } from 'duckdb-async';
 import superjson from 'superjson';
+import { env } from '@/env';
+import { VoyageAIClient } from 'voyageai';
+import { createServerClient } from '@supabase/ssr';
 
 export const maxDuration = 60;
-
+const client = new VoyageAIClient({ apiKey: env.VOYAGE_API_KEY });
+const supabase = createServerClient(
+  env.NEXT_PUBLIC_SUPABASE_URL,
+  env.SUPABASE_SERVICE_KEY,
+  {
+    cookies: {
+      async getAll() {
+        return [];
+      },
+      async setAll(cookiesToSet) {},
+    },
+  },
+);
 // Extract tool implementations to get their return types
 async function executeWeatherTool({
   latitude,
@@ -151,18 +166,44 @@ async function executeDataTool({ query }: { query: string }) {
 
 async function executeSearchDatasetsTool({ query }: { query: string }) {
   console.log('Search datasets - Searching for:', query);
-  return ['Traffic', 'Crime', 'Weather'];
+  const embedding = await client.embed({
+    model: 'voyage-3',
+    input: query,
+    inputType: 'query',
+  });
+  // biome-ignore lint/style/noNonNullAssertion: <explanation>
+  const e = embedding.data!.at(0)!.embedding!;
+  console.log('embedding', JSON.stringify(e));
+  const { data: matches } = await supabase.rpc('match_csv_data', {
+    query_embedding: e, // pass the query embedding
+    match_threshold: 0.58, // choose an appropriate threshold for your data
+    match_count: 10, // choose the number of matches
+  });
+  console.log('matched:', query, matches);
+  return matches;
+}
+
+async function executeListDatasetsTool() {
+  const { data } = await supabase.from('sf_csv_data').select('*');
+  return data?.map((d) => d.title);
 }
 
 // Infer tool return types from execute functions
 type ToolReturns = {
   getWeather: Awaited<ReturnType<typeof executeWeatherTool>>;
   getData: Awaited<ReturnType<typeof executeDataTool>>;
+  searchDatasets: Awaited<ReturnType<typeof executeSearchDatasetsTool>>;
+  listDatasets: Awaited<ReturnType<typeof executeListDatasetsTool>>;
 };
 
 type AllowedTools = keyof ToolReturns;
 
-const weatherTools: AllowedTools[] = ['getWeather', 'getData'];
+const weatherTools: AllowedTools[] = [
+  'getWeather',
+  'getData',
+  'searchDatasets',
+  'listDatasets',
+];
 
 const allTools: AllowedTools[] = [...weatherTools];
 
@@ -197,18 +238,22 @@ export async function POST(request: Request) {
         execute: executeWeatherTool,
       },
       searchDatasets: {
-        description: 'Search for a dataset',
+        description:
+          'Search for a dataset. Used if the user is just looking for what data sets are available',
         parameters: z.object({
           query: z.string(),
         }),
         execute: executeSearchDatasetsTool,
       },
+      listDatasets: {
+        description: 'List all datasets',
+        parameters: z.object({}),
+        execute: executeListDatasetsTool,
+      },
       getData: {
-        description:
-          'Ask questions about a dataset. Run the search for a data set tool before this tool.',
+        description: 'Ask questions about a dataset',
         parameters: z.object({
           query: z.string(),
-          dataset: z.string(),
         }),
         execute: async ({ query, dataset }) => {
           try {
