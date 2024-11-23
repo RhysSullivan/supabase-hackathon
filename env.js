@@ -22,6 +22,9 @@ export const env = createEnv({
     ENDPOINT_URL: z.string().url(),
     // ANTHROPIC
     ANTHROPIC_API_KEY: z.string(),
+    // BROWSERBASE
+    BROWSERBASE_API_KEY: z.string(),
+    BROWSERBASE_PROJECT_ID: z.string(),
     // NODE
     NODE_ENV: z
       .enum(["development", "test", "production"])
@@ -60,6 +63,9 @@ export const env = createEnv({
     ENDPOINT_URL: process.env.ENDPOINT_URL,
     // ANTHROPIC
     ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
+    // BROWSERBASE
+    BROWSERBASE_API_KEY: process.env.BROWSERBASE_API_KEY,
+    BROWSERBASE_PROJECT_ID: process.env.BROWSERBASE_PROJECT_ID,
     // NODE
     NODE_ENV: process.env.NODE_ENV,
   },
