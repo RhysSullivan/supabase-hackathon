@@ -1,3 +1,4 @@
+import os
 from enum import Enum
 from typing import Type
 
@@ -27,9 +28,14 @@ class DataResponse(BaseModel):
         )
 
 
+class WithoutDownloadLinkResponse(BaseModel):
+    title: str
+    description: str
+
+
 class LLMClient:
     def __init__(self):
-        self.openai_client = OpenAI()
+        self.openai_client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
     def get_response(self, image, text, data_links):
         content = get_content_objects(image, "jpeg")
@@ -60,7 +66,9 @@ class LLMClient:
 
         return completion.choices[0].message.parsed
 
-    def get_text_response(self, text: str, data_links: list[str]) -> DataResponse:
+    def get_text_response_and_download_link(
+        self, text: str, data_links: list[str]
+    ) -> DataResponse:
         messages = [
             {
                 "role": "system",
@@ -86,30 +94,52 @@ class LLMClient:
 
         return completion.choices[0].message.parsed
 
+    def get_text_response(self, text: str) -> WithoutDownloadLinkResponse:
+        messages = [
+            {
+                "role": "system",
+                "content": "Analyze the following content and extract the title and description.",
+            },
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": f"Scraped text from the page:\n{text}"},
+                ],
+            },
+        ]
 
-def test_data_response():
-    # Test data
-    sample_links = [
-        "https://example.com/data1.pdf",
-        "https://example.com/data2.csv",
-        "https://example.com/data3.xlsx",
-    ]
-
-    # Create dynamic model
-    DynamicResponse = DataResponse.with_dynamic_enum(sample_links)
-
-    # Create instance
-    try:
-        response = DynamicResponse(
-            title="Test Document",
-            description="A test description",
-            primary_data_link=sample_links[0],  # Use the actual URL instead of "LINK_0"
+        completion = self.openai_client.beta.chat.completions.parse(
+            model="gpt-4o-2024-08-06",
+            messages=messages,
+            response_format=WithoutDownloadLinkResponse,
         )
-        print("Test passed! Created instance:", response.model_dump())
-        return True
-    except Exception as e:
-        print(f"Test failed with error: {e}")
-        return False
+
+        return completion.choices[0].message.parsed
+
+
+# def test_data_response():
+#     # Test data
+#     sample_links = [
+#         "https://example.com/data1.pdf",
+#         "https://example.com/data2.csv",
+#         "https://example.com/data3.xlsx",
+#     ]
+
+#     # Create dynamic model
+#     DynamicResponse = DataResponse.with_dynamic_enum(sample_links)
+
+#     # Create instance
+#     try:
+#         response = DynamicResponse(
+#             title="Test Document",
+#             description="A test description",
+#             primary_data_link=sample_links[0],  # Use the actual URL instead of "LINK_0"
+#         )
+#         print("Test passed! Created instance:", response.model_dump())
+#         return True
+#     except Exception as e:
+#         print(f"Test failed with error: {e}")
+#         return False
 
 
 # if __name__ == "__main__":
