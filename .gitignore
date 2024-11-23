@@ -40,3 +40,10 @@ yarn-error.log*
 .vscode
 .env*.local
 .env*
+
+
+
+venv
+*.jpeg
+*.jpg
+__pycache__
