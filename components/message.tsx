@@ -3,13 +3,21 @@
 import type { Message } from "ai";
 import cx from "classnames";
 import { motion } from "framer-motion";
-import type { Dispatch, SetStateAction } from "react";
-
 import { SparklesIcon } from "./icons";
 import { Markdown } from "./markdown";
 import { MessageActions } from "./message-actions";
-import { PreviewAttachment } from "./preview-attachment";
 import { Weather } from "./weather";
+
+function Tool(props: { toolName: string; result: any }) {
+  const { toolName, result } = props;
+  if (toolName === "getData") {
+    return <pre>{JSON.stringify(result, null, 2)}</pre>;
+  }
+  if (toolName === "getWeather") {
+    return <Weather weatherAtLocation={result} />;
+  }
+  return <pre>{JSON.stringify(result, null, 2)}</pre>;
+}
 
 export const PreviewMessage = ({
   chatId,
@@ -55,11 +63,7 @@ export const PreviewMessage = ({
 
                   return (
                     <div key={toolCallId}>
-                      {toolName === "getWeather" ? (
-                        <Weather weatherAtLocation={result} />
-                      ) : (
-                        <pre>{JSON.stringify(result, null, 2)}</pre>
-                      )}
+                      <Tool toolName={toolName} result={result} />
                     </div>
                   );
                 }
@@ -74,17 +78,6 @@ export const PreviewMessage = ({
                   </div>
                 );
               })}
-            </div>
-          )}
-
-          {message.experimental_attachments && (
-            <div className="flex flex-row gap-2">
-              {message.experimental_attachments.map((attachment) => (
-                <PreviewAttachment
-                  key={attachment.url}
-                  attachment={attachment}
-                />
-              ))}
             </div>
           )}
 

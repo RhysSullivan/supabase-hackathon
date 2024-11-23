@@ -2,10 +2,7 @@
 
 import type { Attachment, Message } from "ai";
 import { useChat } from "ai/react";
-import { AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import useSWR, { useSWRConfig } from "swr";
-import { useWindowSize } from "usehooks-ts";
 
 import { ChatHeader } from "@/components/chat-header";
 import { PreviewMessage, ThinkingMessage } from "@/components/message";
@@ -21,8 +18,6 @@ export function Chat({
   id: string;
   initialMessages: Array<Message>;
 }) {
-  const { mutate } = useSWRConfig();
-
   const {
     messages,
     setMessages,
@@ -34,12 +29,8 @@ export function Chat({
     stop,
     data: streamingData,
   } = useChat({
-    initialInput: "What is the most dangerous road to bike on?",
     body: { id },
     initialMessages,
-    onFinish: () => {
-      mutate("/api/history");
-    },
   });
 
   const [messagesContainerRef, messagesEndRef] =
