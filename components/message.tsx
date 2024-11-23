@@ -8,10 +8,17 @@ import { Markdown } from "./markdown";
 import { MessageActions } from "./message-actions";
 import { Weather } from "./weather";
 
+import SuperJSON from "superjson";
+import { GenericTable } from "./table";
+
 function Tool(props: { toolName: string; result: any }) {
   const { toolName, result } = props;
   if (toolName === "getData") {
-    return <pre>{JSON.stringify(result, null, 2)}</pre>;
+    const json = SuperJSON.parse(result) as Record<
+      string,
+      string | number | bigint
+    >[];
+    return <GenericTable data={json} />;
   }
   if (toolName === "getWeather") {
     return <Weather weatherAtLocation={result} />;
