@@ -15,6 +15,28 @@ import { env } from '@/env';
 import { VoyageAIClient } from 'voyageai';
 import { createServerClient } from '@supabase/ssr';
 
+export type DatasetMetadata = {
+  // Basic identifiers
+  id: string;
+  created_at: string; // ISO 8601 datetime string
+
+  // Vector data (high-dimensional arrays)
+  description_vector: string; // String representation of numeric array
+  title_vector: string; // String representation of numeric array
+
+  // Content fields
+  title: string;
+  description: string;
+
+  // URLs and file paths
+  url: string;
+  csv_filepath: string | null;
+  csv_url: string;
+
+  // Enhanced fields
+  llm_enhanced_title: string;
+};
+
 export const maxDuration = 60;
 const client = new VoyageAIClient({ apiKey: env.VOYAGE_API_KEY });
 const supabase = createServerClient(
@@ -173,18 +195,17 @@ async function executeSearchDatasetsTool({ query }: { query: string }) {
   });
   // biome-ignore lint/style/noNonNullAssertion: <explanation>
   const e = embedding.data!.at(0)!.embedding!;
-  console.log('embedding', JSON.stringify(e));
-  const { data: matches } = await supabase.rpc('match_csv_data', {
+  const { data: matches } = (await supabase.rpc('match_csv_data', {
     query_embedding: e, // pass the query embedding
-    match_threshold: 0.58, // choose an appropriate threshold for your data
-    match_count: 10, // choose the number of matches
-  });
-  console.log('matched:', query, matches);
-  return matches;
+    match_threshold: 0.4, // choose an appropriate threshold for your data
+    match_count: 15, // choose the number of matches
+  })) as { data: DatasetMetadata[] };
+  console.log('Search datasets - Matches:', matches.at(0)?.title);
+  return matches?.map((m) => m.title);
 }
 
 async function executeListDatasetsTool() {
-  const { data } = await supabase.from('sf_csv_data').select('*');
+  const { data } = await supabase.from('sf_csv_data_duplicate').select('*');
   return data?.map((d) => d.title);
 }
 
@@ -239,7 +260,7 @@ export async function POST(request: Request) {
       },
       searchDatasets: {
         description:
-          'Search for a dataset. Used if the user is just looking for what data sets are available',
+          'Search for a dataset. Used if the user is just looking for what data sets are available but does not have a specific query',
         parameters: z.object({
           query: z.string(),
         }),
@@ -251,7 +272,8 @@ export async function POST(request: Request) {
         execute: executeListDatasetsTool,
       },
       getData: {
-        description: 'Ask questions about a dataset',
+        description:
+          'Ask questions about a data set. Used if the user has a query about a specific data set',
         parameters: z.object({
           query: z.string(),
         }),
