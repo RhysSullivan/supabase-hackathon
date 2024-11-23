@@ -34,6 +34,7 @@ export function Chat({
     stop,
     data: streamingData,
   } = useChat({
+    initialInput: "What is the most dangerous road to bike on?",
     body: { id },
     initialMessages,
     onFinish: () => {

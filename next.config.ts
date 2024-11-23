@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   experimental: {
     ppr: true,
   },
+  serverExternalPackages: ['duckdb-async', 'duckdb'],
   images: {
     remotePatterns: [
       {

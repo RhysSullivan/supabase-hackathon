@@ -2,12 +2,14 @@ import {
   type Message,
   StreamData,
   convertToCoreMessages,
+  generateObject,
   streamText,
 } from 'ai';
 import { z } from 'zod';
 import { customModel } from '@/lib/ai';
 import { systemPrompt } from '@/lib/ai/prompts';
 import { getMostRecentUserMessage } from '@/lib/utils';
+import { Database } from 'duckdb-async';
 
 export const maxDuration = 60;
 
@@ -62,7 +64,22 @@ export async function POST(request: Request) {
           query: z.string(),
         }),
         execute: async ({ query }) => {
-          return query;
+          const db = await Database.create(':memory:');
+          await db.run(
+            `CREATE TEMPORARY TABLE temp_table AS SELECT * FROM read_csv_auto('https://spwogmmcqrgmnfmscszi.supabase.co/storage/v1/object/public/data/csv/traffic.csv', sample_size=-1)`,
+          );
+          const schema = await db.all('DESCRIBE temp_table');
+          const smallSchema = JSON.stringify(schema, null, 0);
+          const sql = await generateObject({
+            model: customModel('claude-3-opus-20240229'),
+            schema: z.object({
+              sql: z.string(),
+            }),
+            prompt: `The schema of the table is ${smallSchema} the table is named temp_table. Generate a SQL query that answers the question: ${query}`,
+          });
+          const data = await db.all(sql.object.sql);
+          console.log(data);
+          return data;
         },
       },
     },
