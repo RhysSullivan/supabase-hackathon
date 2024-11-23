@@ -35,7 +35,7 @@ async function executeDataTool({ query }: { query: string }) {
 
   await db
     .run(
-      `CREATE TEMPORARY TABLE temp_table AS SELECT * FROM read_csv_auto('${csvUrl}', sample_size=-1)`,
+      `CREATE TEMPORARY TABLE temp_table AS SELECT * FROM read_csv_auto('${csvUrl}', sample_size=-1, ignore_errors=true)`,
     )
     .catch((error) => {
       console.error('Get data - Error creating table:', error);
@@ -44,14 +44,29 @@ async function executeDataTool({ query }: { query: string }) {
   const schema = await db.all('DESCRIBE temp_table');
   const smallSchema = JSON.stringify(schema, null, 0);
 
+  const MAX_EXAMPLES = 5; // Configurable maximum number of examples when many unique values exist
+  const DISTINCT_THRESHOLD = 50; // Configurable threshold for when to limit examples
+
   // Get sample data for each column
   const columnExamples = await Promise.all(
     schema.map(async (column) => {
+      // First, count distinct values
+      const countResult = await db.all(
+        `SELECT COUNT(DISTINCT "${column.column_name}") as count 
+         FROM temp_table 
+         WHERE "${column.column_name}" IS NOT NULL`,
+      );
+      const distinctCount = countResult[0].count;
+
+      // Adjust LIMIT based on distinct count
+      const limit =
+        distinctCount > DISTINCT_THRESHOLD ? MAX_EXAMPLES : distinctCount;
+
       const samples = await db.all(
         `SELECT DISTINCT "${column.column_name}" 
          FROM temp_table 
          WHERE "${column.column_name}" IS NOT NULL 
-         LIMIT 50`,
+         LIMIT ${limit}`,
       );
       return {
         column: column.column_name,
@@ -72,21 +87,22 @@ async function executeDataTool({ query }: { query: string }) {
     The schema of the table is:
     
     ${smallSchema}
-
-    Here are some example values from each column:
-
-    ${examplesText}
     
     The table is named temp_table. 
     
+    Example values: ${examplesText}
+
     Generate a SQL query that answers the question: ${query}
-    
+
+
+    Unless the query is specifically asking about all data, assume it's asking about aggregate data.
+    Add data casts if they are needed.
     Apply aliases to the columns in the query to make it more readable.
     i.e accident_count -> Accident Count
     `;
   console.log('Get data - Prompt:', prompt);
   const sql = await generateObject({
-    model: customModel('claude-3-opus-20240229'),
+    model: customModel('claude-3-5-haiku-latest'),
     schema: z.object({
       sql: z.string(),
     }),
