@@ -348,7 +348,19 @@ export async function POST(request: Request) {
           matchThreshold: z.number().optional(),
           matchCount: z.number().optional(),
         }),
-        execute: executeSearchDatasetsTool,
+        execute: async ({ query, matchThreshold, matchCount }) => {
+          try {
+            const result = await executeSearchDatasetsTool({
+              query,
+              matchThreshold,
+              matchCount,
+            });
+            return superjson.stringify(result);
+          } catch (error) {
+            console.error('Error executing search datasets tool:', error);
+            throw error;
+          }
+        },
       },
       listDatasets: {
         description: 'List all datasets',

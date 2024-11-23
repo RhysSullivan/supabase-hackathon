@@ -33,6 +33,31 @@ function Tool(props: { toolName: string; result: any }) {
       </div>
     );
   }
+  if (toolName === "searchDatasets") {
+    const datasets = SuperJSON.parse(result) as ToolReturns["searchDatasets"];
+    return (
+      <div className="flex flex-col gap-4">
+        {datasets.map((dataset) => (
+          <div key={dataset.id} className="flex flex-col justify-start">
+            <span className="text-sm font-semibold">{dataset.title}</span>
+            <span className="text-sm text-muted-foreground">
+              {dataset.description.slice(0, 500) +
+                (dataset.description.length > 500 ? "..." : "")}
+            </span>
+            {/* link to dataset */}
+            <a
+              className="text-sm flex flex-row font-semibold gap-2 items-center hover:underline"
+              href={dataset.url}
+              target="_blank"
+            >
+              Data Source
+              <ExternalLinkIcon size={14} />
+            </a>
+          </div>
+        ))}
+      </div>
+    );
+  }
   return <pre>{JSON.stringify(result, null, 2)}</pre>;
 }
 
