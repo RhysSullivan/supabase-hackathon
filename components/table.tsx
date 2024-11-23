@@ -22,7 +22,7 @@ export function GenericTable({ data }: GenericTableProps) {
   const columns = Object.keys(data[0]);
 
   return (
-    <div className="w-full overflow-auto">
+    <div className="w-full overflow-y-auto max-h-[500px]">
       <Table>
         <TableHeader>
           <TableRow>
