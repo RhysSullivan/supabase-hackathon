@@ -260,7 +260,7 @@ export async function POST(request: Request) {
       },
       searchDatasets: {
         description:
-          'Search for a dataset. Used if the user is just looking for what data sets are available',
+          'Search for a dataset. Used if the user is just looking for what data sets are available but does not have a specific query',
         parameters: z.object({
           query: z.string(),
         }),
@@ -272,7 +272,8 @@ export async function POST(request: Request) {
         execute: executeListDatasetsTool,
       },
       getData: {
-        description: 'Ask questions about a dataset',
+        description:
+          'Ask questions about a data set. Used if the user has a query about a specific data set',
         parameters: z.object({
           query: z.string(),
         }),
