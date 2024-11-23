@@ -1,34 +1,6 @@
-import duckdb from 'duckdb';
-import { cookies } from 'next/headers';
+import { Database } from 'duckdb';
 import { env } from '../src/env';
-import { createClient } from '../utils/supabase/server';
-
-// const db = new duckdb.Database(":memory:");
-// db.run("CREATE TEMPORARY TABLE temp_traffic AS SELECT * FROM read_csv_auto('traffic.csv', sample_size=-1)");
-
-// db.all("DESCRIBE temp_traffic", function(err, res) {
-//     if (err) {
-//       console.warn(err);
-//       return;
-//     }
-//     // print the results with no formatting, whitespace, etc.
-//     // console.log(JSON.stringify(res, null, 0))
-// });
-
-// db.all(`SELECT DISTINCT
-//     analysis_neighborhood
-// FROM temp_traffic
-// WHERE analysis_neighborhood IS NOT NULL
-// AND analysis_neighborhood != ''
-// ORDER BY analysis_neighborhood;`, function(err, res) {
-//     if (err) {
-//       console.warn(err);
-//       return;
-//     }
-//     console.log(res)
-// });
-
-const cookieStore = cookies();
+import { createAdminClient } from '../utils/supabase/admin';
 
 interface DuckDbConfig {
   awsKeyId: string;
@@ -38,8 +10,8 @@ interface DuckDbConfig {
   bucketUrl: string;
 }
 
-function setupDuckDbConnection(config: DuckDbConfig): duckdb.Database {
-  const db = new duckdb.Database(':memory:');
+function setupDuckDbConnection(config: DuckDbConfig): Database {
+  const db = new Database(':memory:');
 
   // Configure S3 credentials
   db.run(`
@@ -77,7 +49,7 @@ export async function uploadCsvToStorage(
   fileName: string,
   data: Buffer,
 ): Promise<string> {
-  const supabase = await createClient(cookieStore);
+  const supabase = createAdminClient();
 
   const bucketName = new URL(config.bucketUrl).hostname;
   const filePath = `csv/${fileName}`;
@@ -100,7 +72,7 @@ export async function uploadCsvToStorage(
  * Queries a CSV file directly from Supabase Storage using DuckDB
  */
 export async function queryCsvFromStorage<T>(
-  db: duckdb.Database,
+  db: Database,
   storagePath: string,
   query: string,
 ): Promise<T> {
