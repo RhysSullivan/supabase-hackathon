@@ -3,9 +3,6 @@ import { toast } from "sonner";
 import { useSWRConfig } from "swr";
 import { useCopyToClipboard } from "usehooks-ts";
 
-import type { Vote } from "@/lib/db/schema";
-import { getMessageIdFromAnnotations } from "@/lib/utils";
-
 import { CopyIcon, ThumbDownIcon, ThumbUpIcon } from "./icons";
 import { Button } from "./ui/button";
 import {
@@ -18,12 +15,10 @@ import {
 export function MessageActions({
   chatId,
   message,
-  vote,
   isLoading,
 }: {
   chatId: string;
   message: Message;
-  vote: Vote | undefined;
   isLoading: boolean;
 }) {
   const { mutate } = useSWRConfig();
