@@ -47,3 +47,5 @@ venv
 *.jpeg
 *.jpg
 __pycache__
+*.json
+*.csv
