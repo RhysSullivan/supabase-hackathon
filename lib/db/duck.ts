@@ -1,7 +1,7 @@
 import duckdb from 'duckdb';
 import { cookies } from 'next/headers';
-import { env } from '../env';
-import { createClient } from '../utils/supabase/server';
+import { env } from '@/env';
+import { createClient } from '@/utils/supabase/server';
 
 // const db = new duckdb.Database(":memory:");
 // db.run("CREATE TEMPORARY TABLE temp_traffic AS SELECT * FROM read_csv_auto('traffic.csv', sample_size=-1)");
@@ -53,7 +53,6 @@ function setupDuckDbConnection(config: DuckDbConfig): duckdb.Database {
       URL_STYLE 'path'
     )
   `);
-
   return db;
 }
 
