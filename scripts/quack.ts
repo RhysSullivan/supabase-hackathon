@@ -1,6 +1,6 @@
-import duckdb from "duckdb";
+import duckdb from 'duckdb';
 import { cookies } from 'next/headers';
-import { env } from '~/env';
+import { env } from '../src/env';
 import { createClient } from '../utils/supabase/server';
 
 // const db = new duckdb.Database(":memory:");
@@ -39,7 +39,7 @@ interface DuckDbConfig {
 }
 
 function setupDuckDbConnection(config: DuckDbConfig): duckdb.Database {
-  const db = new duckdb.Database(":memory:");
+  const db = new duckdb.Database(':memory:');
 
   // Configure S3 credentials
   db.run(`
@@ -75,19 +75,18 @@ export async function fetchCsvFromUrl(url: string): Promise<Buffer> {
 export async function uploadCsvToStorage(
   config: DuckDbConfig,
   fileName: string,
-  data: Buffer
+  data: Buffer,
 ): Promise<string> {
   const supabase = await createClient(cookieStore);
 
   const bucketName = new URL(config.bucketUrl).hostname;
   const filePath = `csv/${fileName}`;
 
-  const { error } = await supabase
-    .storage
+  const { error } = await supabase.storage
     .from(bucketName)
     .upload(filePath, data, {
       contentType: 'text/csv',
-      upsert: true
+      upsert: true,
     });
 
   if (error) {
@@ -103,7 +102,7 @@ export async function uploadCsvToStorage(
 export async function queryCsvFromStorage<T>(
   db: duckdb.Database,
   storagePath: string,
-  query: string
+  query: string,
 ): Promise<T> {
   try {
     // Execute the query
@@ -122,14 +121,22 @@ const config = {
   awsKeyId: env.AWS_ACCESS_KEY_ID,
   awsSecretKey: env.AWS_SECRET_ACCESS_KEY,
   awsRegion: env.AWS_REGION,
-  endpointUrl: env.ENDPOINT_URL.replace("https://", ""),
+  endpointUrl: env.ENDPOINT_URL.replace('https://', ''),
   bucketUrl: env.BUCKET_URL,
 };
 
 const db = setupDuckDbConnection(config);
 
-const storagePath = await uploadCsvToStorage(config, "traffic.csv", await fetchCsvFromUrl("https://data.sfgov.org/resource/ybh5-27n2.csv"));
+const storagePath = await uploadCsvToStorage(
+  config,
+  'traffic.csv',
+  await fetchCsvFromUrl('https://data.sfgov.org/resource/ybh5-27n2.csv'),
+);
 
-const result = await queryCsvFromStorage(db, storagePath, "select * from read_csv_auto('${storagePath}', sample_size=-1)");
+const result = await queryCsvFromStorage(
+  db,
+  storagePath,
+  "select * from read_csv_auto('${storagePath}', sample_size=-1)",
+);
 
 console.log(result);

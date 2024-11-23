@@ -7,21 +7,15 @@ import {
 import { z } from 'zod';
 import { customModel } from '@/lib/ai';
 import { systemPrompt } from '@/lib/ai/prompts';
-import {
-  getMostRecentUserMessage,
-} from '@/lib/utils';
+import { getMostRecentUserMessage } from '@/lib/utils';
 
 export const maxDuration = 60;
 
-type AllowedTools =
-  | 'getWeather';
-
-const blocksTools: AllowedTools[] = [
-];
+type AllowedTools = 'getWeather';
 
 const weatherTools: AllowedTools[] = ['getWeather'];
 
-const allTools: AllowedTools[] = [...blocksTools, ...weatherTools];
+const allTools: AllowedTools[] = [...weatherTools];
 
 export async function POST(request: Request) {
   const {
