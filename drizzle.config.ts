@@ -1,12 +1,16 @@
-import { type Config } from "drizzle-kit";
+import { config } from 'dotenv';
+import { defineConfig } from 'drizzle-kit';
 
-import { env } from "~/env";
+config({
+  path: '.env.local',
+});
 
-export default {
-  schema: "./src/server/db/schema.ts",
-  dialect: "postgresql",
+export default defineConfig({
+  schema: './lib/db/schema.ts',
+  out: './lib/db/migrations',
+  dialect: 'postgresql',
   dbCredentials: {
-    url: env.DATABASE_URL,
+    // biome-ignore lint: Forbidden non-null assertion.
+    url: process.env.POSTGRES_URL!,
   },
-  tablesFilter: ["supabase-hackathon_*"],
-} satisfies Config;
+});

@@ -1,4 +1,0 @@
-altair
-duckdb>=0.10.0
-notebook
-python-dotenv
