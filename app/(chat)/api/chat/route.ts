@@ -149,6 +149,11 @@ async function executeDataTool({ query }: { query: string }) {
   return superjson.stringify(data);
 }
 
+async function executeSearchDatasetsTool({ query }: { query: string }) {
+  console.log('Search datasets - Searching for:', query);
+  return [];
+}
+
 // Infer tool return types from execute functions
 type ToolReturns = {
   getWeather: Awaited<ReturnType<typeof executeWeatherTool>>;
@@ -190,6 +195,13 @@ export async function POST(request: Request) {
           longitude: z.number(),
         }),
         execute: executeWeatherTool,
+      },
+      searchDatasets: {
+        description: 'Search for a dataset',
+        parameters: z.object({
+          query: z.string(),
+        }),
+        execute: executeSearchDatasetsTool,
       },
       getData: {
         description: 'Question about city data',
