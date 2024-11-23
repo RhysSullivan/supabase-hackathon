@@ -151,7 +151,7 @@ async function executeDataTool({ query }: { query: string }) {
 
 async function executeSearchDatasetsTool({ query }: { query: string }) {
   console.log('Search datasets - Searching for:', query);
-  return [];
+  return ['Traffic', 'Crime', 'Weather'];
 }
 
 // Infer tool return types from execute functions
