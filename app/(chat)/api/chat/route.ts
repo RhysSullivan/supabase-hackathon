@@ -14,7 +14,97 @@ import superjson from 'superjson';
 
 export const maxDuration = 60;
 
-type AllowedTools = 'getWeather' | 'getData';
+// Extract tool implementations to get their return types
+async function executeWeatherTool({
+  latitude,
+  longitude,
+}: { latitude: number; longitude: number }) {
+  const response = await fetch(
+    `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m&hourly=temperature_2m&daily=sunrise,sunset&timezone=auto`,
+  );
+  return response.json();
+}
+
+async function executeDataTool({ query }: { query: string }) {
+  console.log('Get data - Searching for:', query);
+  const db = await Database.create(':memory:');
+  console.log('Get data - Created DB');
+  const csvUrl =
+    'https://spwogmmcqrgmnfmscszi.supabase.co/storage/v1/object/public/data/csv/traffic-1.csv';
+  console.log('Get data - Creating table');
+
+  await db
+    .run(
+      `CREATE TEMPORARY TABLE temp_table AS SELECT * FROM read_csv_auto('${csvUrl}', sample_size=-1)`,
+    )
+    .catch((error) => {
+      console.error('Get data - Error creating table:', error);
+    });
+  console.log('Get data - Created table');
+  const schema = await db.all('DESCRIBE temp_table');
+  const smallSchema = JSON.stringify(schema, null, 0);
+
+  // Get sample data for each column
+  const columnExamples = await Promise.all(
+    schema.map(async (column) => {
+      const samples = await db.all(
+        `SELECT DISTINCT "${column.column_name}" 
+         FROM temp_table 
+         WHERE "${column.column_name}" IS NOT NULL 
+         LIMIT 50`,
+      );
+      return {
+        column: column.column_name,
+        examples: samples.map((s) => s[column.column_name]),
+      };
+    }),
+  );
+
+  const examplesText = columnExamples
+    .map(
+      (col) =>
+        `Column "${col.column}" example values:\n${col.examples.join(', ')}`,
+    )
+    .join('\n\n');
+
+  console.log('Get data - Creating SQL');
+  const prompt = `
+    The schema of the table is:
+    
+    ${smallSchema}
+
+    Here are some example values from each column:
+
+    ${examplesText}
+    
+    The table is named temp_table. 
+    
+    Generate a SQL query that answers the question: ${query}
+    
+    Apply aliases to the columns in the query to make it more readable.
+    i.e accident_count -> Accident Count
+    `;
+  console.log('Get data - Prompt:', prompt);
+  const sql = await generateObject({
+    model: customModel('claude-3-opus-20240229'),
+    schema: z.object({
+      sql: z.string(),
+    }),
+    prompt,
+  });
+  console.log('Get data - SQL:', sql.object.sql);
+  const data = await db.all(sql.object.sql);
+  console.log('Get data - Data:', data);
+  return superjson.stringify(data);
+}
+
+// Infer tool return types from execute functions
+type ToolReturns = {
+  getWeather: Awaited<ReturnType<typeof executeWeatherTool>>;
+  getData: Awaited<ReturnType<typeof executeDataTool>>;
+};
+
+type AllowedTools = keyof ToolReturns;
 
 const weatherTools: AllowedTools[] = ['getWeather', 'getData'];
 
@@ -48,14 +138,7 @@ export async function POST(request: Request) {
           latitude: z.number(),
           longitude: z.number(),
         }),
-        execute: async ({ latitude, longitude }) => {
-          const response = await fetch(
-            `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m&hourly=temperature_2m&daily=sunrise,sunset&timezone=auto`,
-          );
-
-          const weatherData = await response.json();
-          return weatherData;
-        },
+        execute: executeWeatherTool,
       },
       getData: {
         description: 'Question about city data',
@@ -63,46 +146,12 @@ export async function POST(request: Request) {
           query: z.string(),
         }),
         execute: async ({ query }) => {
-          console.log('Get data - Searching for:', query);
-          const db = await Database.create(':memory:');
-          console.log('Get data - Created DB');
-          const csvUrl =
-            'https://spwogmmcqrgmnfmscszi.supabase.co/storage/v1/object/public/data/csv/traffic-1.csv';
-          console.log('Get data - Creating table');
-
-          await db
-            .run(
-              `CREATE TEMPORARY TABLE temp_table AS SELECT * FROM read_csv_auto('${csvUrl}', sample_size=-1)`,
-            )
-            .catch((error) => {
-              console.error('Get data - Error creating table:', error);
-            });
-          console.log('Get data - Created table');
-          const schema = await db.all('DESCRIBE temp_table');
-          const smallSchema = JSON.stringify(schema, null, 0);
-          console.log('Get data - Creating SQL');
-          const sql = await generateObject({
-            model: customModel('claude-3-opus-20240229'),
-            schema: z.object({
-              sql: z.string(),
-            }),
-            prompt: `
-            The schema of the table is:
-            
-            ${smallSchema} 
-            
-            the table is named temp_table. 
-            
-            Generate a SQL query that answers the question: ${query}
-            
-            Apply aliases to the columns in the query to make it more readable.
-            i.e accident_count -> Accident Count
-            `,
-          });
-          console.log('Get data - SQL:', sql.object.sql);
-          const data = await db.all(sql.object.sql);
-          console.log('Get data - Data:', data);
-          return superjson.stringify(data);
+          try {
+            return await executeDataTool({ query });
+          } catch (error) {
+            console.error('Error executing data tool:', error);
+            throw error;
+          }
         },
       },
     },
