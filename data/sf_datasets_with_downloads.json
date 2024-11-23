@@ -1,0 +1,3974 @@
+[
+  {
+    "title": "Registered Business Locations - San Francisco",
+    "url": "https://data.sfgov.org/Economy-and-Community/Registered-Business-Locations-San-Francisco/g8m3-pdis",
+    "id": "g8m3-pdis",
+    "downloadUrl": "https://data.sfgov.org/api/views/g8m3-pdis/rows.csv"
+  },
+  {
+    "title": "Film Locations in San Francisco",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am",
+    "id": "yitu-d5am",
+    "downloadUrl": "https://data.sfgov.org/api/views/yitu-d5am/rows.csv"
+  },
+  {
+    "title": "Police Department Incident Reports: Historical 2003 to May 2018",
+    "url": "https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry",
+    "id": "tmnf-yvry",
+    "downloadUrl": "https://data.sfgov.org/api/views/tmnf-yvry/rows.csv"
+  },
+  {
+    "title": "Police Department Incident Reports: 2018 to Present",
+    "url": "https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783",
+    "id": "wg3w-h783",
+    "downloadUrl": "https://data.sfgov.org/api/views/wg3w-h783/rows.csv"
+  },
+  {
+    "title": "311 Cases",
+    "url": "https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6",
+    "id": "vw6y-z8j6",
+    "downloadUrl": "https://data.sfgov.org/api/views/vw6y-z8j6/rows.csv"
+  },
+  {
+    "title": "Fire Incidents",
+    "url": "https://data.sfgov.org/Public-Safety/Fire-Incidents/wr8u-xric",
+    "id": "wr8u-xric",
+    "downloadUrl": "https://data.sfgov.org/api/views/wr8u-xric/rows.csv"
+  },
+  {
+    "title": "Fire Department and Emergency Medical Services Dispatched Calls for Service",
+    "url": "https://data.sfgov.org/Public-Safety/Fire-Department-and-Emergency-Medical-Services-Dis/nuek-vuh3",
+    "id": "nuek-vuh3",
+    "downloadUrl": "https://data.sfgov.org/api/views/nuek-vuh3/rows.csv"
+  },
+  {
+    "title": "HSH Shelter Waitlist",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/HSH-Shelter-Waitlist/w4sk-nq57",
+    "id": "w4sk-nq57",
+    "downloadUrl": "https://data.sfgov.org/api/views/w4sk-nq57/rows.csv"
+  },
+  {
+    "title": "Traffic Crashes Resulting in Injury",
+    "url": "https://data.sfgov.org/Public-Safety/Traffic-Crashes-Resulting-in-Injury/ubvf-ztfx",
+    "id": "ubvf-ztfx",
+    "downloadUrl": "https://data.sfgov.org/api/views/ubvf-ztfx/rows.csv"
+  },
+  {
+    "title": "Air Traffic Passenger Statistics",
+    "url": "https://data.sfgov.org/Transportation/Air-Traffic-Passenger-Statistics/rkru-6vcg",
+    "id": "rkru-6vcg",
+    "downloadUrl": "https://data.sfgov.org/api/views/rkru-6vcg/rows.csv"
+  },
+  {
+    "title": "[Historical] Restaurant Inspection Scores (2016-2019)",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/-Historical-Restaurant-Inspection-Scores-2016-2019/pyih-qa8i",
+    "id": "pyih-qa8i",
+    "downloadUrl": "https://data.sfgov.org/api/views/pyih-qa8i/rows.csv"
+  },
+  {
+    "title": "Street Sweeping Schedule",
+    "url": "https://data.sfgov.org/City-Infrastructure/Street-Sweeping-Schedule/yhqp-riqs",
+    "id": "yhqp-riqs",
+    "downloadUrl": "https://data.sfgov.org/api/views/yhqp-riqs/rows.csv"
+  },
+  {
+    "title": "Street Names",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v",
+    "id": "6d9h-4u5v",
+    "downloadUrl": "https://data.sfgov.org/api/views/6d9h-4u5v/rows.csv"
+  },
+  {
+    "title": "Employee Compensation",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Employee-Compensation/88g8-5mnd",
+    "id": "88g8-5mnd",
+    "downloadUrl": "https://data.sfgov.org/api/views/88g8-5mnd/rows.csv"
+  },
+  {
+    "title": "Law Enforcement Dispatched Calls for Service: Real-Time",
+    "url": "https://data.sfgov.org/Public-Safety/Law-Enforcement-Dispatched-Calls-for-Service-Real-/gnap-fj3t",
+    "id": "gnap-fj3t",
+    "downloadUrl": "https://data.sfgov.org/api/views/gnap-fj3t/rows.csv"
+  },
+  {
+    "title": "Mobile Food Facility Permit",
+    "url": "https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat",
+    "id": "rqzj-sfat",
+    "downloadUrl": "https://data.sfgov.org/api/views/rqzj-sfat/rows.csv"
+  },
+  {
+    "title": "Parking Meters",
+    "url": "https://data.sfgov.org/Transportation/Parking-Meters/8vzz-qzz9",
+    "id": "8vzz-qzz9",
+    "downloadUrl": "https://data.sfgov.org/api/views/8vzz-qzz9/rows.csv"
+  },
+  {
+    "title": "Street Tree List",
+    "url": "https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq",
+    "id": "tkzw-k3nq",
+    "downloadUrl": "https://data.sfgov.org/api/views/tkzw-k3nq/rows.csv"
+  },
+  {
+    "title": "Building Permits",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9",
+    "id": "i98e-djp9",
+    "downloadUrl": "https://data.sfgov.org/api/views/i98e-djp9/rows.csv"
+  },
+  {
+    "title": "Eviction Notices",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Eviction-Notices/5cei-gny5",
+    "id": "5cei-gny5",
+    "downloadUrl": "https://data.sfgov.org/api/views/5cei-gny5/rows.csv"
+  },
+  {
+    "title": "COVID-19 Testing Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/COVID-19-Testing-Over-Time/nfpa-mg4g",
+    "id": "nfpa-mg4g",
+    "downloadUrl": "https://data.sfgov.org/api/views/nfpa-mg4g/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: COVID-19 Hospitalizations Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/ARCHIVED-COVID-19-Hospitalizations-Over-Time/nxjg-bhem",
+    "id": "nxjg-bhem",
+    "downloadUrl": "https://data.sfgov.org/api/views/nxjg-bhem/rows.csv"
+  },
+  {
+    "title": "Buyout Agreements",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Buyout-Agreements/wmam-7g8d",
+    "id": "wmam-7g8d",
+    "downloadUrl": "https://data.sfgov.org/api/views/wmam-7g8d/rows.csv"
+  },
+  {
+    "title": "COVID-19 Testing Locations",
+    "url": "https://data.sfgov.org/COVID-19/COVID-19-Testing-Locations/dtit-7gp4",
+    "id": "dtit-7gp4",
+    "downloadUrl": "https://data.sfgov.org/api/views/dtit-7gp4/rows.csv"
+  },
+  {
+    "title": "Assessor Historical Secured Property Tax Rolls",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Assessor-Historical-Secured-Property-Tax-Rolls/wv5m-vpq2",
+    "id": "wv5m-vpq2",
+    "downloadUrl": "https://data.sfgov.org/api/views/wv5m-vpq2/rows.csv"
+  },
+  {
+    "title": "311 Call Metrics by Month",
+    "url": "https://data.sfgov.org/City-Infrastructure/311-Call-Metrics-by-Month/mwjb-biik",
+    "id": "mwjb-biik",
+    "downloadUrl": "https://data.sfgov.org/api/views/mwjb-biik/rows.csv"
+  },
+  {
+    "title": "Notices of Violation issued by the Department of Building Inspection",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Notices-of-Violation-issued-by-the-Department-of-B/nbtm-fbw5",
+    "id": "nbtm-fbw5",
+    "downloadUrl": "https://data.sfgov.org/api/views/nbtm-fbw5/rows.csv"
+  },
+  {
+    "title": "City Employment Compensation Plan",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/City-Employment-Compensation-Plan/h3jp-c25d",
+    "id": "h3jp-c25d",
+    "downloadUrl": "https://data.sfgov.org/api/views/h3jp-c25d/rows.csv"
+  },
+  {
+    "title": "Scorecard Measures",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Scorecard-Measures/kc49-udxn",
+    "id": "kc49-udxn",
+    "downloadUrl": "https://data.sfgov.org/api/views/kc49-udxn/rows.csv"
+  },
+  {
+    "title": "Building Footprints",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Building-Footprints/ynuv-fyni",
+    "id": "ynuv-fyni",
+    "downloadUrl": "https://data.sfgov.org/api/views/ynuv-fyni/rows.csv"
+  },
+  {
+    "title": "Street-Use Permits",
+    "url": "https://data.sfgov.org/City-Infrastructure/Street-Use-Permits/b6tj-gt35",
+    "id": "b6tj-gt35",
+    "downloadUrl": "https://data.sfgov.org/api/views/b6tj-gt35/rows.csv"
+  },
+  {
+    "title": "City Facilities",
+    "url": "https://data.sfgov.org/City-Infrastructure/City-Facilities/nc68-ngbr",
+    "id": "nc68-ngbr",
+    "downloadUrl": "https://data.sfgov.org/api/views/nc68-ngbr/rows.csv"
+  },
+  {
+    "title": "Mobile Food Schedule",
+    "url": "https://data.sfgov.org/Economy-and-Community/Mobile-Food-Schedule/jjew-r69b",
+    "id": "jjew-r69b",
+    "downloadUrl": "https://data.sfgov.org/api/views/jjew-r69b/rows.csv"
+  },
+  {
+    "title": "San Francisco Flood Health Vulnerability",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/San-Francisco-Flood-Health-Vulnerability/cne3-h93g",
+    "id": "cne3-h93g",
+    "downloadUrl": "https://data.sfgov.org/api/views/cne3-h93g/rows.csv"
+  },
+  {
+    "title": "Privately Owned Public Open Spaces",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Privately-Owned-Public-Open-Spaces/65ik-7wqd",
+    "id": "65ik-7wqd",
+    "downloadUrl": "https://data.sfgov.org/api/views/65ik-7wqd/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: COVID-19 Cases and Deaths Summarized by Geography",
+    "url": "https://data.sfgov.org/COVID-19/ARCHIVED-COVID-19-Cases-and-Deaths-Summarized-by-G/tpyr-dvnc",
+    "id": "tpyr-dvnc",
+    "downloadUrl": "https://data.sfgov.org/api/views/tpyr-dvnc/rows.csv"
+  },
+  {
+    "title": "[Historical Only] 311 Top Articles Referenced (current, from Nov. 2017 forward)",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/-Historical-Only-311-Top-Articles-Referenced-curre/3tsy-c2sd",
+    "id": "3tsy-c2sd",
+    "downloadUrl": "https://data.sfgov.org/api/views/3tsy-c2sd/rows.csv"
+  },
+  {
+    "title": "San Francisco Population and Demographic Census data",
+    "url": "https://data.sfgov.org/Economy-and-Community/San-Francisco-Population-and-Demographic-Census-da/4qbq-hvtt",
+    "id": "4qbq-hvtt",
+    "downloadUrl": "https://data.sfgov.org/api/views/4qbq-hvtt/rows.csv"
+  },
+  {
+    "title": "Air Traffic Landings Statistics",
+    "url": "https://data.sfgov.org/Transportation/Air-Traffic-Landings-Statistics/fpux-q53t",
+    "id": "fpux-q53t",
+    "downloadUrl": "https://data.sfgov.org/api/views/fpux-q53t/rows.csv"
+  },
+  {
+    "title": "SFMTA - Parking Citations",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Parking-Citations/ab4h-6ztd",
+    "id": "ab4h-6ztd",
+    "downloadUrl": "https://data.sfgov.org/api/views/ab4h-6ztd/rows.csv"
+  },
+  {
+    "title": "Soft-Story Properties",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Soft-Story-Properties/beah-shgi",
+    "id": "beah-shgi",
+    "downloadUrl": "https://data.sfgov.org/api/views/beah-shgi/rows.csv"
+  },
+  {
+    "title": "Mayor's Office of Housing and Community Development Affordable Housing Pipeline",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Mayor-s-Office-of-Housing-and-Community-Developmen/aaxw-2cb8",
+    "id": "aaxw-2cb8",
+    "downloadUrl": "https://data.sfgov.org/api/views/aaxw-2cb8/rows.csv"
+  },
+  {
+    "title": "Budget",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Budget/xdgd-c79v",
+    "id": "xdgd-c79v",
+    "downloadUrl": "https://data.sfgov.org/api/views/xdgd-c79v/rows.csv"
+  },
+  {
+    "title": "Spending and Revenue",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Spending-and-Revenue/bpnb-jwfb",
+    "id": "bpnb-jwfb",
+    "downloadUrl": "https://data.sfgov.org/api/views/bpnb-jwfb/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: COVID-19 Cases by Geography Over Time",
+    "url": "https://data.sfgov.org/COVID-19/ARCHIVED-COVID-19-Cases-by-Geography-Over-Time/d2ef-idww",
+    "id": "d2ef-idww",
+    "downloadUrl": "https://data.sfgov.org/api/views/d2ef-idww/rows.csv"
+  },
+  {
+    "title": "Vendor Payments (Vouchers)",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Vendor-Payments-Vouchers-/n9pm-xkyq",
+    "id": "n9pm-xkyq",
+    "downloadUrl": "https://data.sfgov.org/api/views/n9pm-xkyq/rows.csv"
+  },
+  {
+    "title": "Supplier Contracts",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Supplier-Contracts/cqi5-hm2d",
+    "id": "cqi5-hm2d",
+    "downloadUrl": "https://data.sfgov.org/api/views/cqi5-hm2d/rows.csv"
+  },
+  {
+    "title": "List of Streets and Intersections",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/List-of-Streets-and-Intersections/pu5n-qu5c",
+    "id": "pu5n-qu5c",
+    "downloadUrl": "https://data.sfgov.org/api/views/pu5n-qu5c/rows.csv"
+  },
+  {
+    "title": "Dataset inventory",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Dataset-inventory/y8fp-fbf5",
+    "id": "y8fp-fbf5",
+    "downloadUrl": "https://data.sfgov.org/api/views/y8fp-fbf5/rows.csv"
+  },
+  {
+    "title": "Supervisor District (2012) to ZIP Code Crosswalk",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Supervisor-District-2012-to-ZIP-Code-Crosswalk/v22h-ujnv",
+    "id": "v22h-ujnv",
+    "downloadUrl": "https://data.sfgov.org/api/views/v22h-ujnv/rows.csv"
+  },
+  {
+    "title": "Parcels – Active and Retired",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Parcels-Active-and-Retired/acdm-wktn",
+    "id": "acdm-wktn",
+    "downloadUrl": "https://data.sfgov.org/api/views/acdm-wktn/rows.csv"
+  },
+  {
+    "title": "[Historical Data Only] COVID-19 Hospital Capacity",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/-Historical-Data-Only-COVID-19-Hospital-Capacity/rh24-ebzg",
+    "id": "rh24-ebzg",
+    "downloadUrl": "https://data.sfgov.org/api/views/rh24-ebzg/rows.csv"
+  },
+  {
+    "title": "Expenditure Lobbyists Registration and Monthly Disclosure Reports (Archived)",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Expenditure-Lobbyists-Registration-and-Monthly-Dis/nkxk-d459",
+    "id": "nkxk-d459",
+    "downloadUrl": "https://data.sfgov.org/api/views/nkxk-d459/rows.csv"
+  },
+  {
+    "title": "City Employment Classification Definitions",
+    "url": "https://data.sfgov.org/dataset/City-Employment-Classification-Definitions/7br7-cj6v",
+    "id": "7br7-cj6v",
+    "downloadUrl": "https://data.sfgov.org/api/views/7br7-cj6v/rows.csv"
+  },
+  {
+    "title": "Speed Limits per Street Segment",
+    "url": "https://data.sfgov.org/Transportation/Speed-Limits-per-Street-Segment/3t7b-gebn",
+    "id": "3t7b-gebn",
+    "downloadUrl": "https://data.sfgov.org/api/views/3t7b-gebn/rows.csv"
+  },
+  {
+    "title": "Dataset Alerts",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Dataset-Alerts/vx35-bnbs",
+    "id": "vx35-bnbs",
+    "downloadUrl": "https://data.sfgov.org/api/views/vx35-bnbs/rows.csv"
+  },
+  {
+    "title": "[Historical Only] 311 Top Articles Referenced",
+    "url": "https://data.sfgov.org/City-Infrastructure/-Historical-Only-311-Top-Articles-Referenced/hrr4-hjc6",
+    "id": "hrr4-hjc6",
+    "downloadUrl": "https://data.sfgov.org/api/views/hrr4-hjc6/rows.csv"
+  },
+  {
+    "title": "Library Usage",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Library-Usage/qzz6-2jup",
+    "id": "qzz6-2jup",
+    "downloadUrl": "https://data.sfgov.org/api/views/qzz6-2jup/rows.csv"
+  },
+  {
+    "title": "Addresses with Units - Enterprise Addressing System",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-with-Units-Enterprise-Addressing-System/ramy-di5m",
+    "id": "ramy-di5m",
+    "downloadUrl": "https://data.sfgov.org/api/views/ramy-di5m/rows.csv"
+  },
+  {
+    "title": "Vendor Payments (Purchase Order Summary)",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Vendor-Payments-Purchase-Order-Summary-/p5r5-fd7g",
+    "id": "p5r5-fd7g",
+    "downloadUrl": "https://data.sfgov.org/api/views/p5r5-fd7g/rows.csv"
+  },
+  {
+    "title": "Department of Building Inspection Complaints (All Divisions)",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Department-of-Building-Inspection-Complaints-All-D/gm2e-bten",
+    "id": "gm2e-bten",
+    "downloadUrl": "https://data.sfgov.org/api/views/gm2e-bten/rows.csv"
+  },
+  {
+    "title": "Schools",
+    "url": "https://data.sfgov.org/Economy-and-Community/Schools/tpp3-epx2",
+    "id": "tpp3-epx2",
+    "downloadUrl": "https://data.sfgov.org/api/views/tpp3-epx2/rows.csv"
+  },
+  {
+    "title": "San Francisco Communitywide Greenhouse Gas Inventory",
+    "url": "https://data.sfgov.org/Energy-and-Environment/San-Francisco-Communitywide-Greenhouse-Gas-Invento/btm4-e4ak",
+    "id": "btm4-e4ak",
+    "downloadUrl": "https://data.sfgov.org/api/views/btm4-e4ak/rows.csv"
+  },
+  {
+    "title": "Annual Allowable Rent Increase for Units Under Rent Control",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Annual-Allowable-Rent-Increase-for-Units-Under-Ren/hsxb-ci7b",
+    "id": "hsxb-ci7b",
+    "downloadUrl": "https://data.sfgov.org/api/views/hsxb-ci7b/rows.csv"
+  },
+  {
+    "title": "COVID-19 Deaths Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/COVID-19-Deaths-Over-Time/g2di-xufg",
+    "id": "g2di-xufg",
+    "downloadUrl": "https://data.sfgov.org/api/views/g2di-xufg/rows.csv"
+  },
+  {
+    "title": "Addresses - Enterprise Addressing System",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-Enterprise-Addressing-System/3mea-di5p",
+    "id": "3mea-di5p",
+    "downloadUrl": "https://data.sfgov.org/api/views/3mea-di5p/rows.csv"
+  },
+  {
+    "title": "Utility Excavation Moratorium Streets",
+    "url": "https://data.sfgov.org/City-Infrastructure/Utility-Excavation-Moratorium-Streets/5wbp-dwzt",
+    "id": "5wbp-dwzt",
+    "downloadUrl": "https://data.sfgov.org/api/views/5wbp-dwzt/rows.csv"
+  },
+  {
+    "title": "Law Enforcement Dispatched Calls for Service: Closed",
+    "url": "https://data.sfgov.org/Public-Safety/Law-Enforcement-Dispatched-Calls-for-Service-Close/2zdj-bwza",
+    "id": "2zdj-bwza",
+    "downloadUrl": "https://data.sfgov.org/api/views/2zdj-bwza/rows.csv"
+  },
+  {
+    "title": "Air Traffic Cargo Statistics",
+    "url": "https://data.sfgov.org/Transportation/Air-Traffic-Cargo-Statistics/u397-j8nr",
+    "id": "u397-j8nr",
+    "downloadUrl": "https://data.sfgov.org/api/views/u397-j8nr/rows.csv"
+  },
+  {
+    "title": "Streets – Active and Retired",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Streets-Active-and-Retired/3psu-pn9h",
+    "id": "3psu-pn9h",
+    "downloadUrl": "https://data.sfgov.org/api/views/3psu-pn9h/rows.csv"
+  },
+  {
+    "title": "Miles Of Streets",
+    "url": "https://data.sfgov.org/City-Infrastructure/Miles-Of-Streets/5s76-j52p",
+    "id": "5s76-j52p",
+    "downloadUrl": "https://data.sfgov.org/api/views/5s76-j52p/rows.csv"
+  },
+  {
+    "title": "Bicycle Parking Racks",
+    "url": "https://data.sfgov.org/Transportation/Bicycle-Parking-Racks/hn4j-6fx5",
+    "id": "hn4j-6fx5",
+    "downloadUrl": "https://data.sfgov.org/api/views/hn4j-6fx5/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: Tenderloin Tent Count",
+    "url": "https://data.sfgov.org/COVID-19/ARCHIVED-Tenderloin-Tent-Count/ubjr-y9qw",
+    "id": "ubjr-y9qw",
+    "downloadUrl": "https://data.sfgov.org/api/views/ubjr-y9qw/rows.csv"
+  },
+  {
+    "title": "Stormwater inlets, drains and catch basins",
+    "url": "https://data.sfgov.org/City-Infrastructure/Stormwater-inlets-drains-and-catch-basins/jtgq-b7c5",
+    "id": "jtgq-b7c5",
+    "downloadUrl": "https://data.sfgov.org/api/views/jtgq-b7c5/rows.csv"
+  },
+  {
+    "title": "Parking Signs / Street Space Permits",
+    "url": "https://data.sfgov.org/City-Infrastructure/Parking-Signs-Street-Space-Permits/sftu-nd43",
+    "id": "sftu-nd43",
+    "downloadUrl": "https://data.sfgov.org/api/views/sftu-nd43/rows.csv"
+  },
+  {
+    "title": "Community Resiliency Indicator System",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Community-Resiliency-Indicator-System/banc-xdvr",
+    "id": "banc-xdvr",
+    "downloadUrl": "https://data.sfgov.org/api/views/banc-xdvr/rows.csv"
+  },
+  {
+    "title": "SFMTA Parking Meter Detailed Revenue Transactions",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Parking-Meter-Detailed-Revenue-Transactions/imvp-dq3v",
+    "id": "imvp-dq3v",
+    "downloadUrl": "https://data.sfgov.org/api/views/imvp-dq3v/rows.csv"
+  },
+  {
+    "title": "Muni Simple Routes",
+    "url": "https://data.sfgov.org/Transportation/Muni-Simple-Routes/9exe-acju",
+    "id": "9exe-acju",
+    "downloadUrl": "https://data.sfgov.org/api/views/9exe-acju/rows.csv"
+  },
+  {
+    "title": "Traffic Signals",
+    "url": "https://data.sfgov.org/Transportation/Traffic-Signals/ybh5-27n2",
+    "id": "ybh5-27n2",
+    "downloadUrl": "https://data.sfgov.org/api/views/ybh5-27n2/rows.csv"
+  },
+  {
+    "title": "Reference: Department Code List",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Reference-Department-Code-List/j2hz-23ps",
+    "id": "j2hz-23ps",
+    "downloadUrl": "https://data.sfgov.org/api/views/j2hz-23ps/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: COVID-19 Cases by Population Characteristics Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/ARCHIVED-COVID-19-Cases-by-Population-Characterist/j7i3-u9ke",
+    "id": "j7i3-u9ke",
+    "downloadUrl": "https://data.sfgov.org/api/views/j7i3-u9ke/rows.csv"
+  },
+  {
+    "title": "Recreation and Parks Properties",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Recreation-and-Parks-Properties/gtr9-ntp6",
+    "id": "gtr9-ntp6",
+    "downloadUrl": "https://data.sfgov.org/api/views/gtr9-ntp6/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Data Key",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Data-Key/wygs-cc76",
+    "id": "wygs-cc76",
+    "downloadUrl": "https://data.sfgov.org/api/views/wygs-cc76/rows.csv"
+  },
+  {
+    "title": "Commercial Vacancy Tax - San Francisco",
+    "url": "https://data.sfgov.org/Economy-and-Community/Commercial-Vacancy-Tax-San-Francisco/rzkk-54yv",
+    "id": "rzkk-54yv",
+    "downloadUrl": "https://data.sfgov.org/api/views/rzkk-54yv/rows.csv"
+  },
+  {
+    "title": "Curb Ramps",
+    "url": "https://data.sfgov.org/City-Infrastructure/Curb-Ramps/ch9w-7kih",
+    "id": "ch9w-7kih",
+    "downloadUrl": "https://data.sfgov.org/api/views/ch9w-7kih/rows.csv"
+  },
+  {
+    "title": "Tall Building Inventory",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Tall-Building-Inventory/5kya-mfst",
+    "id": "5kya-mfst",
+    "downloadUrl": "https://data.sfgov.org/api/views/5kya-mfst/rows.csv"
+  },
+  {
+    "title": "Census 2020: Tracts for San Francisco",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Census-2020-Tracts-for-San-Francisco/tmph-tgz9",
+    "id": "tmph-tgz9",
+    "downloadUrl": "https://data.sfgov.org/api/views/tmph-tgz9/rows.csv"
+  },
+  {
+    "title": "SF Planning Permitting Data [Deprecated]",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Planning-Permitting-Data-Deprecated-/kncr-c6jw",
+    "id": "kncr-c6jw",
+    "downloadUrl": "https://data.sfgov.org/api/views/kncr-c6jw/rows.csv"
+  },
+  {
+    "title": "Streets Data - Pavement Condition Index (PCI) Scores",
+    "url": "https://data.sfgov.org/City-Infrastructure/Streets-Data-Pavement-Condition-Index-PCI-Scores/5aye-4rtt",
+    "id": "5aye-4rtt",
+    "downloadUrl": "https://data.sfgov.org/api/views/5aye-4rtt/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Transactions",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Transactions/pitq-e56w",
+    "id": "pitq-e56w",
+    "downloadUrl": "https://data.sfgov.org/api/views/pitq-e56w/rows.csv"
+  },
+  {
+    "title": "Airport (SFO) Monthly Utility Usage And Revenue",
+    "url": "https://data.sfgov.org/Transportation/Airport-SFO-Monthly-Utility-Usage-And-Revenue/jzyy-jx2t",
+    "id": "jzyy-jx2t",
+    "downloadUrl": "https://data.sfgov.org/api/views/jzyy-jx2t/rows.csv"
+  },
+  {
+    "title": "Aircraft Noise Report Summary",
+    "url": "https://data.sfgov.org/Transportation/Aircraft-Noise-Report-Summary/q3xd-hfi8",
+    "id": "q3xd-hfi8",
+    "downloadUrl": "https://data.sfgov.org/api/views/q3xd-hfi8/rows.csv"
+  },
+  {
+    "title": "Zoning Map - Zoning Districts",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Zoning-Map-Zoning-Districts/3i4a-hu95",
+    "id": "3i4a-hu95",
+    "downloadUrl": "https://data.sfgov.org/api/views/3i4a-hu95/rows.csv"
+  },
+  {
+    "title": "Fire Violations",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Fire-Violations/4zuq-2cbe",
+    "id": "4zuq-2cbe",
+    "downloadUrl": "https://data.sfgov.org/api/views/4zuq-2cbe/rows.csv"
+  },
+  {
+    "title": "Lobbyists on Behalf of the City - Disclosure Reports",
+    "url": "https://data.sfgov.org/dataset/Lobbyists-on-Behalf-of-the-City-Disclosure-Reports/3gjj-sffk",
+    "id": "3gjj-sffk",
+    "downloadUrl": "https://data.sfgov.org/api/views/3gjj-sffk/rows.csv"
+  },
+  {
+    "title": "San Francisco Municipal Greenhouse Gas Inventory",
+    "url": "https://data.sfgov.org/Energy-and-Environment/San-Francisco-Municipal-Greenhouse-Gas-Inventory/pxac-sadh",
+    "id": "pxac-sadh",
+    "downloadUrl": "https://data.sfgov.org/api/views/pxac-sadh/rows.csv"
+  },
+  {
+    "title": "SFO Gate and Stand Assignment Information",
+    "url": "https://data.sfgov.org/Transportation/SFO-Gate-and-Stand-Assignment-Information/chfu-j7tc",
+    "id": "chfu-j7tc",
+    "downloadUrl": "https://data.sfgov.org/api/views/chfu-j7tc/rows.csv"
+  },
+  {
+    "title": "Lobbyists on Behalf of the City - Expenditures",
+    "url": "https://data.sfgov.org/dataset/Lobbyists-on-Behalf-of-the-City-Expenditures/i8m7-kpt9",
+    "id": "i8m7-kpt9",
+    "downloadUrl": "https://data.sfgov.org/api/views/i8m7-kpt9/rows.csv"
+  },
+  {
+    "title": "Fire Inspections",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Fire-Inspections/wb4c-6hwj",
+    "id": "wb4c-6hwj",
+    "downloadUrl": "https://data.sfgov.org/api/views/wb4c-6hwj/rows.csv"
+  },
+  {
+    "title": "2011 SFO Customer Survey",
+    "url": "https://data.sfgov.org/Transportation/2011-SFO-Customer-Survey/v94x-pf9r",
+    "id": "v94x-pf9r",
+    "downloadUrl": "https://data.sfgov.org/api/views/v94x-pf9r/rows.csv"
+  },
+  {
+    "title": "San Francisco Plant Finder Data",
+    "url": "https://data.sfgov.org/Energy-and-Environment/San-Francisco-Plant-Finder-Data/vmnk-skih",
+    "id": "vmnk-skih",
+    "downloadUrl": "https://data.sfgov.org/api/views/vmnk-skih/rows.csv"
+  },
+  {
+    "title": "Muni Stops",
+    "url": "https://data.sfgov.org/Transportation/Muni-Stops/i28k-bkz6",
+    "id": "i28k-bkz6",
+    "downloadUrl": "https://data.sfgov.org/api/views/i28k-bkz6/rows.csv"
+  },
+  {
+    "title": "Inventory of citywide enterprise systems of record",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Inventory-of-citywide-enterprise-systems-of-record/ebux-gcnq",
+    "id": "ebux-gcnq",
+    "downloadUrl": "https://data.sfgov.org/api/views/ebux-gcnq/rows.csv"
+  },
+  {
+    "title": "Plumbing Permits",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Plumbing-Permits/a6aw-rudh",
+    "id": "a6aw-rudh",
+    "downloadUrl": "https://data.sfgov.org/api/views/a6aw-rudh/rows.csv"
+  },
+  {
+    "title": "SFEC Form 126f4 - Notification of Contract Approval - Affiliates and Subcontractors",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-126f4-Notification-of-Contract-Approval-/czjm-dat8",
+    "id": "czjm-dat8",
+    "downloadUrl": "https://data.sfgov.org/api/views/czjm-dat8/rows.csv"
+  },
+  {
+    "title": "Fire Permits",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Fire-Permits/893e-xam6",
+    "id": "893e-xam6",
+    "downloadUrl": "https://data.sfgov.org/api/views/893e-xam6/rows.csv"
+  },
+  {
+    "title": "Call Center Metrics for the Health Service System",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Call-Center-Metrics-for-the-Health-Service-System/qz8r-q5ne",
+    "id": "qz8r-q5ne",
+    "downloadUrl": "https://data.sfgov.org/api/views/qz8r-q5ne/rows.csv"
+  },
+  {
+    "title": "Petitions to the Rent Board",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Petitions-to-the-Rent-Board/6swy-cmkq",
+    "id": "6swy-cmkq",
+    "downloadUrl": "https://data.sfgov.org/api/views/6swy-cmkq/rows.csv"
+  },
+  {
+    "title": "MTA Bike Network Linear Features",
+    "url": "https://data.sfgov.org/Transportation/MTA-Bike-Network-Linear-Features/ygmz-vaxd",
+    "id": "ygmz-vaxd",
+    "downloadUrl": "https://data.sfgov.org/api/views/ygmz-vaxd/rows.csv"
+  },
+  {
+    "title": "Meter Operating Schedules",
+    "url": "https://data.sfgov.org/Transportation/Meter-Operating-Schedules/6cqg-dxku",
+    "id": "6cqg-dxku",
+    "downloadUrl": "https://data.sfgov.org/api/views/6cqg-dxku/rows.csv"
+  },
+  {
+    "title": "Fire Safety Complaints",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Fire-Safety-Complaints/2wsq-7wmv",
+    "id": "2wsq-7wmv",
+    "downloadUrl": "https://data.sfgov.org/api/views/2wsq-7wmv/rows.csv"
+  },
+  {
+    "title": "Temporary Street Closures",
+    "url": "https://data.sfgov.org/Transportation/Temporary-Street-Closures/8x25-yybr",
+    "id": "8x25-yybr",
+    "downloadUrl": "https://data.sfgov.org/api/views/8x25-yybr/rows.csv"
+  },
+  {
+    "title": "COVID-19 Alternative Housing Sites",
+    "url": "https://data.sfgov.org/COVID-19/COVID-19-Alternative-Housing-Sites/qu2c-7bqh",
+    "id": "qu2c-7bqh",
+    "downloadUrl": "https://data.sfgov.org/api/views/qu2c-7bqh/rows.csv"
+  },
+  {
+    "title": "Utility Excavation Permits",
+    "url": "https://data.sfgov.org/City-Infrastructure/Utility-Excavation-Permits/smdf-6c45",
+    "id": "smdf-6c45",
+    "downloadUrl": "https://data.sfgov.org/api/views/smdf-6c45/rows.csv"
+  },
+  {
+    "title": "Public Art (from 1% Art Program)",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Public-Art-from-1-Art-Program-/cf6e-9e4j",
+    "id": "cf6e-9e4j",
+    "downloadUrl": "https://data.sfgov.org/api/views/cf6e-9e4j/rows.csv"
+  },
+  {
+    "title": "Dwelling Unit Completion Counts by Building Permit",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Dwelling-Unit-Completion-Counts-by-Building-Permit/j67f-aayr",
+    "id": "j67f-aayr",
+    "downloadUrl": "https://data.sfgov.org/api/views/j67f-aayr/rows.csv"
+  },
+  {
+    "title": "Purchasing Commodity Data",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Purchasing-Commodity-Data/ebsh-uavg",
+    "id": "ebsh-uavg",
+    "downloadUrl": "https://data.sfgov.org/api/views/ebsh-uavg/rows.csv"
+  },
+  {
+    "title": "District Attorney Cases Prosecuted",
+    "url": "https://data.sfgov.org/Public-Safety/District-Attorney-Cases-Prosecuted/dcjk-vw8q",
+    "id": "dcjk-vw8q",
+    "downloadUrl": "https://data.sfgov.org/api/views/dcjk-vw8q/rows.csv"
+  },
+  {
+    "title": "Electrical Permits",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Electrical-Permits/ftty-kx6y",
+    "id": "ftty-kx6y",
+    "downloadUrl": "https://data.sfgov.org/api/views/ftty-kx6y/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: COVID-19 Cases by Vaccination Status Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/ARCHIVED-COVID-19-Cases-by-Vaccination-Status-Over/gqw3-444p",
+    "id": "gqw3-444p",
+    "downloadUrl": "https://data.sfgov.org/api/views/gqw3-444p/rows.csv"
+  },
+  {
+    "title": "Parking regulations (except non-metered color curb)",
+    "url": "https://data.sfgov.org/Transportation/Parking-regulations-except-non-metered-color-curb-/hi6h-neyh",
+    "id": "hi6h-neyh",
+    "downloadUrl": "https://data.sfgov.org/api/views/hi6h-neyh/rows.csv"
+  },
+  {
+    "title": "Budget - FTE",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Budget-FTE/4zfx-f2ts",
+    "id": "4zfx-f2ts",
+    "downloadUrl": "https://data.sfgov.org/api/views/4zfx-f2ts/rows.csv"
+  },
+  {
+    "title": "Metered motorcycle spaces",
+    "url": "https://data.sfgov.org/Transportation/Metered-motorcycle-spaces/uf55-k7py",
+    "id": "uf55-k7py",
+    "downloadUrl": "https://data.sfgov.org/api/views/uf55-k7py/rows.csv"
+  },
+  {
+    "title": "Parklet Permits",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Parklet-Permits/jczu-j2ku",
+    "id": "jczu-j2ku",
+    "downloadUrl": "https://data.sfgov.org/api/views/jczu-j2ku/rows.csv"
+  },
+  {
+    "title": "Right of Way Exception Data",
+    "url": "https://data.sfgov.org/City-Infrastructure/Right-of-Way-Exception-Data/yrgu-vakm",
+    "id": "yrgu-vakm",
+    "downloadUrl": "https://data.sfgov.org/api/views/yrgu-vakm/rows.csv"
+  },
+  {
+    "title": "2013 SFO Customer Survey",
+    "url": "https://data.sfgov.org/Transportation/2013-SFO-Customer-Survey/mjr8-p6m5",
+    "id": "mjr8-p6m5",
+    "downloadUrl": "https://data.sfgov.org/api/views/mjr8-p6m5/rows.csv"
+  },
+  {
+    "title": "List of Historical Ballot Measures",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/List-of-Historical-Ballot-Measures/xzie-ixjw",
+    "id": "xzie-ixjw",
+    "downloadUrl": "https://data.sfgov.org/api/views/xzie-ixjw/rows.csv"
+  },
+  {
+    "title": "[Archived] COVID-19 Deaths by Population Characteristics Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/-Archived-COVID-19-Deaths-by-Population-Characteri/kkr3-wq7h",
+    "id": "kkr3-wq7h",
+    "downloadUrl": "https://data.sfgov.org/api/views/kkr3-wq7h/rows.csv"
+  },
+  {
+    "title": "SFO Airport Monthly Utility Consumption for Natural Gas, Water, and Electricity",
+    "url": "https://data.sfgov.org/Energy-and-Environment/SFO-Airport-Monthly-Utility-Consumption-for-Natura/gcjv-3mzf",
+    "id": "gcjv-3mzf",
+    "downloadUrl": "https://data.sfgov.org/api/views/gcjv-3mzf/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2016 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2016-Q1/dtz9-jkjt",
+    "id": "dtz9-jkjt",
+    "downloadUrl": "https://data.sfgov.org/api/views/dtz9-jkjt/rows.csv"
+  },
+  {
+    "title": "Street Acceptance Data",
+    "url": "https://data.sfgov.org/City-Infrastructure/Street-Acceptance-Data/abvp-arbf",
+    "id": "abvp-arbf",
+    "downloadUrl": "https://data.sfgov.org/api/views/abvp-arbf/rows.csv"
+  },
+  {
+    "title": "Parking Signs / Street Space Permit Photos",
+    "url": "https://data.sfgov.org/City-Infrastructure/Parking-Signs-Street-Space-Permit-Photos/pigs-fac7",
+    "id": "pigs-fac7",
+    "downloadUrl": "https://data.sfgov.org/api/views/pigs-fac7/rows.csv"
+  },
+  {
+    "title": "Recognized Healthy Nail Salons in San Francisco",
+    "url": "https://data.sfgov.org/Energy-and-Environment/Recognized-Healthy-Nail-Salons-in-San-Francisco/vwjj-xa8f",
+    "id": "vwjj-xa8f",
+    "downloadUrl": "https://data.sfgov.org/api/views/vwjj-xa8f/rows.csv"
+  },
+  {
+    "title": "San Francisco Department of Public Health Flu Shot Locations 2013",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/San-Francisco-Department-of-Public-Health-Flu-Shot/yg87-cd6v",
+    "id": "yg87-cd6v",
+    "downloadUrl": "https://data.sfgov.org/api/views/yg87-cd6v/rows.csv"
+  },
+  {
+    "title": "Civic Art Collection",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Civic-Art-Collection/r7bn-7v9c",
+    "id": "r7bn-7v9c",
+    "downloadUrl": "https://data.sfgov.org/api/views/r7bn-7v9c/rows.csv"
+  },
+  {
+    "title": "Park Scores 2005-2014",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Park-Scores-2005-2014/fjq8-r8ws",
+    "id": "fjq8-r8ws",
+    "downloadUrl": "https://data.sfgov.org/api/views/fjq8-r8ws/rows.csv"
+  },
+  {
+    "title": "District Attorney Actions Taken on Arrests Presented",
+    "url": "https://data.sfgov.org/Public-Safety/District-Attorney-Actions-Taken-on-Arrests-Present/czsm-3ei3",
+    "id": "czsm-3ei3",
+    "downloadUrl": "https://data.sfgov.org/api/views/czsm-3ei3/rows.csv"
+  },
+  {
+    "title": "Stop Signs",
+    "url": "https://data.sfgov.org/Transportation/Stop-Signs/4542-gpa3",
+    "id": "4542-gpa3",
+    "downloadUrl": "https://data.sfgov.org/api/views/4542-gpa3/rows.csv"
+  },
+  {
+    "title": "San Francisco City Survey Data",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/San-Francisco-City-Survey-Data/nufj-bfbw",
+    "id": "nufj-bfbw",
+    "downloadUrl": "https://data.sfgov.org/api/views/nufj-bfbw/rows.csv"
+  },
+  {
+    "title": "Surface Mounted Facility Permits",
+    "url": "https://data.sfgov.org/City-Infrastructure/Surface-Mounted-Facility-Permits/xu5w-5kgd",
+    "id": "xu5w-5kgd",
+    "downloadUrl": "https://data.sfgov.org/api/views/xu5w-5kgd/rows.csv"
+  },
+  {
+    "title": "100-Year Storm Flood Risk Zone (July 2022)",
+    "url": "https://data.sfgov.org/Public-Safety/100-Year-Storm-Flood-Risk-Zone-July-2022-/jzu3-4yxp",
+    "id": "jzu3-4yxp",
+    "downloadUrl": "https://data.sfgov.org/api/views/jzu3-4yxp/rows.csv"
+  },
+  {
+    "title": "DPW Street & Sidewalk Evaluation Results, 7-1-2013 to 6-30-2018 (FY13-FY18)",
+    "url": "https://data.sfgov.org/City-Infrastructure/DPW-Street-Sidewalk-Evaluation-Results-7-1-2013-to/83ki-hu3p",
+    "id": "83ki-hu3p",
+    "downloadUrl": "https://data.sfgov.org/api/views/83ki-hu3p/rows.csv"
+  },
+  {
+    "title": "Boiler Permits",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Boiler-Permits/5dp4-gtxk",
+    "id": "5dp4-gtxk",
+    "downloadUrl": "https://data.sfgov.org/api/views/5dp4-gtxk/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2017 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2017-Q1/7qzr-p6xn",
+    "id": "7qzr-p6xn",
+    "downloadUrl": "https://data.sfgov.org/api/views/7qzr-p6xn/rows.csv"
+  },
+  {
+    "title": "2017 SFO Customer Survey",
+    "url": "https://data.sfgov.org/Transportation/2017-SFO-Customer-Survey/nnh5-5rwz",
+    "id": "nnh5-5rwz",
+    "downloadUrl": "https://data.sfgov.org/api/views/nnh5-5rwz/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2019 Q2",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2019-Q2/33nh-56zb",
+    "id": "33nh-56zb",
+    "downloadUrl": "https://data.sfgov.org/api/views/33nh-56zb/rows.csv"
+  },
+  {
+    "title": "Zoning Map - Height and Bulk Districts",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Zoning-Map-Height-and-Bulk-Districts/h9wh-cg3m",
+    "id": "h9wh-cg3m",
+    "downloadUrl": "https://data.sfgov.org/api/views/h9wh-cg3m/rows.csv"
+  },
+  {
+    "title": "SFEC Form 126f4 - Notification of Contract Approval - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-126f4-Notification-of-Contract-Approval-/ite2-5y3b",
+    "id": "ite2-5y3b",
+    "downloadUrl": "https://data.sfgov.org/api/views/ite2-5y3b/rows.csv"
+  },
+  {
+    "title": "Deprecated: SFMTA-Enforced Temporary Tow Zones",
+    "url": "https://data.sfgov.org/Transportation/Deprecated-SFMTA-Enforced-Temporary-Tow-Zones/9dsr-3f97",
+    "id": "9dsr-3f97",
+    "downloadUrl": "https://data.sfgov.org/api/views/9dsr-3f97/rows.csv"
+  },
+  {
+    "title": "Sidewalk Widths (2014)",
+    "url": "https://data.sfgov.org/Transportation/Sidewalk-Widths-2014-/4g86-grxu",
+    "id": "4g86-grxu",
+    "downloadUrl": "https://data.sfgov.org/api/views/4g86-grxu/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: COVID-19 Testing by Geography Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/ARCHIVED-COVID-19-Testing-by-Geography-Over-Time/qhc5-mubk",
+    "id": "qhc5-mubk",
+    "downloadUrl": "https://data.sfgov.org/api/views/qhc5-mubk/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3410B - Quarterly Report for Permit Consultants Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3410B-Quarterly-Report-for-Permit-Consul/k2rm-926a",
+    "id": "k2rm-926a",
+    "downloadUrl": "https://data.sfgov.org/api/views/k2rm-926a/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Filers With Delinquent Campaign Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Filers-With-Delinquent-Campaign-F/jb8g-e374",
+    "id": "jb8g-e374",
+    "downloadUrl": "https://data.sfgov.org/api/views/jb8g-e374/rows.csv"
+  },
+  {
+    "title": "Street Segment and Intersection (CNN) Change Log",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Segment-and-Intersection-CNN-Change-Log/amiw-iisi",
+    "id": "amiw-iisi",
+    "downloadUrl": "https://data.sfgov.org/api/views/amiw-iisi/rows.csv"
+  },
+  {
+    "title": "District Attorney Case Resolutions",
+    "url": "https://data.sfgov.org/Public-Safety/District-Attorney-Case-Resolutions/ynfy-z5kt",
+    "id": "ynfy-z5kt",
+    "downloadUrl": "https://data.sfgov.org/api/views/ynfy-z5kt/rows.csv"
+  },
+  {
+    "title": "Police Department Stop Data",
+    "url": "https://data.sfgov.org/Public-Safety/Police-Department-Stop-Data/ubqf-aqzw",
+    "id": "ubqf-aqzw",
+    "downloadUrl": "https://data.sfgov.org/api/views/ubqf-aqzw/rows.csv"
+  },
+  {
+    "title": "Cultural Districts",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Cultural-Districts/5xmc-5bjj",
+    "id": "5xmc-5bjj",
+    "downloadUrl": "https://data.sfgov.org/api/views/5xmc-5bjj/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: COVID-19 Testing by Race/Ethnicity Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/ARCHIVED-COVID-19-Testing-by-Race-Ethnicity-Over-T/kja3-qsky",
+    "id": "kja3-qsky",
+    "downloadUrl": "https://data.sfgov.org/api/views/kja3-qsky/rows.csv"
+  },
+  {
+    "title": "Streets Data -Historical Pavement Condition Index (PCI) Scores",
+    "url": "https://data.sfgov.org/City-Infrastructure/Streets-Data-Historical-Pavement-Condition-Index-P/78va-8dhi",
+    "id": "78va-8dhi",
+    "downloadUrl": "https://data.sfgov.org/api/views/78va-8dhi/rows.csv"
+  },
+  {
+    "title": "Noise Exceedance Rating",
+    "url": "https://data.sfgov.org/Transportation/Noise-Exceedance-Rating/5m6g-bqm4",
+    "id": "5m6g-bqm4",
+    "downloadUrl": "https://data.sfgov.org/api/views/5m6g-bqm4/rows.csv"
+  },
+  {
+    "title": "On-Street Parking Census",
+    "url": "https://data.sfgov.org/Transportation/On-Street-Parking-Census/9ivs-nf5y",
+    "id": "9ivs-nf5y",
+    "downloadUrl": "https://data.sfgov.org/api/views/9ivs-nf5y/rows.csv"
+  },
+  {
+    "title": "311 Cases by Channel",
+    "url": "https://data.sfgov.org/City-Infrastructure/311-Cases-by-Channel/jz25-nkm4",
+    "id": "jz25-nkm4",
+    "downloadUrl": "https://data.sfgov.org/api/views/jz25-nkm4/rows.csv"
+  },
+  {
+    "title": "Condominium Lottery Drawing Results Data",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Condominium-Lottery-Drawing-Results-Data/h9dp-7wd4",
+    "id": "h9dp-7wd4",
+    "downloadUrl": "https://data.sfgov.org/api/views/h9dp-7wd4/rows.csv"
+  },
+  {
+    "title": "Wireless Service Facility Permits",
+    "url": "https://data.sfgov.org/City-Infrastructure/Wireless-Service-Facility-Permits/xtj2-daw9",
+    "id": "xtj2-daw9",
+    "downloadUrl": "https://data.sfgov.org/api/views/xtj2-daw9/rows.csv"
+  },
+  {
+    "title": "Building Permit Addenda with Routing",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Building-Permit-Addenda-with-Routing/87xy-gk8d",
+    "id": "87xy-gk8d",
+    "downloadUrl": "https://data.sfgov.org/api/views/87xy-gk8d/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Filings Received by SFEC",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Filings-Received-by-SFEC/qizs-bwft",
+    "id": "qizs-bwft",
+    "downloadUrl": "https://data.sfgov.org/api/views/qizs-bwft/rows.csv"
+  },
+  {
+    "title": "Reference: Assessor-Recorder Property Class Codes",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Reference-Assessor-Recorder-Property-Class-Codes/pa56-ek2h",
+    "id": "pa56-ek2h",
+    "downloadUrl": "https://data.sfgov.org/api/views/pa56-ek2h/rows.csv"
+  },
+  {
+    "title": "Existing Buildings Energy Performance Ordinance Report",
+    "url": "https://data.sfgov.org/Energy-and-Environment/Existing-Buildings-Energy-Performance-Ordinance-Re/96ck-qcfe",
+    "id": "96ck-qcfe",
+    "downloadUrl": "https://data.sfgov.org/api/views/96ck-qcfe/rows.csv"
+  },
+  {
+    "title": "Beach Water Quality Monitoring",
+    "url": "https://data.sfgov.org/Energy-and-Environment/Beach-Water-Quality-Monitoring/v3fv-x3ux",
+    "id": "v3fv-x3ux",
+    "downloadUrl": "https://data.sfgov.org/api/views/v3fv-x3ux/rows.csv"
+  },
+  {
+    "title": "Building Permits Contacts",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Building-Permits-Contacts/3pee-9qhc",
+    "id": "3pee-9qhc",
+    "downloadUrl": "https://data.sfgov.org/api/views/3pee-9qhc/rows.csv"
+  },
+  {
+    "title": "San Francisco Citywide Performance Metrics",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/San-Francisco-Citywide-Performance-Metrics/6dpt-7w23",
+    "id": "6dpt-7w23",
+    "downloadUrl": "https://data.sfgov.org/api/views/6dpt-7w23/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2012 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2012-Q1/v5p2-emnu",
+    "id": "v5p2-emnu",
+    "downloadUrl": "https://data.sfgov.org/api/views/v5p2-emnu/rows.csv"
+  },
+  {
+    "title": "Open Bid Opportunities",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Open-Bid-Opportunities/eshn-8t3a",
+    "id": "eshn-8t3a",
+    "downloadUrl": "https://data.sfgov.org/api/views/eshn-8t3a/rows.csv"
+  },
+  {
+    "title": "Supervisor Districts (2022)",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Supervisor-Districts-2022-/f2zs-jevy",
+    "id": "f2zs-jevy",
+    "downloadUrl": "https://data.sfgov.org/api/views/f2zs-jevy/rows.csv"
+  },
+  {
+    "title": "Police Department Investigated Hate Crimes",
+    "url": "https://data.sfgov.org/Public-Safety/Police-Department-Investigated-Hate-Crimes/huqr-9p9x",
+    "id": "huqr-9p9x",
+    "downloadUrl": "https://data.sfgov.org/api/views/huqr-9p9x/rows.csv"
+  },
+  {
+    "title": "Meter Rate Schedules",
+    "url": "https://data.sfgov.org/Transportation/Meter-Rate-Schedules/fwjv-32uk",
+    "id": "fwjv-32uk",
+    "downloadUrl": "https://data.sfgov.org/api/views/fwjv-32uk/rows.csv"
+  },
+  {
+    "title": "Analysis Neighborhoods - 2020 census tracts assigned to neighborhoods",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Analysis-Neighborhoods-2020-census-tracts-assigned/sevw-6tgi",
+    "id": "sevw-6tgi",
+    "downloadUrl": "https://data.sfgov.org/api/views/sevw-6tgi/rows.csv"
+  },
+  {
+    "title": "Requests for Information Regarding Protected Status Related to Owner Move-In Evictions",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Requests-for-Information-Regarding-Protected-Statu/ugv9-ywu3",
+    "id": "ugv9-ywu3",
+    "downloadUrl": "https://data.sfgov.org/api/views/ugv9-ywu3/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3410A - Registration Report for Permit Consultants",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3410A-Registration-Report-for-Permit-Con/umwe-sn9p",
+    "id": "umwe-sn9p",
+    "downloadUrl": "https://data.sfgov.org/api/views/umwe-sn9p/rows.csv"
+  },
+  {
+    "title": "San Francisco ZIP Codes",
+    "url": "https://data.sfgov.org/dataset/San-Francisco-ZIP-Codes/uq3t-6t53",
+    "id": "uq3t-6t53",
+    "downloadUrl": "https://data.sfgov.org/api/views/uq3t-6t53/rows.csv"
+  },
+  {
+    "title": "Updated Treasure Island Addresses and Building Numbers",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Updated-Treasure-Island-Addresses-and-Building-Num/ghba-upwh",
+    "id": "ghba-upwh",
+    "downloadUrl": "https://data.sfgov.org/api/views/ghba-upwh/rows.csv"
+  },
+  {
+    "title": "SFMTA - Enforced Temporary Tow Zones",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Enforced-Temporary-Tow-Zones/6r5h-j298",
+    "id": "6r5h-j298",
+    "downloadUrl": "https://data.sfgov.org/api/views/6r5h-j298/rows.csv"
+  },
+  {
+    "title": "Web Analytics for SFGov Sites - 2015 (Q1+Q2+Q3+Q4)",
+    "url": "https://data.sfgov.org/City-Infrastructure/Web-Analytics-for-SFGov-Sites-2015-Q1-Q2-Q3-Q4-/yrfc-c5yu",
+    "id": "yrfc-c5yu",
+    "downloadUrl": "https://data.sfgov.org/api/views/yrfc-c5yu/rows.csv"
+  },
+  {
+    "title": "StreetSmArts Murals",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/StreetSmArts-Murals/wg8w-68vc",
+    "id": "wg8w-68vc",
+    "downloadUrl": "https://data.sfgov.org/api/views/wg8w-68vc/rows.csv"
+  },
+  {
+    "title": "Certificate of Lobbyist Training Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Certificate-of-Lobbyist-Training-Filings/ik9r-8u7g",
+    "id": "ik9r-8u7g",
+    "downloadUrl": "https://data.sfgov.org/api/views/ik9r-8u7g/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - San Francisco Campaign Filers",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-San-Francisco-Campaign-Filers/4c8t-ngau",
+    "id": "4c8t-ngau",
+    "downloadUrl": "https://data.sfgov.org/api/views/4c8t-ngau/rows.csv"
+  },
+  {
+    "title": "Regression data for Inclusionary Housing Simulation Model",
+    "url": "https://data.sfgov.org/Economy-and-Community/Regression-data-for-Inclusionary-Housing-Simulatio/vcwn-f2xk",
+    "id": "vcwn-f2xk",
+    "downloadUrl": "https://data.sfgov.org/api/views/vcwn-f2xk/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2017 Q3",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2017-Q3/ua32-eewd",
+    "id": "ua32-eewd",
+    "downloadUrl": "https://data.sfgov.org/api/views/ua32-eewd/rows.csv"
+  },
+  {
+    "title": "Night Noise Permits",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Night-Noise-Permits/e7pr-36bt",
+    "id": "e7pr-36bt",
+    "downloadUrl": "https://data.sfgov.org/api/views/e7pr-36bt/rows.csv"
+  },
+  {
+    "title": "Zoning Map - Special Use Districts",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Zoning-Map-Special-Use-Districts/5yf5-ms5f",
+    "id": "5yf5-ms5f",
+    "downloadUrl": "https://data.sfgov.org/api/views/5yf5-ms5f/rows.csv"
+  },
+  {
+    "title": "Community Development Public Service Program Activities by Neighborhood",
+    "url": "https://data.sfgov.org/Economy-and-Community/Community-Development-Public-Service-Program-Activ/jy5g-rugu",
+    "id": "jy5g-rugu",
+    "downloadUrl": "https://data.sfgov.org/api/views/jy5g-rugu/rows.csv"
+  },
+  {
+    "title": "Mpox Cases Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Mpox-Cases-Over-Time/vi7r-brsi",
+    "id": "vi7r-brsi",
+    "downloadUrl": "https://data.sfgov.org/api/views/vi7r-brsi/rows.csv"
+  },
+  {
+    "title": "Airport (SFO) Contract Opportunities",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Airport-SFO-Contract-Opportunities/hmh3-ff63",
+    "id": "hmh3-ff63",
+    "downloadUrl": "https://data.sfgov.org/api/views/hmh3-ff63/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2015 Q3",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2015-Q3/apz9-dh7k",
+    "id": "apz9-dh7k",
+    "downloadUrl": "https://data.sfgov.org/api/views/apz9-dh7k/rows.csv"
+  },
+  {
+    "title": "Annual Park Evaluation Scores (FY15-now)",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Annual-Park-Evaluation-Scores-FY15-now-/r33y-seqv",
+    "id": "r33y-seqv",
+    "downloadUrl": "https://data.sfgov.org/api/views/r33y-seqv/rows.csv"
+  },
+  {
+    "title": "San Francisco Arts Commission Grants FY2004-2016",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/San-Francisco-Arts-Commission-Grants-FY2004-2016/mxvq-mfs5",
+    "id": "mxvq-mfs5",
+    "downloadUrl": "https://data.sfgov.org/api/views/mxvq-mfs5/rows.csv"
+  },
+  {
+    "title": "Unemployment Insurance Weekly Claims for Bay Area Counties",
+    "url": "https://data.sfgov.org/Economy-and-Community/Unemployment-Insurance-Weekly-Claims-for-Bay-Area-/d98w-yij4",
+    "id": "d98w-yij4",
+    "downloadUrl": "https://data.sfgov.org/api/views/d98w-yij4/rows.csv"
+  },
+  {
+    "title": "Preliminary Unintentional Drug Overdose Deaths",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Preliminary-Unintentional-Drug-Overdose-Deaths/jxrr-bmra",
+    "id": "jxrr-bmra",
+    "downloadUrl": "https://data.sfgov.org/api/views/jxrr-bmra/rows.csv"
+  },
+  {
+    "title": "Spending - FTE",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Spending-FTE/43jt-u7yn",
+    "id": "43jt-u7yn",
+    "downloadUrl": "https://data.sfgov.org/api/views/43jt-u7yn/rows.csv"
+  },
+  {
+    "title": "Campaign Consultants - List of Registered Campaign Consultants and their Respective Clients",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Consultants-List-of-Registered-Campaign-C/wchi-36a5",
+    "id": "wchi-36a5",
+    "downloadUrl": "https://data.sfgov.org/api/views/wchi-36a5/rows.csv"
+  },
+  {
+    "title": "Equity Strategy Neighborhoods",
+    "url": "https://data.sfgov.org/Transportation/Equity-Strategy-Neighborhoods/f8bh-m8ez",
+    "id": "f8bh-m8ez",
+    "downloadUrl": "https://data.sfgov.org/api/views/f8bh-m8ez/rows.csv"
+  },
+  {
+    "title": "Meter Policies",
+    "url": "https://data.sfgov.org/Transportation/Meter-Policies/qq7v-hds4",
+    "id": "qq7v-hds4",
+    "downloadUrl": "https://data.sfgov.org/api/views/qq7v-hds4/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Summary of Third Party Expenditures Regarding San Francisco Candidates - November 3, 2015",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Summary-of-Third-Party-Expenditur/8wra-euu9",
+    "id": "8wra-euu9",
+    "downloadUrl": "https://data.sfgov.org/api/views/8wra-euu9/rows.csv"
+  },
+  {
+    "title": "SFO Ground Transport Day Permits",
+    "url": "https://data.sfgov.org/Transportation/SFO-Ground-Transport-Day-Permits/htiq-28bt",
+    "id": "htiq-28bt",
+    "downloadUrl": "https://data.sfgov.org/api/views/htiq-28bt/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2014 Q4",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2014-Q4/858q-nwrm",
+    "id": "858q-nwrm",
+    "downloadUrl": "https://data.sfgov.org/api/views/858q-nwrm/rows.csv"
+  },
+  {
+    "title": "Traffic Crashes Resulting in Injury: Parties Involved",
+    "url": "https://data.sfgov.org/Public-Safety/Traffic-Crashes-Resulting-in-Injury-Parties-Involv/8gtc-pjc6",
+    "id": "8gtc-pjc6",
+    "downloadUrl": "https://data.sfgov.org/api/views/8gtc-pjc6/rows.csv"
+  },
+  {
+    "title": "Large Utility Excavation Permits",
+    "url": "https://data.sfgov.org/City-Infrastructure/Large-Utility-Excavation-Permits/i926-ujnc",
+    "id": "i926-ujnc",
+    "downloadUrl": "https://data.sfgov.org/api/views/i926-ujnc/rows.csv"
+  },
+  {
+    "title": "2012 SFO Customer Survey",
+    "url": "https://data.sfgov.org/Transportation/2012-SFO-Customer-Survey/ckai-dve4",
+    "id": "ckai-dve4",
+    "downloadUrl": "https://data.sfgov.org/api/views/ckai-dve4/rows.csv"
+  },
+  {
+    "title": "Community Development Projects by Agency, Program Area and Funding Source",
+    "url": "https://data.sfgov.org/Economy-and-Community/Community-Development-Projects-by-Agency-Program-A/b3ix-g8t8",
+    "id": "b3ix-g8t8",
+    "downloadUrl": "https://data.sfgov.org/api/views/b3ix-g8t8/rows.csv"
+  },
+  {
+    "title": "Slow Streets",
+    "url": "https://data.sfgov.org/Transportation/Slow-Streets/hkz3-itiu",
+    "id": "hkz3-itiu",
+    "downloadUrl": "https://data.sfgov.org/api/views/hkz3-itiu/rows.csv"
+  },
+  {
+    "title": "Parcels with overlay attributes",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Parcels-with-overlay-attributes/9grn-xjpx",
+    "id": "9grn-xjpx",
+    "downloadUrl": "https://data.sfgov.org/api/views/9grn-xjpx/rows.csv"
+  },
+  {
+    "title": "Clearance Heights - Bridges and Underpasses",
+    "url": "https://data.sfgov.org/Transportation/Clearance-Heights-Bridges-and-Underpasses/eb2x-6eay",
+    "id": "eb2x-6eay",
+    "downloadUrl": "https://data.sfgov.org/api/views/eb2x-6eay/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2018 Q4",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2018-Q4/9kr6-dynr",
+    "id": "9kr6-dynr",
+    "downloadUrl": "https://data.sfgov.org/api/views/9kr6-dynr/rows.csv"
+  },
+  {
+    "title": "Street Tree Removal Notifications",
+    "url": "https://data.sfgov.org/City-Infrastructure/Street-Tree-Removal-Notifications/qrwx-q4gg",
+    "id": "qrwx-q4gg",
+    "downloadUrl": "https://data.sfgov.org/api/views/qrwx-q4gg/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2015 Q4",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2015-Q4/ra2x-jzmk",
+    "id": "ra2x-jzmk",
+    "downloadUrl": "https://data.sfgov.org/api/views/ra2x-jzmk/rows.csv"
+  },
+  {
+    "title": "SFMTA - Transit Vehicle Location History (Current Year)",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Transit-Vehicle-Location-History-Current-Yea/x344-v6h6",
+    "id": "x344-v6h6",
+    "downloadUrl": "https://data.sfgov.org/api/views/x344-v6h6/rows.csv"
+  },
+  {
+    "title": "Meter Inventory",
+    "url": "https://data.sfgov.org/Transportation/Meter-Inventory/uan2-8hmm",
+    "id": "uan2-8hmm",
+    "downloadUrl": "https://data.sfgov.org/api/views/uan2-8hmm/rows.csv"
+  },
+  {
+    "title": "Police Stations (2011)",
+    "url": "https://data.sfgov.org/Public-Safety/Police-Stations-2011-/rwdu-9wb2",
+    "id": "rwdu-9wb2",
+    "downloadUrl": "https://data.sfgov.org/api/views/rwdu-9wb2/rows.csv"
+  },
+  {
+    "title": "Travel Decision Survey 2019",
+    "url": "https://data.sfgov.org/Transportation/Travel-Decision-Survey-2019/qmdj-wtj2",
+    "id": "qmdj-wtj2",
+    "downloadUrl": "https://data.sfgov.org/api/views/qmdj-wtj2/rows.csv"
+  },
+  {
+    "title": "Bike Volume - Manual Counts",
+    "url": "https://data.sfgov.org/Transportation/Bike-Volume-Manual-Counts/v4v2-5x7s",
+    "id": "v4v2-5x7s",
+    "downloadUrl": "https://data.sfgov.org/api/views/v4v2-5x7s/rows.csv"
+  },
+  {
+    "title": "San Francisco Public Bathrooms and Water Fountains",
+    "url": "https://data.sfgov.org/City-Infrastructure/San-Francisco-Public-Bathrooms-and-Water-Fountains/wfq4-upmv",
+    "id": "wfq4-upmv",
+    "downloadUrl": "https://data.sfgov.org/api/views/wfq4-upmv/rows.csv"
+  },
+  {
+    "title": "Supervisor District (2022) to ZIP Code Crosswalk",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Supervisor-District-2022-to-ZIP-Code-Crosswalk/2x22-z5j6",
+    "id": "2x22-z5j6",
+    "downloadUrl": "https://data.sfgov.org/api/views/2x22-z5j6/rows.csv"
+  },
+  {
+    "title": "census_tracts_odata2",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/census_tracts_odata2/8mm5-z8i7",
+    "id": "8mm5-z8i7",
+    "downloadUrl": "https://data.sfgov.org/api/views/8mm5-z8i7/rows.csv"
+  },
+  {
+    "title": "Muni Driver Reported Transit Only Lane Violations",
+    "url": "https://data.sfgov.org/Transportation/Muni-Driver-Reported-Transit-Only-Lane-Violations/sd75-dps9",
+    "id": "sd75-dps9",
+    "downloadUrl": "https://data.sfgov.org/api/views/sd75-dps9/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2016 Q2",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2016-Q2/g5sr-9nhs",
+    "id": "g5sr-9nhs",
+    "downloadUrl": "https://data.sfgov.org/api/views/g5sr-9nhs/rows.csv"
+  },
+  {
+    "title": "SFO Museum Exhibitions",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/SFO-Museum-Exhibitions/bjtz-s8v8",
+    "id": "bjtz-s8v8",
+    "downloadUrl": "https://data.sfgov.org/api/views/bjtz-s8v8/rows.csv"
+  },
+  {
+    "title": "Gifts Of Travel",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Gifts-Of-Travel/snqf-y894",
+    "id": "snqf-y894",
+    "downloadUrl": "https://data.sfgov.org/api/views/snqf-y894/rows.csv"
+  },
+  {
+    "title": "Aircraft Tail Numbers and Models at SFO",
+    "url": "https://data.sfgov.org/Transportation/Aircraft-Tail-Numbers-and-Models-at-SFO/u7dr-xm3v",
+    "id": "u7dr-xm3v",
+    "downloadUrl": "https://data.sfgov.org/api/views/u7dr-xm3v/rows.csv"
+  },
+  {
+    "title": "Covid-19 Pit Stops",
+    "url": "https://data.sfgov.org/City-Infrastructure/Covid-19-Pit-Stops/mr6h-cr3u",
+    "id": "mr6h-cr3u",
+    "downloadUrl": "https://data.sfgov.org/api/views/mr6h-cr3u/rows.csv"
+  },
+  {
+    "title": "Census 2020: Block Groups for San Francisco",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Census-2020-Block-Groups-for-San-Francisco/24e8-pd2q",
+    "id": "24e8-pd2q",
+    "downloadUrl": "https://data.sfgov.org/api/views/24e8-pd2q/rows.csv"
+  },
+  {
+    "title": "Permit Types",
+    "url": "https://data.sfgov.org/City-Infrastructure/Permit-Types/6wa6-8527",
+    "id": "6wa6-8527",
+    "downloadUrl": "https://data.sfgov.org/api/views/6wa6-8527/rows.csv"
+  },
+  {
+    "title": "Lobbyist Directory",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Lobbyist-Directory/b947-pj2q",
+    "id": "b947-pj2q",
+    "downloadUrl": "https://data.sfgov.org/api/views/b947-pj2q/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2018 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2018-Q1/dg6z-zdpi",
+    "id": "dg6z-zdpi",
+    "downloadUrl": "https://data.sfgov.org/api/views/dg6z-zdpi/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2015 Q2",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2015-Q2/w3e8-bxrm",
+    "id": "w3e8-bxrm",
+    "downloadUrl": "https://data.sfgov.org/api/views/w3e8-bxrm/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2019 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2019-Q1/55nt-hnr5",
+    "id": "55nt-hnr5",
+    "downloadUrl": "https://data.sfgov.org/api/views/55nt-hnr5/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3610b - City Officer Behested Payment - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3610b-City-Officer-Behested-Payment-Fili/7vmk-cq9e",
+    "id": "7vmk-cq9e",
+    "downloadUrl": "https://data.sfgov.org/api/views/7vmk-cq9e/rows.csv"
+  },
+  {
+    "title": "Planning Areas",
+    "url": "https://data.sfgov.org/City-Infrastructure/Planning-Areas/bkzf-eahq",
+    "id": "bkzf-eahq",
+    "downloadUrl": "https://data.sfgov.org/api/views/bkzf-eahq/rows.csv"
+  },
+  {
+    "title": "Campaign Consultants - Political Contributions",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Consultants-Political-Contributions/tv94-tvke",
+    "id": "tv94-tvke",
+    "downloadUrl": "https://data.sfgov.org/api/views/tv94-tvke/rows.csv"
+  },
+  {
+    "title": "Aircraft Parking Activity Records at SFO",
+    "url": "https://data.sfgov.org/Transportation/Aircraft-Parking-Activity-Records-at-SFO/5rkh-waic",
+    "id": "5rkh-waic",
+    "downloadUrl": "https://data.sfgov.org/api/views/5rkh-waic/rows.csv"
+  },
+  {
+    "title": "Supervisor Districts (2012)",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Supervisor-Districts-2012-/keex-zmn4",
+    "id": "keex-zmn4",
+    "downloadUrl": "https://data.sfgov.org/api/views/keex-zmn4/rows.csv"
+  },
+  {
+    "title": "Housing Balance March 2016",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Housing-Balance-March-2016/8iri-b2sz",
+    "id": "8iri-b2sz",
+    "downloadUrl": "https://data.sfgov.org/api/views/8iri-b2sz/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2014 Q3",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2014-Q3/n5ik-nmm3",
+    "id": "n5ik-nmm3",
+    "downloadUrl": "https://data.sfgov.org/api/views/n5ik-nmm3/rows.csv"
+  },
+  {
+    "title": "Colleges in San Francisco (2011)",
+    "url": "https://data.sfgov.org/Economy-and-Community/Colleges-in-San-Francisco-2011-/8r3f-pc6a",
+    "id": "8r3f-pc6a",
+    "downloadUrl": "https://data.sfgov.org/api/views/8r3f-pc6a/rows.csv"
+  },
+  {
+    "title": "Ethics Commission Enforcement Penalties Issued",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Ethics-Commission-Enforcement-Penalties-Issued/yre9-mzkb",
+    "id": "yre9-mzkb",
+    "downloadUrl": "https://data.sfgov.org/api/views/yre9-mzkb/rows.csv"
+  },
+  {
+    "title": "City Lands",
+    "url": "https://data.sfgov.org/City-Infrastructure/City-Lands/gtnh-hgvs",
+    "id": "gtnh-hgvs",
+    "downloadUrl": "https://data.sfgov.org/api/views/gtnh-hgvs/rows.csv"
+  },
+  {
+    "title": "Article 11 Ratings",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Article-11-Ratings/6m3x-8fu4",
+    "id": "6m3x-8fu4",
+    "downloadUrl": "https://data.sfgov.org/api/views/6m3x-8fu4/rows.csv"
+  },
+  {
+    "title": "FY07-11 Street Evaluation Results",
+    "url": "https://data.sfgov.org/City-Infrastructure/FY07-11-Street-Evaluation-Results/i8y7-m763",
+    "id": "i8y7-m763",
+    "downloadUrl": "https://data.sfgov.org/api/views/i8y7-m763/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2017 Q4",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2017-Q4/tcek-yifh",
+    "id": "tcek-yifh",
+    "downloadUrl": "https://data.sfgov.org/api/views/tcek-yifh/rows.csv"
+  },
+  {
+    "title": "Historic Resources",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Historic-Resources/3tsw-4idn",
+    "id": "3tsw-4idn",
+    "downloadUrl": "https://data.sfgov.org/api/views/3tsw-4idn/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Summary Totals",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Summary-Totals/9ggq-m8hp",
+    "id": "9ggq-m8hp",
+    "downloadUrl": "https://data.sfgov.org/api/views/9ggq-m8hp/rows.csv"
+  },
+  {
+    "title": "2018 SFO Customer Survey",
+    "url": "https://data.sfgov.org/Transportation/2018-SFO-Customer-Survey/3w8r-nuxp",
+    "id": "3w8r-nuxp",
+    "downloadUrl": "https://data.sfgov.org/api/views/3w8r-nuxp/rows.csv"
+  },
+  {
+    "title": "Form 700 Schedule C - Income, Loans, & Business Positions",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Form-700-Schedule-C-Income-Loans-Business-Position/u5rm-p23y",
+    "id": "u5rm-p23y",
+    "downloadUrl": "https://data.sfgov.org/api/views/u5rm-p23y/rows.csv"
+  },
+  {
+    "title": "Filers With Unpaid Late Filing Fees",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Filers-With-Unpaid-Late-Filing-Fees/qbyp-dnir",
+    "id": "qbyp-dnir",
+    "downloadUrl": "https://data.sfgov.org/api/views/qbyp-dnir/rows.csv"
+  },
+  {
+    "title": "Appeals to the Rent Board",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Appeals-to-the-Rent-Board/w2ze-eag5",
+    "id": "w2ze-eag5",
+    "downloadUrl": "https://data.sfgov.org/api/views/w2ze-eag5/rows.csv"
+  },
+  {
+    "title": "Child Abuse Prevention Services in San Francisco",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Child-Abuse-Prevention-Services-in-San-Francisco/3had-h899",
+    "id": "3had-h899",
+    "downloadUrl": "https://data.sfgov.org/api/views/3had-h899/rows.csv"
+  },
+  {
+    "title": "Soil Liquefaction Hazard Zone",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Soil-Liquefaction-Hazard-Zone/i4t7-35u3",
+    "id": "i4t7-35u3",
+    "downloadUrl": "https://data.sfgov.org/api/views/i4t7-35u3/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2020 Q4",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2020-Q4/wjie-z8kp",
+    "id": "wjie-z8kp",
+    "downloadUrl": "https://data.sfgov.org/api/views/wjie-z8kp/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2012 Q2",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2012-Q2/ugxk-ztb8",
+    "id": "ugxk-ztb8",
+    "downloadUrl": "https://data.sfgov.org/api/views/ugxk-ztb8/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2018 Q2",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2018-Q2/eduu-fkrk",
+    "id": "eduu-fkrk",
+    "downloadUrl": "https://data.sfgov.org/api/views/eduu-fkrk/rows.csv"
+  },
+  {
+    "title": "Campaign Consultants - Client Payments",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Consultants-Client-Payments/tc9q-72uj",
+    "id": "tc9q-72uj",
+    "downloadUrl": "https://data.sfgov.org/api/views/tc9q-72uj/rows.csv"
+  },
+  {
+    "title": "Municipal Transportation Agency Board Resolutions",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Municipal-Transportation-Agency-Board-Resolutions/v5uc-gana",
+    "id": "v5uc-gana",
+    "downloadUrl": "https://data.sfgov.org/api/views/v5uc-gana/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2013 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2013-Q1/bime-puj8",
+    "id": "bime-puj8",
+    "downloadUrl": "https://data.sfgov.org/api/views/bime-puj8/rows.csv"
+  },
+  {
+    "title": "DPW Maintained Roadway Structures",
+    "url": "https://data.sfgov.org/City-Infrastructure/DPW-Maintained-Roadway-Structures/x5tj-txci",
+    "id": "x5tj-txci",
+    "downloadUrl": "https://data.sfgov.org/api/views/x5tj-txci/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Public Funds Approved",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Public-Funds-Approved/dbak-p2fq",
+    "id": "dbak-p2fq",
+    "downloadUrl": "https://data.sfgov.org/api/views/dbak-p2fq/rows.csv"
+  },
+  {
+    "title": "Electrical Permits Contacts",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Electrical-Permits-Contacts/fdm7-jqqf",
+    "id": "fdm7-jqqf",
+    "downloadUrl": "https://data.sfgov.org/api/views/fdm7-jqqf/rows.csv"
+  },
+  {
+    "title": "Citywide Performance Measurement Annual Report FY14",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Citywide-Performance-Measurement-Annual-Report-FY1/6h77-suve",
+    "id": "6h77-suve",
+    "downloadUrl": "https://data.sfgov.org/api/views/6h77-suve/rows.csv"
+  },
+  {
+    "title": "Existing Commercial Wireless Telecommunication Services Facilities in San Francisco",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Existing-Commercial-Wireless-Telecommunication-Ser/aa26-h926",
+    "id": "aa26-h926",
+    "downloadUrl": "https://data.sfgov.org/api/views/aa26-h926/rows.csv"
+  },
+  {
+    "title": "BART Daily Station Exits",
+    "url": "https://data.sfgov.org/Transportation/BART-Daily-Station-Exits/m2xz-p7ja",
+    "id": "m2xz-p7ja",
+    "downloadUrl": "https://data.sfgov.org/api/views/m2xz-p7ja/rows.csv"
+  },
+  {
+    "title": "Fire Department 30 day calls",
+    "url": "https://data.sfgov.org/Public-Safety/Fire-Department-30-day-calls/pnbj-y63g",
+    "id": "pnbj-y63g",
+    "downloadUrl": "https://data.sfgov.org/api/views/pnbj-y63g/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2013 Q4",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2013-Q4/ep85-j8df",
+    "id": "ep85-j8df",
+    "downloadUrl": "https://data.sfgov.org/api/views/ep85-j8df/rows.csv"
+  },
+  {
+    "title": "Overdose-Related 911 Responses by Emergency Medical Services",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Overdose-Related-911-Responses-by-Emergency-Medica/ed3a-sn39",
+    "id": "ed3a-sn39",
+    "downloadUrl": "https://data.sfgov.org/api/views/ed3a-sn39/rows.csv"
+  },
+  {
+    "title": "Rodent control by citywide contractor",
+    "url": "https://data.sfgov.org/City-Infrastructure/Rodent-control-by-citywide-contractor/pyt2-uhqw",
+    "id": "pyt2-uhqw",
+    "downloadUrl": "https://data.sfgov.org/api/views/pyt2-uhqw/rows.csv"
+  },
+  {
+    "title": "Plumbing Permits Contacts",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Plumbing-Permits-Contacts/k6kv-9kix",
+    "id": "k6kv-9kix",
+    "downloadUrl": "https://data.sfgov.org/api/views/k6kv-9kix/rows.csv"
+  },
+  {
+    "title": "Reference: Police Department Incident Code Crosswalk",
+    "url": "https://data.sfgov.org/Public-Safety/Reference-Police-Department-Incident-Code-Crosswal/ci9u-8awy",
+    "id": "ci9u-8awy",
+    "downloadUrl": "https://data.sfgov.org/api/views/ci9u-8awy/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2017 Q2",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2017-Q2/49cy-x5m5",
+    "id": "49cy-x5m5",
+    "downloadUrl": "https://data.sfgov.org/api/views/49cy-x5m5/rows.csv"
+  },
+  {
+    "title": "Street Intersections",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Intersections/gmfx-8h6i",
+    "id": "gmfx-8h6i",
+    "downloadUrl": "https://data.sfgov.org/api/views/gmfx-8h6i/rows.csv"
+  },
+  {
+    "title": "Campaign Consultants and Employees",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Consultants-and-Employees/8n8d-ry79",
+    "id": "8n8d-ry79",
+    "downloadUrl": "https://data.sfgov.org/api/views/8n8d-ry79/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2018 Q3",
+    "url": "https://data.sfgov.org/dataset/SF-Development-Pipeline-2018-Q3/i67a-ip28",
+    "id": "i67a-ip28",
+    "downloadUrl": "https://data.sfgov.org/api/views/i67a-ip28/rows.csv"
+  },
+  {
+    "title": "San Francisco Municipal Energy Benchmarking",
+    "url": "https://data.sfgov.org/Energy-and-Environment/San-Francisco-Municipal-Energy-Benchmarking/k3fc-45qw",
+    "id": "k3fc-45qw",
+    "downloadUrl": "https://data.sfgov.org/api/views/k3fc-45qw/rows.csv"
+  },
+  {
+    "title": "Analysis Neighborhoods",
+    "url": "https://data.sfgov.org/dataset/Analysis-Neighborhoods/j2bu-swwd",
+    "id": "j2bu-swwd",
+    "downloadUrl": "https://data.sfgov.org/api/views/j2bu-swwd/rows.csv"
+  },
+  {
+    "title": "Street Space Permit Report for SFMTA",
+    "url": "https://data.sfgov.org/City-Infrastructure/Street-Space-Permit-Report-for-SFMTA/43dv-5hf4",
+    "id": "43dv-5hf4",
+    "downloadUrl": "https://data.sfgov.org/api/views/43dv-5hf4/rows.csv"
+  },
+  {
+    "title": "SFEC Form 126f2 - Notification of Submission of Proposal",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-126f2-Notification-of-Submission-of-Prop/pv99-gzft",
+    "id": "pv99-gzft",
+    "downloadUrl": "https://data.sfgov.org/api/views/pv99-gzft/rows.csv"
+  },
+  {
+    "title": "Web Analytics for SFGov sites - 2016 (Q1+Q2+Q3)",
+    "url": "https://data.sfgov.org/City-Infrastructure/Web-Analytics-for-SFGov-sites-2016-Q1-Q2-Q3-/iy4m-quhy",
+    "id": "iy4m-quhy",
+    "downloadUrl": "https://data.sfgov.org/api/views/iy4m-quhy/rows.csv"
+  },
+  {
+    "title": "[Deprecated] San Francisco Vaccine Access Points",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/-Deprecated-San-Francisco-Vaccine-Access-Points/bw5r-gd57",
+    "id": "bw5r-gd57",
+    "downloadUrl": "https://data.sfgov.org/api/views/bw5r-gd57/rows.csv"
+  },
+  {
+    "title": "Traffic Crashes Resulting in Injury: Victims Involved",
+    "url": "https://data.sfgov.org/Public-Safety/Traffic-Crashes-Resulting-in-Injury-Victims-Involv/nwes-mmgh",
+    "id": "nwes-mmgh",
+    "downloadUrl": "https://data.sfgov.org/api/views/nwes-mmgh/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2012 Q4",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2012-Q4/b2bw-u33d",
+    "id": "b2bw-u33d",
+    "downloadUrl": "https://data.sfgov.org/api/views/b2bw-u33d/rows.csv"
+  },
+  {
+    "title": "Unintentional Drug Overdose Death Rate by Race/Ethnicity",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Unintentional-Drug-Overdose-Death-Rate-by-Race-Eth/k4g8-b3sf",
+    "id": "k4g8-b3sf",
+    "downloadUrl": "https://data.sfgov.org/api/views/k4g8-b3sf/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3209b - Notification of Recusal Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3209b-Notification-of-Recusal-Filings/y8qm-zrwi",
+    "id": "y8qm-zrwi",
+    "downloadUrl": "https://data.sfgov.org/api/views/y8qm-zrwi/rows.csv"
+  },
+  {
+    "title": "Transit Only Lanes",
+    "url": "https://data.sfgov.org/Transportation/Transit-Only-Lanes/tzh6-6j82",
+    "id": "tzh6-6j82",
+    "downloadUrl": "https://data.sfgov.org/api/views/tzh6-6j82/rows.csv"
+  },
+  {
+    "title": "Recreation and Park Department's Facility Conditions Assessment",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Recreation-and-Park-Department-s-Facility-Conditio/dza3-i9eu",
+    "id": "dza3-i9eu",
+    "downloadUrl": "https://data.sfgov.org/api/views/dza3-i9eu/rows.csv"
+  },
+  {
+    "title": "Form 700 cover",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Form-700-cover/pm9d-idh4",
+    "id": "pm9d-idh4",
+    "downloadUrl": "https://data.sfgov.org/api/views/pm9d-idh4/rows.csv"
+  },
+  {
+    "title": "Citywide Service Inventory",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Citywide-Service-Inventory/dgfp-6ijr",
+    "id": "dgfp-6ijr",
+    "downloadUrl": "https://data.sfgov.org/api/views/dgfp-6ijr/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3610b - City Officers Behested Payment - Payors",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3610b-City-Officers-Behested-Payment-Pay/m9gk-e9r5",
+    "id": "m9gk-e9r5",
+    "downloadUrl": "https://data.sfgov.org/api/views/m9gk-e9r5/rows.csv"
+  },
+  {
+    "title": "Bay Area ZIP Codes",
+    "url": "https://data.sfgov.org/dataset/Bay-Area-ZIP-Codes/4kz9-76pb",
+    "id": "4kz9-76pb",
+    "downloadUrl": "https://data.sfgov.org/api/views/4kz9-76pb/rows.csv"
+  },
+  {
+    "title": "HAQR Priority Green Infrastructure Zones",
+    "url": "https://data.sfgov.org/Energy-and-Environment/HAQR-Priority-Green-Infrastructure-Zones/nn26-kuy2",
+    "id": "nn26-kuy2",
+    "downloadUrl": "https://data.sfgov.org/api/views/nn26-kuy2/rows.csv"
+  },
+  {
+    "title": "SF Municipal Green Building Inventory",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Municipal-Green-Building-Inventory/yuvm-3ujh",
+    "id": "yuvm-3ujh",
+    "downloadUrl": "https://data.sfgov.org/api/views/yuvm-3ujh/rows.csv"
+  },
+  {
+    "title": "Form 700 Schedule D - Income: Gifts",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Form-700-Schedule-D-Income-Gifts/y9be-fypm",
+    "id": "y9be-fypm",
+    "downloadUrl": "https://data.sfgov.org/api/views/y9be-fypm/rows.csv"
+  },
+  {
+    "title": "Zoning Map - Special Sign Districts",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Zoning-Map-Special-Sign-Districts/g9f8-pkcz",
+    "id": "g9f8-pkcz",
+    "downloadUrl": "https://data.sfgov.org/api/views/g9f8-pkcz/rows.csv"
+  },
+  {
+    "title": "Historic Context Statements",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Historic-Context-Statements/43um-8u7u",
+    "id": "43um-8u7u",
+    "downloadUrl": "https://data.sfgov.org/api/views/43um-8u7u/rows.csv"
+  },
+  {
+    "title": "SFMTA Managed Off-street Parking",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Managed-Off-street-Parking/vqzx-t7c4",
+    "id": "vqzx-t7c4",
+    "downloadUrl": "https://data.sfgov.org/api/views/vqzx-t7c4/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Summary of Third Party Disclosure Forms Regarding San Francisco Candidates - November 6, 2012",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Summary-of-Third-Party-Disclosure/n84t-vfnk",
+    "id": "n84t-vfnk",
+    "downloadUrl": "https://data.sfgov.org/api/views/n84t-vfnk/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Individual Expenditure Ceilings (IEC)",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Individual-Expenditure-Ceilings-I/9gib-7p8x",
+    "id": "9gib-7p8x",
+    "downloadUrl": "https://data.sfgov.org/api/views/9gib-7p8x/rows.csv"
+  },
+  {
+    "title": "Form 700 Schedule A1 - Investments: Stocks, Bonds, and Other Interests",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Form-700-Schedule-A1-Investments-Stocks-Bonds-and-/mwqh-x2wn",
+    "id": "mwqh-x2wn",
+    "downloadUrl": "https://data.sfgov.org/api/views/mwqh-x2wn/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Summary Financial Data for Committees Controlled by Candidates for Mayor - November 8, 2011 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Summary-Financial-Data-for-Commit/csud-q746",
+    "id": "csud-q746",
+    "downloadUrl": "https://data.sfgov.org/api/views/csud-q746/rows.csv"
+  },
+  {
+    "title": "SFEC Form 126f2 - Named Parties",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-126f2-Named-Parties/djj2-gvaq",
+    "id": "djj2-gvaq",
+    "downloadUrl": "https://data.sfgov.org/api/views/djj2-gvaq/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: COVID-19 Vaccinations Given to SF Residents by Demographics",
+    "url": "https://data.sfgov.org/COVID-19/ARCHIVED-COVID-19-Vaccinations-Given-to-SF-Residen/g8hh-rwgb",
+    "id": "g8hh-rwgb",
+    "downloadUrl": "https://data.sfgov.org/api/views/g8hh-rwgb/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2016 Q3",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2016-Q3/k7mk-w2pq",
+    "id": "k7mk-w2pq",
+    "downloadUrl": "https://data.sfgov.org/api/views/k7mk-w2pq/rows.csv"
+  },
+  {
+    "title": "Right of Way Exception Codes",
+    "url": "https://data.sfgov.org/City-Infrastructure/Right-of-Way-Exception-Codes/a8af-5fif",
+    "id": "a8af-5fif",
+    "downloadUrl": "https://data.sfgov.org/api/views/a8af-5fif/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: COVID-19 Vaccinations Given to SF Residents Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/ARCHIVED-COVID-19-Vaccinations-Given-to-SF-Residen/rutu-rpar",
+    "id": "rutu-rpar",
+    "downloadUrl": "https://data.sfgov.org/api/views/rutu-rpar/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2020 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2020-Q1/5s89-azqa",
+    "id": "5s89-azqa",
+    "downloadUrl": "https://data.sfgov.org/api/views/5s89-azqa/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2019 Q4",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2019-Q4/pm3p-32gh",
+    "id": "pm3p-32gh",
+    "downloadUrl": "https://data.sfgov.org/api/views/pm3p-32gh/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2015 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2015-Q1/2cma-9y6y",
+    "id": "2cma-9y6y",
+    "downloadUrl": "https://data.sfgov.org/api/views/2cma-9y6y/rows.csv"
+  },
+  {
+    "title": "Historic Districts",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Historic-Districts/63x5-g3m4",
+    "id": "63x5-g3m4",
+    "downloadUrl": "https://data.sfgov.org/api/views/63x5-g3m4/rows.csv"
+  },
+  {
+    "title": "Street Nodes",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Nodes/vd6w-dq8r",
+    "id": "vd6w-dq8r",
+    "downloadUrl": "https://data.sfgov.org/api/views/vd6w-dq8r/rows.csv"
+  },
+  {
+    "title": "Field Profiles",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Field-Profiles/ekxv-883u",
+    "id": "ekxv-883u",
+    "downloadUrl": "https://data.sfgov.org/api/views/ekxv-883u/rows.csv"
+  },
+  {
+    "title": "Current Supervisor Districts",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Current-Supervisor-Districts/cqbw-m5m3",
+    "id": "cqbw-m5m3",
+    "downloadUrl": "https://data.sfgov.org/api/views/cqbw-m5m3/rows.csv"
+  },
+  {
+    "title": "Gifts of Travel - Accompanying Persons",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Gifts-of-Travel-Accompanying-Persons/gqui-q3n5",
+    "id": "gqui-q3n5",
+    "downloadUrl": "https://data.sfgov.org/api/views/gqui-q3n5/rows.csv"
+  },
+  {
+    "title": "San Francisco Department of Public Health Substance Use Services",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/San-Francisco-Department-of-Public-Health-Substanc/ubf6-e57x",
+    "id": "ubf6-e57x",
+    "downloadUrl": "https://data.sfgov.org/api/views/ubf6-e57x/rows.csv"
+  },
+  {
+    "title": "SFMTA Bikeway Network Point Features",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Bikeway-Network-Point-Features/k6qg-djmi",
+    "id": "k6qg-djmi",
+    "downloadUrl": "https://data.sfgov.org/api/views/k6qg-djmi/rows.csv"
+  },
+  {
+    "title": "[HISTORIC] FPPC 803 - Behested Payment Report",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/-HISTORIC-FPPC-803-Behested-Payment-Report/2nqb-h7k4",
+    "id": "2nqb-h7k4",
+    "downloadUrl": "https://data.sfgov.org/api/views/2nqb-h7k4/rows.csv"
+  },
+  {
+    "title": "Landmarks Listed in Article 10 of the San Francisco Planning Code",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Landmarks-Listed-in-Article-10-of-the-San-Francisc/97yj-54sx",
+    "id": "97yj-54sx",
+    "downloadUrl": "https://data.sfgov.org/api/views/97yj-54sx/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2014 Q2",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2014-Q2/fv2q-qaux",
+    "id": "fv2q-qaux",
+    "downloadUrl": "https://data.sfgov.org/api/views/fv2q-qaux/rows.csv"
+  },
+  {
+    "title": "Representation of Women in City Property - City Administrator's List",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Representation-of-Women-in-City-Property-City-Admi/9y57-xm9y",
+    "id": "9y57-xm9y",
+    "downloadUrl": "https://data.sfgov.org/api/views/9y57-xm9y/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: COVID-19 Vaccinations Given to SF Residents by Geography",
+    "url": "https://data.sfgov.org/COVID-19/ARCHIVED-COVID-19-Vaccinations-Given-to-SF-Residen/ejrc-vnwu",
+    "id": "ejrc-vnwu",
+    "downloadUrl": "https://data.sfgov.org/api/views/ejrc-vnwu/rows.csv"
+  },
+  {
+    "title": "San Andreas M7.8 Earthquake Scenario",
+    "url": "https://data.sfgov.org/Public-Safety/San-Andreas-M7-8-Earthquake-Scenario/akmp-ztcg",
+    "id": "akmp-ztcg",
+    "downloadUrl": "https://data.sfgov.org/api/views/akmp-ztcg/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2013 Q3",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2013-Q3/hxup-t2n6",
+    "id": "hxup-t2n6",
+    "downloadUrl": "https://data.sfgov.org/api/views/hxup-t2n6/rows.csv"
+  },
+  {
+    "title": "Management Classification and  Compensation Plan Pay Ranges",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Management-Classification-and-Compensation-Plan-Pa/mx8n-vbe2",
+    "id": "mx8n-vbe2",
+    "downloadUrl": "https://data.sfgov.org/api/views/mx8n-vbe2/rows.csv"
+  },
+  {
+    "title": "SFO Permitted Ground Transport Companies",
+    "url": "https://data.sfgov.org/Transportation/SFO-Permitted-Ground-Transport-Companies/x2zf-uu4r",
+    "id": "x2zf-uu4r",
+    "downloadUrl": "https://data.sfgov.org/api/views/x2zf-uu4r/rows.csv"
+  },
+  {
+    "title": "SFO Ground Transport Trip Counts By Month and Permit Type",
+    "url": "https://data.sfgov.org/Transportation/SFO-Ground-Transport-Trip-Counts-By-Month-and-Perm/e3x5-4br3",
+    "id": "e3x5-4br3",
+    "downloadUrl": "https://data.sfgov.org/api/views/e3x5-4br3/rows.csv"
+  },
+  {
+    "title": "San Francisco Land Use - 2020",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/San-Francisco-Land-Use-2020/ygi5-84iq",
+    "id": "ygi5-84iq",
+    "downloadUrl": "https://data.sfgov.org/api/views/ygi5-84iq/rows.csv"
+  },
+  {
+    "title": "Lobbyist Filings Directory",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Lobbyist-Filings-Directory/vckx-s5ks",
+    "id": "vckx-s5ks",
+    "downloadUrl": "https://data.sfgov.org/api/views/vckx-s5ks/rows.csv"
+  },
+  {
+    "title": "Recreation and Parks Facilities",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Recreation-and-Parks-Facilities/ib5c-xgwu",
+    "id": "ib5c-xgwu",
+    "downloadUrl": "https://data.sfgov.org/api/views/ib5c-xgwu/rows.csv"
+  },
+  {
+    "title": "Mayor’s Office of Housing and Community Development Grants and Loans",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Mayor-s-Office-of-Housing-and-Community-Developmen/ez9i-q28j",
+    "id": "ez9i-q28j",
+    "downloadUrl": "https://data.sfgov.org/api/views/ez9i-q28j/rows.csv"
+  },
+  {
+    "title": "Bicycle Green Wave Streets",
+    "url": "https://data.sfgov.org/Transportation/Bicycle-Green-Wave-Streets/s4xw-pbpb",
+    "id": "s4xw-pbpb",
+    "downloadUrl": "https://data.sfgov.org/api/views/s4xw-pbpb/rows.csv"
+  },
+  {
+    "title": "Linear Assets Maintained by the Recreation and Parks Department",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Linear-Assets-Maintained-by-the-Recreation-and-Par/rny7-88gk",
+    "id": "rny7-88gk",
+    "downloadUrl": "https://data.sfgov.org/api/views/rny7-88gk/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2016 Q4",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2016-Q4/d7xx-7z6v",
+    "id": "d7xx-7z6v",
+    "downloadUrl": "https://data.sfgov.org/api/views/d7xx-7z6v/rows.csv"
+  },
+  {
+    "title": "100-year storm + 66 inches Sea Level Rise",
+    "url": "https://data.sfgov.org/Public-Safety/100-year-storm-66-inches-Sea-Level-Rise/6ann-usi8",
+    "id": "6ann-usi8",
+    "downloadUrl": "https://data.sfgov.org/api/views/6ann-usi8/rows.csv"
+  },
+  {
+    "title": "Lobbyist Activity Directory",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Lobbyist-Activity-Directory/s4ub-8j3t",
+    "id": "s4ub-8j3t",
+    "downloadUrl": "https://data.sfgov.org/api/views/s4ub-8j3t/rows.csv"
+  },
+  {
+    "title": "Sheriff Jail Bookings by Male/Female",
+    "url": "https://data.sfgov.org/Public-Safety/Sheriff-Jail-Bookings-by-Male-Female/2hgk-5bf6",
+    "id": "2hgk-5bf6",
+    "downloadUrl": "https://data.sfgov.org/api/views/2hgk-5bf6/rows.csv"
+  },
+  {
+    "title": "Citywide Performance Measurement Annual Report FY13",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Citywide-Performance-Measurement-Annual-Report-FY1/5x94-tptc",
+    "id": "5x94-tptc",
+    "downloadUrl": "https://data.sfgov.org/api/views/5x94-tptc/rows.csv"
+  },
+  {
+    "title": "Pending Basemap Updates",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Pending-Basemap-Updates/2q9t-p8jg",
+    "id": "2q9t-p8jg",
+    "downloadUrl": "https://data.sfgov.org/api/views/2q9t-p8jg/rows.csv"
+  },
+  {
+    "title": "Blue Curb Spaces",
+    "url": "https://data.sfgov.org/Transportation/Blue-Curb-Spaces/g69s-9jxr",
+    "id": "g69s-9jxr",
+    "downloadUrl": "https://data.sfgov.org/api/views/g69s-9jxr/rows.csv"
+  },
+  {
+    "title": "Hourly Rates of Pay by Classification and Step",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Hourly-Rates-of-Pay-by-Classification-and-Step/t59u-ig8c",
+    "id": "t59u-ig8c",
+    "downloadUrl": "https://data.sfgov.org/api/views/t59u-ig8c/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3620 - Donors of Behested Payments Report - Payees",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3620-Donors-of-Behested-Payments-Report-/kjzi-iji7",
+    "id": "kjzi-iji7",
+    "downloadUrl": "https://data.sfgov.org/api/views/kjzi-iji7/rows.csv"
+  },
+  {
+    "title": "[DEPRECATED] Rush Hour Routes",
+    "url": "https://data.sfgov.org/Transportation/-DEPRECATED-Rush-Hour-Routes/4zr7-yz4w",
+    "id": "4zr7-yz4w",
+    "downloadUrl": "https://data.sfgov.org/api/views/4zr7-yz4w/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2014 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2014-Q1/g383-7xmf",
+    "id": "g383-7xmf",
+    "downloadUrl": "https://data.sfgov.org/api/views/g383-7xmf/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3620 - Donors of Behested Payments Report - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3620-Donors-of-Behested-Payments-Report-/2m4y-3tcg",
+    "id": "2m4y-3tcg",
+    "downloadUrl": "https://data.sfgov.org/api/views/2m4y-3tcg/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Summary Of Third Party Disclosure Forms Regarding San Francisco Candidates in Certain Contests",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Summary-Of-Third-Party-Disclosure/ani6-nqh6",
+    "id": "ani6-nqh6",
+    "downloadUrl": "https://data.sfgov.org/api/views/ani6-nqh6/rows.csv"
+  },
+  {
+    "title": "SFRPD Activity Guide--Spring through Summer 2016",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/SFRPD-Activity-Guide-Spring-through-Summer-2016/e3kj-6yzw",
+    "id": "e3kj-6yzw",
+    "downloadUrl": "https://data.sfgov.org/api/views/e3kj-6yzw/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2022 Q2",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2022-Q2/httc-cz47",
+    "id": "httc-cz47",
+    "downloadUrl": "https://data.sfgov.org/api/views/httc-cz47/rows.csv"
+  },
+  {
+    "title": "Bicycle Loop Counters",
+    "url": "https://data.sfgov.org/Transportation/Bicycle-Loop-Counters/7j2t-hunp",
+    "id": "7j2t-hunp",
+    "downloadUrl": "https://data.sfgov.org/api/views/7j2t-hunp/rows.csv"
+  },
+  {
+    "title": "2016 SFO Customer Survey",
+    "url": "https://data.sfgov.org/Transportation/2016-SFO-Customer-Survey/t3vr-buhp",
+    "id": "t3vr-buhp",
+    "downloadUrl": "https://data.sfgov.org/api/views/t3vr-buhp/rows.csv"
+  },
+  {
+    "title": "Temp Street Closure Intersections",
+    "url": "https://data.sfgov.org/Transportation/Temp-Street-Closure-Intersections/7p5y-sxmu",
+    "id": "7p5y-sxmu",
+    "downloadUrl": "https://data.sfgov.org/api/views/7p5y-sxmu/rows.csv"
+  },
+  {
+    "title": "Gifts of Travel - Contributors",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Gifts-of-Travel-Contributors/hpj3-vnwh",
+    "id": "hpj3-vnwh",
+    "downloadUrl": "https://data.sfgov.org/api/views/hpj3-vnwh/rows.csv"
+  },
+  {
+    "title": "Aircraft Parking Location Inventory at SFO",
+    "url": "https://data.sfgov.org/Transportation/Aircraft-Parking-Location-Inventory-at-SFO/2ymc-znns",
+    "id": "2ymc-znns",
+    "downloadUrl": "https://data.sfgov.org/api/views/2ymc-znns/rows.csv"
+  },
+  {
+    "title": "Community Development Public Service Program Activities by Supervisor District",
+    "url": "https://data.sfgov.org/Economy-and-Community/Community-Development-Public-Service-Program-Activ/3ggv-tzb3",
+    "id": "3ggv-tzb3",
+    "downloadUrl": "https://data.sfgov.org/api/views/3ggv-tzb3/rows.csv"
+  },
+  {
+    "title": "Painted Safety Zones",
+    "url": "https://data.sfgov.org/Transportation/Painted-Safety-Zones/vtn2-q8ky",
+    "id": "vtn2-q8ky",
+    "downloadUrl": "https://data.sfgov.org/api/views/vtn2-q8ky/rows.csv"
+  },
+  {
+    "title": "Residential Parking Permit Eligibility Parcels",
+    "url": "https://data.sfgov.org/Transportation/Residential-Parking-Permit-Eligibility-Parcels/i886-hxz9",
+    "id": "i886-hxz9",
+    "downloadUrl": "https://data.sfgov.org/api/views/i886-hxz9/rows.csv"
+  },
+  {
+    "title": "On-street Carshare Parking",
+    "url": "https://data.sfgov.org/Transportation/On-street-Carshare-Parking/g2t6-cyw6",
+    "id": "g2t6-cyw6",
+    "downloadUrl": "https://data.sfgov.org/api/views/g2t6-cyw6/rows.csv"
+  },
+  {
+    "title": "Current Season Viral Respiratory Vaccinations",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Current-Season-Viral-Respiratory-Vaccinations/q6g7-y2et",
+    "id": "q6g7-y2et",
+    "downloadUrl": "https://data.sfgov.org/api/views/q6g7-y2et/rows.csv"
+  },
+  {
+    "title": "Bay Area Bike Share Stations",
+    "url": "https://data.sfgov.org/Transportation/Bay-Area-Bike-Share-Stations/7jbp-yzp3",
+    "id": "7jbp-yzp3",
+    "downloadUrl": "https://data.sfgov.org/api/views/7jbp-yzp3/rows.csv"
+  },
+  {
+    "title": "Dam or Reservoir Failure Hazard Zone",
+    "url": "https://data.sfgov.org/Public-Safety/Dam-or-Reservoir-Failure-Hazard-Zone/7crf-46s6",
+    "id": "7crf-46s6",
+    "downloadUrl": "https://data.sfgov.org/api/views/7crf-46s6/rows.csv"
+  },
+  {
+    "title": "Annual Statement of Economic Interests (SEI) Form 700 - Non-Filers",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Annual-Statement-of-Economic-Interests-SEI-Form-70/un6s-gxbd",
+    "id": "un6s-gxbd",
+    "downloadUrl": "https://data.sfgov.org/api/views/un6s-gxbd/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Summary of Third Party Disclosure Forms Regarding San Francisco Candidates - November 8, 2011 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Summary-of-Third-Party-Disclosure/6xiy-xib3",
+    "id": "6xiy-xib3",
+    "downloadUrl": "https://data.sfgov.org/api/views/6xiy-xib3/rows.csv"
+  },
+  {
+    "title": "SFEC Form 124 - Contributions Made by Business Entities - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-124-Contributions-Made-by-Business-Entit/tsy6-7xfs",
+    "id": "tsy6-7xfs",
+    "downloadUrl": "https://data.sfgov.org/api/views/tsy6-7xfs/rows.csv"
+  },
+  {
+    "title": "Retiree Pensions Annual Benefit Received",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Retiree-Pensions-Annual-Benefit-Received/84zg-myyk",
+    "id": "84zg-myyk",
+    "downloadUrl": "https://data.sfgov.org/api/views/84zg-myyk/rows.csv"
+  },
+  {
+    "title": "Nighttime High Power Run-ups",
+    "url": "https://data.sfgov.org/Transportation/Nighttime-High-Power-Run-ups/aqb8-9r2r",
+    "id": "aqb8-9r2r",
+    "downloadUrl": "https://data.sfgov.org/api/views/aqb8-9r2r/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2021 Q4",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2021-Q4/9r2x-93qm",
+    "id": "9r2x-93qm",
+    "downloadUrl": "https://data.sfgov.org/api/views/9r2x-93qm/rows.csv"
+  },
+  {
+    "title": "San Francisco Seismic Hazard Zones",
+    "url": "https://data.sfgov.org/dataset/San-Francisco-Seismic-Hazard-Zones/re79-p8j5",
+    "id": "re79-p8j5",
+    "downloadUrl": "https://data.sfgov.org/api/views/re79-p8j5/rows.csv"
+  },
+  {
+    "title": "Form 700 Schedule E - Travel Payments, Advances, and Reimbursements",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Form-700-Schedule-E-Travel-Payments-Advances-and-R/e67f-ux3j",
+    "id": "e67f-ux3j",
+    "downloadUrl": "https://data.sfgov.org/api/views/e67f-ux3j/rows.csv"
+  },
+  {
+    "title": "Census 2020: Blocks for San Francisco",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Census-2020-Blocks-for-San-Francisco/p2fw-hsrv",
+    "id": "p2fw-hsrv",
+    "downloadUrl": "https://data.sfgov.org/api/views/p2fw-hsrv/rows.csv"
+  },
+  {
+    "title": "Analysis Neighborhoods to ZIP Code Crosswalk",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Analysis-Neighborhoods-to-ZIP-Code-Crosswalk/jc98-7xvv",
+    "id": "jc98-7xvv",
+    "downloadUrl": "https://data.sfgov.org/api/views/jc98-7xvv/rows.csv"
+  },
+  {
+    "title": "Form 700 Schedule A2 - Investments, Income, and Assets of Business Entities/Trusts",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Form-700-Schedule-A2-Investments-Income-and-Assets/64rb-55bi",
+    "id": "64rb-55bi",
+    "downloadUrl": "https://data.sfgov.org/api/views/64rb-55bi/rows.csv"
+  },
+  {
+    "title": "City Construction Projects to Proceed During Shelter-in-place",
+    "url": "https://data.sfgov.org/COVID-19/City-Construction-Projects-to-Proceed-During-Shelt/x83f-ux29",
+    "id": "x83f-ux29",
+    "downloadUrl": "https://data.sfgov.org/api/views/x83f-ux29/rows.csv"
+  },
+  {
+    "title": "2010 SFO Customer Survey",
+    "url": "https://data.sfgov.org/Transportation/2010-SFO-Customer-Survey/3g5j-aamw",
+    "id": "3g5j-aamw",
+    "downloadUrl": "https://data.sfgov.org/api/views/3g5j-aamw/rows.csv"
+  },
+  {
+    "title": "Mayor's Office of Housing and Community Development Affordable Housing Portfolio",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Mayor-s-Office-of-Housing-and-Community-Developmen/pyxv-n29e",
+    "id": "pyxv-n29e",
+    "downloadUrl": "https://data.sfgov.org/api/views/pyxv-n29e/rows.csv"
+  },
+  {
+    "title": "Reference: Assessor-Recorder Neighborhood Codes",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Reference-Assessor-Recorder-Neighborhood-Codes/dx7g-zwbx",
+    "id": "dx7g-zwbx",
+    "downloadUrl": "https://data.sfgov.org/api/views/dx7g-zwbx/rows.csv"
+  },
+  {
+    "title": "Compensated Advocacy Ban Waivers",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Compensated-Advocacy-Ban-Waivers/fa66-656n",
+    "id": "fa66-656n",
+    "downloadUrl": "https://data.sfgov.org/api/views/fa66-656n/rows.csv"
+  },
+  {
+    "title": "SFMTA - Transit Vehicle Location History (2021)",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Transit-Vehicle-Location-History-2021-/9722-grnf",
+    "id": "9722-grnf",
+    "downloadUrl": "https://data.sfgov.org/api/views/9722-grnf/rows.csv"
+  },
+  {
+    "title": "2014 SFO Customer Survey",
+    "url": "https://data.sfgov.org/Transportation/2014-SFO-Customer-Survey/xr4w-bx78",
+    "id": "xr4w-bx78",
+    "downloadUrl": "https://data.sfgov.org/api/views/xr4w-bx78/rows.csv"
+  },
+  {
+    "title": "San Francisco Land Use - 2023",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/San-Francisco-Land-Use-2023/fdfd-xptc",
+    "id": "fdfd-xptc",
+    "downloadUrl": "https://data.sfgov.org/api/views/fdfd-xptc/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2013 Q2",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2013-Q2/evrp-pcmc",
+    "id": "evrp-pcmc",
+    "downloadUrl": "https://data.sfgov.org/api/views/evrp-pcmc/rows.csv"
+  },
+  {
+    "title": "Form 700 Schedule B - Interests in Real Property",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Form-700-Schedule-B-Interests-in-Real-Property/9dv8-3432",
+    "id": "9dv8-3432",
+    "downloadUrl": "https://data.sfgov.org/api/views/9dv8-3432/rows.csv"
+  },
+  {
+    "title": "SFEC Form 124 - Contributions Made by Business Entities - Contracts and Grants",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-124-Contributions-Made-by-Business-Entit/ssx6-3d9r",
+    "id": "ssx6-3d9r",
+    "downloadUrl": "https://data.sfgov.org/api/views/ssx6-3d9r/rows.csv"
+  },
+  {
+    "title": "Post- Employment Restriction Waivers",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Post-Employment-Restriction-Waivers/qwnt-35i6",
+    "id": "qwnt-35i6",
+    "downloadUrl": "https://data.sfgov.org/api/views/qwnt-35i6/rows.csv"
+  },
+  {
+    "title": "San Francisco Environmental Justice Communities Map",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/San-Francisco-Environmental-Justice-Communities-Ma/y6ci-vpnb",
+    "id": "y6ci-vpnb",
+    "downloadUrl": "https://data.sfgov.org/api/views/y6ci-vpnb/rows.csv"
+  },
+  {
+    "title": "Campaign Consultants - Appointment to Public Office",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Consultants-Appointment-to-Public-Office/tgmn-chny",
+    "id": "tgmn-chny",
+    "downloadUrl": "https://data.sfgov.org/api/views/tgmn-chny/rows.csv"
+  },
+  {
+    "title": "SFUSD School Attendance Areas (2024-2025)",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/SFUSD-School-Attendance-Areas-2024-2025-/e6tr-sxwg",
+    "id": "e6tr-sxwg",
+    "downloadUrl": "https://data.sfgov.org/api/views/e6tr-sxwg/rows.csv"
+  },
+  {
+    "title": "Campaign Consultants - Vendor Payments",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Consultants-Vendor-Payments/ewuz-v3y2",
+    "id": "ewuz-v3y2",
+    "downloadUrl": "https://data.sfgov.org/api/views/ewuz-v3y2/rows.csv"
+  },
+  {
+    "title": "Assets Maintained by the Recreation and Parks Department",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Assets-Maintained-by-the-Recreation-and-Parks-Depa/e3jj-mbb3",
+    "id": "e3jj-mbb3",
+    "downloadUrl": "https://data.sfgov.org/api/views/e3jj-mbb3/rows.csv"
+  },
+  {
+    "title": "[DRAFT] Priority Permits",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/-DRAFT-Priority-Permits/336t-bzzm",
+    "id": "336t-bzzm",
+    "downloadUrl": "https://data.sfgov.org/api/views/336t-bzzm/rows.csv"
+  },
+  {
+    "title": "SFO Commercial Vehicle Information",
+    "url": "https://data.sfgov.org/Transportation/SFO-Commercial-Vehicle-Information/p6ht-ubmk",
+    "id": "p6ht-ubmk",
+    "downloadUrl": "https://data.sfgov.org/api/views/p6ht-ubmk/rows.csv"
+  },
+  {
+    "title": "100-Year Storm + 24\" Sea Level Rise",
+    "url": "https://data.sfgov.org/Public-Safety/100-Year-Storm-24-Sea-Level-Rise/esku-ejgv",
+    "id": "esku-ejgv",
+    "downloadUrl": "https://data.sfgov.org/api/views/esku-ejgv/rows.csv"
+  },
+  {
+    "title": "Landslide Susceptibility Hazard Zones",
+    "url": "https://data.sfgov.org/Public-Safety/Landslide-Susceptibility-Hazard-Zones/bna4-itif",
+    "id": "bna4-itif",
+    "downloadUrl": "https://data.sfgov.org/api/views/bna4-itif/rows.csv"
+  },
+  {
+    "title": "Intersections by Each Cross Street Permutation",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Intersections-by-Each-Cross-Street-Permutation/jfxm-zeee",
+    "id": "jfxm-zeee",
+    "downloadUrl": "https://data.sfgov.org/api/views/jfxm-zeee/rows.csv"
+  },
+  {
+    "title": "Form 700 comments",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Form-700-comments/2ycd-bb2c",
+    "id": "2ycd-bb2c",
+    "downloadUrl": "https://data.sfgov.org/api/views/2ycd-bb2c/rows.csv"
+  },
+  {
+    "title": "Traffic Circles",
+    "url": "https://data.sfgov.org/Transportation/Traffic-Circles/c5wg-gcqb",
+    "id": "c5wg-gcqb",
+    "downloadUrl": "https://data.sfgov.org/api/views/c5wg-gcqb/rows.csv"
+  },
+  {
+    "title": "SF Find Neighborhoods",
+    "url": "https://data.sfgov.org/dataset/SF-Find-Neighborhoods/gfpk-269f",
+    "id": "gfpk-269f",
+    "downloadUrl": "https://data.sfgov.org/api/views/gfpk-269f/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2020 Q3",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2020-Q3/nrtx-srqj",
+    "id": "nrtx-srqj",
+    "downloadUrl": "https://data.sfgov.org/api/views/nrtx-srqj/rows.csv"
+  },
+  {
+    "title": "Priority Development Areas",
+    "url": "https://data.sfgov.org/Economy-and-Community/Priority-Development-Areas/k5ee-yrip",
+    "id": "k5ee-yrip",
+    "downloadUrl": "https://data.sfgov.org/api/views/k5ee-yrip/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Public Funds Disbursed - November 6, 2012 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Public-Funds-Disbursed-November-6/7x5u-tf83",
+    "id": "7x5u-tf83",
+    "downloadUrl": "https://data.sfgov.org/api/views/7x5u-tf83/rows.csv"
+  },
+  {
+    "title": "Behested Payments Waivers",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Behested-Payments-Waivers/8w9a-q5s8",
+    "id": "8w9a-q5s8",
+    "downloadUrl": "https://data.sfgov.org/api/views/8w9a-q5s8/rows.csv"
+  },
+  {
+    "title": "Blockfaces",
+    "url": "https://data.sfgov.org/Transportation/Blockfaces/pep9-66vw",
+    "id": "pep9-66vw",
+    "downloadUrl": "https://data.sfgov.org/api/views/pep9-66vw/rows.csv"
+  },
+  {
+    "title": "Functional Areas maintained by Recreation and Parks Department",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Functional-Areas-maintained-by-Recreation-and-Park/38b7-6db3",
+    "id": "38b7-6db3",
+    "downloadUrl": "https://data.sfgov.org/api/views/38b7-6db3/rows.csv"
+  },
+  {
+    "title": "Sheriff Jail Bookings by Age Group",
+    "url": "https://data.sfgov.org/Public-Safety/Sheriff-Jail-Bookings-by-Age-Group/pfbp-75pz",
+    "id": "pfbp-75pz",
+    "downloadUrl": "https://data.sfgov.org/api/views/pfbp-75pz/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3500 - Disclosure Report for Developers of Major City Projects Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3500-Disclosure-Report-for-Developers-of/8je3-gv3q",
+    "id": "8je3-gv3q",
+    "downloadUrl": "https://data.sfgov.org/api/views/8je3-gv3q/rows.csv"
+  },
+  {
+    "title": "San Francisco Ballot Propositions Database - Historical Ballot Propositions 1907-present",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/San-Francisco-Ballot-Propositions-Database-Histori/88s2-6ua9",
+    "id": "88s2-6ua9",
+    "downloadUrl": "https://data.sfgov.org/api/views/88s2-6ua9/rows.csv"
+  },
+  {
+    "title": "Commuter Shuttle Stops",
+    "url": "https://data.sfgov.org/Transportation/Commuter-Shuttle-Stops/hnxa-ebrb",
+    "id": "hnxa-ebrb",
+    "downloadUrl": "https://data.sfgov.org/api/views/hnxa-ebrb/rows.csv"
+  },
+  {
+    "title": "Bay Area County Polygons",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Bay-Area-County-Polygons/wamw-vt4s",
+    "id": "wamw-vt4s",
+    "downloadUrl": "https://data.sfgov.org/api/views/wamw-vt4s/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Individual Expenditure Ceilings (IECs) - November 6, 2012 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Individual-Expenditure-Ceilings-I/85cd-6rtn",
+    "id": "85cd-6rtn",
+    "downloadUrl": "https://data.sfgov.org/api/views/85cd-6rtn/rows.csv"
+  },
+  {
+    "title": "Housing Production - 2005-present",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Housing-Production-2005-present/xdht-4php",
+    "id": "xdht-4php",
+    "downloadUrl": "https://data.sfgov.org/api/views/xdht-4php/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Summary Of Third Party Disclosure Forms Regarding San Francisco Candidates - November 4 2014",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Summary-Of-Third-Party-Disclosure/htai-xw5t",
+    "id": "htai-xw5t",
+    "downloadUrl": "https://data.sfgov.org/api/views/htai-xw5t/rows.csv"
+  },
+  {
+    "title": "2015 SFO Customer Survey",
+    "url": "https://data.sfgov.org/Transportation/2015-SFO-Customer-Survey/6h3c-wyfe",
+    "id": "6h3c-wyfe",
+    "downloadUrl": "https://data.sfgov.org/api/views/6h3c-wyfe/rows.csv"
+  },
+  {
+    "title": "OEWD Public Spaces",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/OEWD-Public-Spaces/gkqa-s74m",
+    "id": "gkqa-s74m",
+    "downloadUrl": "https://data.sfgov.org/api/views/gkqa-s74m/rows.csv"
+  },
+  {
+    "title": "Sheriff Jail Bookings by Race",
+    "url": "https://data.sfgov.org/Public-Safety/Sheriff-Jail-Bookings-by-Race/5zbm-xnsp",
+    "id": "5zbm-xnsp",
+    "downloadUrl": "https://data.sfgov.org/api/views/5zbm-xnsp/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: Mpox Case Summary",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/ARCHIVED-Mpox-Case-Summary/5cki-ur53",
+    "id": "5cki-ur53",
+    "downloadUrl": "https://data.sfgov.org/api/views/5cki-ur53/rows.csv"
+  },
+  {
+    "title": "SFEC Form 114.5 - Behested Contributions Received by Certain Committees - Contributions",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-114-5-Behested-Contributions-Received-by/mq45-f9zi",
+    "id": "mq45-f9zi",
+    "downloadUrl": "https://data.sfgov.org/api/views/mq45-f9zi/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: COVID-19 Vaccinations Given to SF Residents by Demographics Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/ARCHIVED-COVID-19-Vaccinations-Given-to-SF-Residen/sej3-bbrc",
+    "id": "sej3-bbrc",
+    "downloadUrl": "https://data.sfgov.org/api/views/sej3-bbrc/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Status of Voluntary Expenditure Ceiling VECs in November 3, 2015 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Status-of-Voluntary-Expenditure-C/t2mb-q3sb",
+    "id": "t2mb-q3sb",
+    "downloadUrl": "https://data.sfgov.org/api/views/t2mb-q3sb/rows.csv"
+  },
+  {
+    "title": "SFEC Form 114.5 - Behested Contributions Received by Certain Committees - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-114-5-Behested-Contributions-Received-by/hyuc-khdi",
+    "id": "hyuc-khdi",
+    "downloadUrl": "https://data.sfgov.org/api/views/hyuc-khdi/rows.csv"
+  },
+  {
+    "title": "SFEC 3.216(d) Gifts of Travel Filings - April 2015 to March 2018",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-3-216-d-Gifts-of-Travel-Filings-April-2015-to/uqhk-vesf",
+    "id": "uqhk-vesf",
+    "downloadUrl": "https://data.sfgov.org/api/views/uqhk-vesf/rows.csv"
+  },
+  {
+    "title": "DBI Building Inspection Division Districts",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/DBI-Building-Inspection-Division-Districts/pcra-csp6",
+    "id": "pcra-csp6",
+    "downloadUrl": "https://data.sfgov.org/api/views/pcra-csp6/rows.csv"
+  },
+  {
+    "title": "Tsunami Inundation Hazard Zone (Outdated, 2015)",
+    "url": "https://data.sfgov.org/Public-Safety/Tsunami-Inundation-Hazard-Zone-Outdated-2015-/q7uq-hghg",
+    "id": "q7uq-hghg",
+    "downloadUrl": "https://data.sfgov.org/api/views/q7uq-hghg/rows.csv"
+  },
+  {
+    "title": "Streets with Vehicle Restrictions",
+    "url": "https://data.sfgov.org/dataset/Streets-with-Vehicle-Restrictions/5mt3-4e49",
+    "id": "5mt3-4e49",
+    "downloadUrl": "https://data.sfgov.org/api/views/5mt3-4e49/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2023 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2023-Q1/4pmb-vmy4",
+    "id": "4pmb-vmy4",
+    "downloadUrl": "https://data.sfgov.org/api/views/4pmb-vmy4/rows.csv"
+  },
+  {
+    "title": "Mayor's Office of Housing and Community Development Bond Issuances",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Mayor-s-Office-of-Housing-and-Community-Developmen/2sdw-jdpk",
+    "id": "2sdw-jdpk",
+    "downloadUrl": "https://data.sfgov.org/api/views/2sdw-jdpk/rows.csv"
+  },
+  {
+    "title": "Language Access Ordinance Compliance",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Language-Access-Ordinance-Compliance/fx53-jkka",
+    "id": "fx53-jkka",
+    "downloadUrl": "https://data.sfgov.org/api/views/fx53-jkka/rows.csv"
+  },
+  {
+    "title": "Campaign Consultants - Employment of Local Officeholders and City Employees",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Consultants-Employment-of-Local-Officehol/myxh-kx93",
+    "id": "myxh-kx93",
+    "downloadUrl": "https://data.sfgov.org/api/views/myxh-kx93/rows.csv"
+  },
+  {
+    "title": "COVID-19 Tenderloin Plan Zones",
+    "url": "https://data.sfgov.org/COVID-19/COVID-19-Tenderloin-Plan-Zones/xw26-dnmx",
+    "id": "xw26-dnmx",
+    "downloadUrl": "https://data.sfgov.org/api/views/xw26-dnmx/rows.csv"
+  },
+  {
+    "title": "Election Precincts - Current, Defined 2022",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Election-Precincts-Current-Defined-2022/d6x4-hefw",
+    "id": "d6x4-hefw",
+    "downloadUrl": "https://data.sfgov.org/api/views/d6x4-hefw/rows.csv"
+  },
+  {
+    "title": "Reference: Assessor-Recorder Exemption Codes",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Reference-Assessor-Recorder-Exemption-Codes/g77e-ikb4",
+    "id": "g77e-ikb4",
+    "downloadUrl": "https://data.sfgov.org/api/views/g77e-ikb4/rows.csv"
+  },
+  {
+    "title": "Safer Routes Program - Schools",
+    "url": "https://data.sfgov.org/Transportation/Safer-Routes-Program-Schools/bhj2-gxup",
+    "id": "bhj2-gxup",
+    "downloadUrl": "https://data.sfgov.org/api/views/bhj2-gxup/rows.csv"
+  },
+  {
+    "title": "Rent Board Housing Inventory",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Rent-Board-Housing-Inventory/gdc7-dmcn",
+    "id": "gdc7-dmcn",
+    "downloadUrl": "https://data.sfgov.org/api/views/gdc7-dmcn/rows.csv"
+  },
+  {
+    "title": "Elevation Contours",
+    "url": "https://data.sfgov.org/dataset/Elevation-Contours/6d73-6c4f",
+    "id": "6d73-6c4f",
+    "downloadUrl": "https://data.sfgov.org/api/views/6d73-6c4f/rows.csv"
+  },
+  {
+    "title": "Building Permits with Permit Contacts",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Building-Permits-with-Permit-Contacts/9itm-3rmi",
+    "id": "9itm-3rmi",
+    "downloadUrl": "https://data.sfgov.org/api/views/9itm-3rmi/rows.csv"
+  },
+  {
+    "title": "Census 2020: Blocks for San Francisco Clipped to the Shoreline",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Census-2020-Blocks-for-San-Francisco-Clipped-to-th/e2st-aufe",
+    "id": "e2st-aufe",
+    "downloadUrl": "https://data.sfgov.org/api/views/e2st-aufe/rows.csv"
+  },
+  {
+    "title": "2015 Project Appendix",
+    "url": "https://data.sfgov.org/City-Infrastructure/2015-Project-Appendix/xpdk-pzjd",
+    "id": "xpdk-pzjd",
+    "downloadUrl": "https://data.sfgov.org/api/views/xpdk-pzjd/rows.csv"
+  },
+  {
+    "title": "Department of Public Works Projects (via coordinate application)",
+    "url": "https://data.sfgov.org/City-Infrastructure/Department-of-Public-Works-Projects-via-coordinate/btxj-k9uh",
+    "id": "btxj-k9uh",
+    "downloadUrl": "https://data.sfgov.org/api/views/btxj-k9uh/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: Mpox Vaccinations Given to SF Residents Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/ARCHIVED-Mpox-Vaccinations-Given-to-SF-Residents-O/6vxp-9av3",
+    "id": "6vxp-9av3",
+    "downloadUrl": "https://data.sfgov.org/api/views/6vxp-9av3/rows.csv"
+  },
+  {
+    "title": "Crossing Guard Program - Schools",
+    "url": "https://data.sfgov.org/Transportation/Crossing-Guard-Program-Schools/jmdm-q43s",
+    "id": "jmdm-q43s",
+    "downloadUrl": "https://data.sfgov.org/api/views/jmdm-q43s/rows.csv"
+  },
+  {
+    "title": "ARCHIVED: Mpox Vaccinations Given to SF Residents by Demographics",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/ARCHIVED-Mpox-Vaccinations-Given-to-SF-Residents-b/fk8q-nu3s",
+    "id": "fk8q-nu3s",
+    "downloadUrl": "https://data.sfgov.org/api/views/fk8q-nu3s/rows.csv"
+  },
+  {
+    "title": "Motorcycle Parking - Unmetered",
+    "url": "https://data.sfgov.org/Transportation/Motorcycle-Parking-Unmetered/egmb-2zhs",
+    "id": "egmb-2zhs",
+    "downloadUrl": "https://data.sfgov.org/api/views/egmb-2zhs/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - List of Candidates Running for Office in November 2015 who have Accepted the Voluntary Expenditure Ceiling",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-List-of-Candidates-Running-for-Of/m2tk-75a5",
+    "id": "m2tk-75a5",
+    "downloadUrl": "https://data.sfgov.org/api/views/m2tk-75a5/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Public Funds Disbursed - November 4, 2014 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Public-Funds-Disbursed-November-4/n5sf-qqmx",
+    "id": "n5sf-qqmx",
+    "downloadUrl": "https://data.sfgov.org/api/views/n5sf-qqmx/rows.csv"
+  },
+  {
+    "title": "Campaign Finance Explorer App",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Explorer-App/aghq-vgvd",
+    "id": "aghq-vgvd",
+    "downloadUrl": "https://data.sfgov.org/api/views/aghq-vgvd/rows.csv"
+  },
+  {
+    "title": "SFMTA Projects - Lines",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Projects-Lines/evfs-dvkf",
+    "id": "evfs-dvkf",
+    "downloadUrl": "https://data.sfgov.org/api/views/evfs-dvkf/rows.csv"
+  },
+  {
+    "title": "Public Dataset Access and Usage",
+    "url": "https://data.sfgov.org/City-Infrastructure/Public-Dataset-Access-and-Usage/su99-qvi4",
+    "id": "su99-qvi4",
+    "downloadUrl": "https://data.sfgov.org/api/views/su99-qvi4/rows.csv"
+  },
+  {
+    "title": "SFEC Form 31104a - Filing Officer Report - Non-Filers",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-31104a-Filing-Officer-Report-Non-Filers/bjbu-wb5z",
+    "id": "bjbu-wb5z",
+    "downloadUrl": "https://data.sfgov.org/api/views/bjbu-wb5z/rows.csv"
+  },
+  {
+    "title": "DBI Plumbing Inspection Division Districts",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/DBI-Plumbing-Inspection-Division-Districts/u3rf-fdu7",
+    "id": "u3rf-fdu7",
+    "downloadUrl": "https://data.sfgov.org/api/views/u3rf-fdu7/rows.csv"
+  },
+  {
+    "title": "Special Event or Evening Meter Areas",
+    "url": "https://data.sfgov.org/Transportation/Special-Event-or-Evening-Meter-Areas/itv4-r6g6",
+    "id": "itv4-r6g6",
+    "downloadUrl": "https://data.sfgov.org/api/views/itv4-r6g6/rows.csv"
+  },
+  {
+    "title": "SFEC Form 125 - Bundled Contributions Disclosure Report - Officers",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-125-Bundled-Contributions-Disclosure-Rep/x9je-gi3q",
+    "id": "x9je-gi3q",
+    "downloadUrl": "https://data.sfgov.org/api/views/x9je-gi3q/rows.csv"
+  },
+  {
+    "title": "SFEC Form 125 - Bundled Contributions Disclosure Report - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-125-Bundled-Contributions-Disclosure-Rep/wv58-ismt",
+    "id": "wv58-ismt",
+    "downloadUrl": "https://data.sfgov.org/api/views/wv58-ismt/rows.csv"
+  },
+  {
+    "title": "Urban Tree Canopy",
+    "url": "https://data.sfgov.org/Energy-and-Environment/Urban-Tree-Canopy/ni2e-vpbg",
+    "id": "ni2e-vpbg",
+    "downloadUrl": "https://data.sfgov.org/api/views/ni2e-vpbg/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - List of Candidates Running for Office in November 2012 who have Accepted the Voluntary Expenditure Ceiling",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-List-of-Candidates-Running-for-Of/npcx-9w98",
+    "id": "npcx-9w98",
+    "downloadUrl": "https://data.sfgov.org/api/views/npcx-9w98/rows.csv"
+  },
+  {
+    "title": "Port Jurisdiction",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Port-Jurisdiction/gtk5-z9iw",
+    "id": "gtk5-z9iw",
+    "downloadUrl": "https://data.sfgov.org/api/views/gtk5-z9iw/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - List Of Candidates Running For Office Who Have Accepted VEC",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-List-Of-Candidates-Running-For-Of/uvqv-zi4r",
+    "id": "uvqv-zi4r",
+    "downloadUrl": "https://data.sfgov.org/api/views/uvqv-zi4r/rows.csv"
+  },
+  {
+    "title": "Proposed Commercial Wireless Telecommunication Services Facilities in San Francisco",
+    "url": "https://data.sfgov.org/City-Infrastructure/Proposed-Commercial-Wireless-Telecommunication-Ser/ewnu-9y3h",
+    "id": "ewnu-9y3h",
+    "downloadUrl": "https://data.sfgov.org/api/views/ewnu-9y3h/rows.csv"
+  },
+  {
+    "title": "SFMTA - Transit Vehicle Location History (2020)",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Transit-Vehicle-Location-History-2020-/48aa-8sj9",
+    "id": "48aa-8sj9",
+    "downloadUrl": "https://data.sfgov.org/api/views/48aa-8sj9/rows.csv"
+  },
+  {
+    "title": "DBI Housing Inspection Services Districts",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/DBI-Housing-Inspection-Services-Districts/cq4r-nm4f",
+    "id": "cq4r-nm4f",
+    "downloadUrl": "https://data.sfgov.org/api/views/cq4r-nm4f/rows.csv"
+  },
+  {
+    "title": "Park Sections",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Park-Sections/8du2-b837",
+    "id": "8du2-b837",
+    "downloadUrl": "https://data.sfgov.org/api/views/8du2-b837/rows.csv"
+  },
+  {
+    "title": "Curbs and Islands",
+    "url": "https://data.sfgov.org/City-Infrastructure/Curbs-and-Islands/emxt-b6yg",
+    "id": "emxt-b6yg",
+    "downloadUrl": "https://data.sfgov.org/api/views/emxt-b6yg/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3600 - Board And Commission Member Behested Payment Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3600-Board-And-Commission-Member-Beheste/59sr-386y",
+    "id": "59sr-386y",
+    "downloadUrl": "https://data.sfgov.org/api/views/59sr-386y/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3610b - City Officers Behested Payment - Reportable Interest With Payee",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3610b-City-Officers-Behested-Payment-Rep/kcez-9urr",
+    "id": "kcez-9urr",
+    "downloadUrl": "https://data.sfgov.org/api/views/kcez-9urr/rows.csv"
+  },
+  {
+    "title": "SFEC Form 125 - Bundled Contributions Disclosure Report - Contributions",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-125-Bundled-Contributions-Disclosure-Rep/dzp4-4my5",
+    "id": "dzp4-4my5",
+    "downloadUrl": "https://data.sfgov.org/api/views/dzp4-4my5/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3630 - Recipients of Major Behested Payments - Proceedings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3630-Recipients-of-Major-Behested-Paymen/4zc6-sp7h",
+    "id": "4zc6-sp7h",
+    "downloadUrl": "https://data.sfgov.org/api/views/4zc6-sp7h/rows.csv"
+  },
+  {
+    "title": "Expenditure Lobbyists Registration and Monthly Disclosure Reports",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Expenditure-Lobbyists-Registration-and-Monthly-Dis/dnhe-svq6",
+    "id": "dnhe-svq6",
+    "downloadUrl": "https://data.sfgov.org/api/views/dnhe-svq6/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3610b - City Officer Behested Payment - Communications",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3610b-City-Officer-Behested-Payment-Comm/djme-me26",
+    "id": "djme-me26",
+    "downloadUrl": "https://data.sfgov.org/api/views/djme-me26/rows.csv"
+  },
+  {
+    "title": "Census 2020: Block Groups for San Francisco Clipped to the Shoreline",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Census-2020-Block-Groups-for-San-Francisco-Clipped/6rf8-dnst",
+    "id": "6rf8-dnst",
+    "downloadUrl": "https://data.sfgov.org/api/views/6rf8-dnst/rows.csv"
+  },
+  {
+    "title": "Public Financing Report - Total Candidate Spending in 2012",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Public-Financing-Report-Total-Candidate-Spending-i/h2wp-niyk",
+    "id": "h2wp-niyk",
+    "downloadUrl": "https://data.sfgov.org/api/views/h2wp-niyk/rows.csv"
+  },
+  {
+    "title": "Greenwave Bicycle Signals",
+    "url": "https://data.sfgov.org/Transportation/Greenwave-Bicycle-Signals/a5zr-cehj",
+    "id": "a5zr-cehj",
+    "downloadUrl": "https://data.sfgov.org/api/views/a5zr-cehj/rows.csv"
+  },
+  {
+    "title": "Blockfaces with Meters",
+    "url": "https://data.sfgov.org/Transportation/Blockfaces-with-Meters/mk27-a5x2",
+    "id": "mk27-a5x2",
+    "downloadUrl": "https://data.sfgov.org/api/views/mk27-a5x2/rows.csv"
+  },
+  {
+    "title": "SFO Screening Checkpoint Satisfaction October, 2019",
+    "url": "https://data.sfgov.org/Transportation/SFO-Screening-Checkpoint-Satisfaction-October-2019/xyey-v962",
+    "id": "xyey-v962",
+    "downloadUrl": "https://data.sfgov.org/api/views/xyey-v962/rows.csv"
+  },
+  {
+    "title": "Mayor’s Office of Housing and Community Development Single Family Remediation and Rehabilitation Loans",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Mayor-s-Office-of-Housing-and-Community-Developmen/udmf-verx",
+    "id": "udmf-verx",
+    "downloadUrl": "https://data.sfgov.org/api/views/udmf-verx/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2021 Q2",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2021-Q2/iwbt-5xpd",
+    "id": "iwbt-5xpd",
+    "downloadUrl": "https://data.sfgov.org/api/views/iwbt-5xpd/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Status Of Voluntary Expenditure Ceiling VECs",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Status-Of-Voluntary-Expenditure-C/ct8k-kggq",
+    "id": "ct8k-kggq",
+    "downloadUrl": "https://data.sfgov.org/api/views/ct8k-kggq/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2021 Q3",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2021-Q3/4ay7-dtaw",
+    "id": "4ay7-dtaw",
+    "downloadUrl": "https://data.sfgov.org/api/views/4ay7-dtaw/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2020 Q2",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2020-Q2/mm2x-xj5y",
+    "id": "mm2x-xj5y",
+    "downloadUrl": "https://data.sfgov.org/api/views/mm2x-xj5y/rows.csv"
+  },
+  {
+    "title": "Slopes 20 Percent Or Greater",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Slopes-20-Percent-Or-Greater/s66h-h4vp",
+    "id": "s66h-h4vp",
+    "downloadUrl": "https://data.sfgov.org/api/views/s66h-h4vp/rows.csv"
+  },
+  {
+    "title": "SF311 Prior Case Data Structure",
+    "url": "https://data.sfgov.org/City-Infrastructure/SF311-Prior-Case-Data-Structure/bk8g-9b93",
+    "id": "bk8g-9b93",
+    "downloadUrl": "https://data.sfgov.org/api/views/bk8g-9b93/rows.csv"
+  },
+  {
+    "title": "SFO Screening Checkpoint Satisfaction May, 2019",
+    "url": "https://data.sfgov.org/Transportation/SFO-Screening-Checkpoint-Satisfaction-May-2019/jt6x-6hpy",
+    "id": "jt6x-6hpy",
+    "downloadUrl": "https://data.sfgov.org/api/views/jt6x-6hpy/rows.csv"
+  },
+  {
+    "title": "Parking Management Districts",
+    "url": "https://data.sfgov.org/Transportation/Parking-Management-Districts/6vtc-mmhr",
+    "id": "6vtc-mmhr",
+    "downloadUrl": "https://data.sfgov.org/api/views/6vtc-mmhr/rows.csv"
+  },
+  {
+    "title": "Current Police Districts",
+    "url": "https://data.sfgov.org/dataset/Current-Police-Districts/d4vc-q76h",
+    "id": "d4vc-q76h",
+    "downloadUrl": "https://data.sfgov.org/api/views/d4vc-q76h/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2022 Q4",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2022-Q4/7ksu-vf3n",
+    "id": "7ksu-vf3n",
+    "downloadUrl": "https://data.sfgov.org/api/views/7ksu-vf3n/rows.csv"
+  },
+  {
+    "title": "COVID-19 Manifold Locations",
+    "url": "https://data.sfgov.org/COVID-19/COVID-19-Manifold-Locations/2yqu-j4jc",
+    "id": "2yqu-j4jc",
+    "downloadUrl": "https://data.sfgov.org/api/views/2yqu-j4jc/rows.csv"
+  },
+  {
+    "title": "Aircraft Noise Reports",
+    "url": "https://data.sfgov.org/Transportation/Aircraft-Noise-Reports/peaa-dyr3",
+    "id": "peaa-dyr3",
+    "downloadUrl": "https://data.sfgov.org/api/views/peaa-dyr3/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3600 - Board and Commission Member Behested Payment Payors",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3600-Board-and-Commission-Member-Beheste/ibrg-quig",
+    "id": "ibrg-quig",
+    "downloadUrl": "https://data.sfgov.org/api/views/ibrg-quig/rows.csv"
+  },
+  {
+    "title": "MTA Fuel Usage",
+    "url": "https://data.sfgov.org/Transportation/MTA-Fuel-Usage/nz48-2k5q",
+    "id": "nz48-2k5q",
+    "downloadUrl": "https://data.sfgov.org/api/views/nz48-2k5q/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3630 - Recipients of Major Behested Payments - Expenditures",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3630-Recipients-of-Major-Behested-Paymen/u5nr-bxj6",
+    "id": "u5nr-bxj6",
+    "downloadUrl": "https://data.sfgov.org/api/views/u5nr-bxj6/rows.csv"
+  },
+  {
+    "title": "Landmarks",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Landmarks/rzic-39gi",
+    "id": "rzic-39gi",
+    "downloadUrl": "https://data.sfgov.org/api/views/rzic-39gi/rows.csv"
+  },
+  {
+    "title": "SFEC Form 3630 - Recipients of Major Behested Payments - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-3630-Recipients-of-Major-Behested-Paymen/f6bn-myui",
+    "id": "f6bn-myui",
+    "downloadUrl": "https://data.sfgov.org/api/views/f6bn-myui/rows.csv"
+  },
+  {
+    "title": "SFEC Form 107 - Training for Candidates and Treasurers - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-107-Training-for-Candidates-and-Treasure/i2q2-jqhq",
+    "id": "i2q2-jqhq",
+    "downloadUrl": "https://data.sfgov.org/api/views/i2q2-jqhq/rows.csv"
+  },
+  {
+    "title": "DPW Street & Sidewalk Evaluation Results, CY22",
+    "url": "https://data.sfgov.org/City-Infrastructure/DPW-Street-Sidewalk-Evaluation-Results-CY22/fsqv-4vqv",
+    "id": "fsqv-4vqv",
+    "downloadUrl": "https://data.sfgov.org/api/views/fsqv-4vqv/rows.csv"
+  },
+  {
+    "title": "Mayor’s Office of Housing and Community Development Lead Mediation Grant Program",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Mayor-s-Office-of-Housing-and-Community-Developmen/f5ak-rkkp",
+    "id": "f5ak-rkkp",
+    "downloadUrl": "https://data.sfgov.org/api/views/f5ak-rkkp/rows.csv"
+  },
+  {
+    "title": "SFMTA Projects - Points",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Projects-Points/j4dm-6zyr",
+    "id": "j4dm-6zyr",
+    "downloadUrl": "https://data.sfgov.org/api/views/j4dm-6zyr/rows.csv"
+  },
+  {
+    "title": "San Francisco Sales Tax by Census Block (2018 - 2023)",
+    "url": "https://data.sfgov.org/Economy-and-Community/San-Francisco-Sales-Tax-by-Census-Block-2018-2023-/er2a-pvs2",
+    "id": "er2a-pvs2",
+    "downloadUrl": "https://data.sfgov.org/api/views/er2a-pvs2/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Individual Expenditure Ceilings  IECs  - November 4, 2014 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Individual-Expenditure-Ceilings-I/wv7d-caby",
+    "id": "wv7d-caby",
+    "downloadUrl": "https://data.sfgov.org/api/views/wv7d-caby/rows.csv"
+  },
+  {
+    "title": "Current Supervisor Districts (trimmed to remove water and other non-populated City territories)",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Current-Supervisor-Districts-trimmed-to-remove-wat/hcgx-vtsb",
+    "id": "hcgx-vtsb",
+    "downloadUrl": "https://data.sfgov.org/api/views/hcgx-vtsb/rows.csv"
+  },
+  {
+    "title": "Water Bodies",
+    "url": "https://data.sfgov.org/Energy-and-Environment/Water-Bodies/xgse-mjer",
+    "id": "xgse-mjer",
+    "downloadUrl": "https://data.sfgov.org/api/views/xgse-mjer/rows.csv"
+  },
+  {
+    "title": "Crossing Guard Intersections",
+    "url": "https://data.sfgov.org/Transportation/Crossing-Guard-Intersections/ujya-ewdj",
+    "id": "ujya-ewdj",
+    "downloadUrl": "https://data.sfgov.org/api/views/ujya-ewdj/rows.csv"
+  },
+  {
+    "title": "Sheriff Jail Bookings by Ethnicity",
+    "url": "https://data.sfgov.org/Public-Safety/Sheriff-Jail-Bookings-by-Ethnicity/36n6-w97s",
+    "id": "36n6-w97s",
+    "downloadUrl": "https://data.sfgov.org/api/views/36n6-w97s/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Local Non-Primarily Formed Comittees",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Local-Non-Primarily-Formed-Comitt/s9b2-abj2",
+    "id": "s9b2-abj2",
+    "downloadUrl": "https://data.sfgov.org/api/views/s9b2-abj2/rows.csv"
+  },
+  {
+    "title": "SFO Flight Operations",
+    "url": "https://data.sfgov.org/Transportation/SFO-Flight-Operations/43zc-xw3x",
+    "id": "43zc-xw3x",
+    "downloadUrl": "https://data.sfgov.org/api/views/43zc-xw3x/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Public Funds Disbursed - November 8, 2016 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Public-Funds-Disbursed-November-8/nmzh-y378",
+    "id": "nmzh-y378",
+    "downloadUrl": "https://data.sfgov.org/api/views/nmzh-y378/rows.csv"
+  },
+  {
+    "title": "San Francisco Speed Limit Compliance",
+    "url": "https://data.sfgov.org/Public-Safety/San-Francisco-Speed-Limit-Compliance/wytw-dqq4",
+    "id": "wytw-dqq4",
+    "downloadUrl": "https://data.sfgov.org/api/views/wytw-dqq4/rows.csv"
+  },
+  {
+    "title": "Entertainment Commission's Places of Entertainment",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/Entertainment-Commission-s-Places-of-Entertainment/86e8-rfem",
+    "id": "86e8-rfem",
+    "downloadUrl": "https://data.sfgov.org/api/views/86e8-rfem/rows.csv"
+  },
+  {
+    "title": "Runway Usage",
+    "url": "https://data.sfgov.org/Transportation/Runway-Usage/2gdm-7nym",
+    "id": "2gdm-7nym",
+    "downloadUrl": "https://data.sfgov.org/api/views/2gdm-7nym/rows.csv"
+  },
+  {
+    "title": "SFMTA Projects - Polygons",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Projects-Polygons/6ibt-jpn7",
+    "id": "6ibt-jpn7",
+    "downloadUrl": "https://data.sfgov.org/api/views/6ibt-jpn7/rows.csv"
+  },
+  {
+    "title": "DBI Electrical Inspection Division Districts",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/DBI-Electrical-Inspection-Division-Districts/p5ar-a8ns",
+    "id": "p5ar-a8ns",
+    "downloadUrl": "https://data.sfgov.org/api/views/p5ar-a8ns/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Summary Of Third Party Disclosure Forms Regarding San Francisco Candidates - November 8, 2016",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Summary-Of-Third-Party-Disclosure/7i7v-m2wn",
+    "id": "7i7v-m2wn",
+    "downloadUrl": "https://data.sfgov.org/api/views/7i7v-m2wn/rows.csv"
+  },
+  {
+    "title": "Hayward M7.0 Earthquake Scenario",
+    "url": "https://data.sfgov.org/Public-Safety/Hayward-M7-0-Earthquake-Scenario/d6pi-gknj",
+    "id": "d6pi-gknj",
+    "downloadUrl": "https://data.sfgov.org/api/views/d6pi-gknj/rows.csv"
+  },
+  {
+    "title": "Census 2010 Tracts",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Census-2010-Tracts/n6fe-r6rd",
+    "id": "n6fe-r6rd",
+    "downloadUrl": "https://data.sfgov.org/api/views/n6fe-r6rd/rows.csv"
+  },
+  {
+    "title": "Parks Alliance CPSI (27+TL sites)",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Parks-Alliance-CPSI-27-TL-sites-/qjyb-yy3m",
+    "id": "qjyb-yy3m",
+    "downloadUrl": "https://data.sfgov.org/api/views/qjyb-yy3m/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Status of Voluntary Expenditure Ceiling (VECs) in November 5, 2013 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Status-of-Voluntary-Expenditure-C/kahd-w39p",
+    "id": "kahd-w39p",
+    "downloadUrl": "https://data.sfgov.org/api/views/kahd-w39p/rows.csv"
+  },
+  {
+    "title": "Congressional Districts in SF",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Congressional-Districts-in-SF/ufwv-2vjd",
+    "id": "ufwv-2vjd",
+    "downloadUrl": "https://data.sfgov.org/api/views/ufwv-2vjd/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Individual Expenditure Ceilings  IECs  - November 3, 2015 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Individual-Expenditure-Ceilings-I/cgah-zci4",
+    "id": "cgah-zci4",
+    "downloadUrl": "https://data.sfgov.org/api/views/cgah-zci4/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - List of Candidates Running for Office in November 2014 who have Accepted the Voluntary Expenditure Ceiling",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-List-of-Candidates-Running-for-Of/56zn-mms6",
+    "id": "56zn-mms6",
+    "downloadUrl": "https://data.sfgov.org/api/views/56zn-mms6/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - State Filer Data",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-State-Filer-Data/3n88-2rrb",
+    "id": "3n88-2rrb",
+    "downloadUrl": "https://data.sfgov.org/api/views/3n88-2rrb/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2023 Q3",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2023-Q3/kz7a-chgk",
+    "id": "kz7a-chgk",
+    "downloadUrl": "https://data.sfgov.org/api/views/kz7a-chgk/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2022 Q3",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2022-Q3/ywks-3zda",
+    "id": "ywks-3zda",
+    "downloadUrl": "https://data.sfgov.org/api/views/ywks-3zda/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Status Of Voluntary Expenditure Ceiling VECs In November 4, 2014 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Status-Of-Voluntary-Expenditure-C/4qsp-ix5t",
+    "id": "4qsp-ix5t",
+    "downloadUrl": "https://data.sfgov.org/api/views/4qsp-ix5t/rows.csv"
+  },
+  {
+    "title": "SFEC Form 122 - Transfer of Funds - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-122-Transfer-of-Funds-Filings/i7fj-76x7",
+    "id": "i7fj-76x7",
+    "downloadUrl": "https://data.sfgov.org/api/views/i7fj-76x7/rows.csv"
+  },
+  {
+    "title": "Zoning Map - Special Sign Districts - Scenic Streets",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Zoning-Map-Special-Sign-Districts-Scenic-Streets/4n3c-huha",
+    "id": "4n3c-huha",
+    "downloadUrl": "https://data.sfgov.org/api/views/4n3c-huha/rows.csv"
+  },
+  {
+    "title": "Late Night Aircraft Departures",
+    "url": "https://data.sfgov.org/Transportation/Late-Night-Aircraft-Departures/855n-xpnm",
+    "id": "855n-xpnm",
+    "downloadUrl": "https://data.sfgov.org/api/views/855n-xpnm/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Status of Voluntary Expenditure Ceiling (VECs) in November 6, 2012 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Status-of-Voluntary-Expenditure-C/bmnx-cibx",
+    "id": "bmnx-cibx",
+    "downloadUrl": "https://data.sfgov.org/api/views/bmnx-cibx/rows.csv"
+  },
+  {
+    "title": "[DEPRECATED] SF Development Pipeline 2022 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/-DEPRECATED-SF-Development-Pipeline-2022-Q1/f7r8-58gw",
+    "id": "f7r8-58gw",
+    "downloadUrl": "https://data.sfgov.org/api/views/f7r8-58gw/rows.csv"
+  },
+  {
+    "title": "Planning Department Records - Projects",
+    "url": "https://data.sfgov.org/Economy-and-Community/Planning-Department-Records-Projects/qvu5-m3a2",
+    "id": "qvu5-m3a2",
+    "downloadUrl": "https://data.sfgov.org/api/views/qvu5-m3a2/rows.csv"
+  },
+  {
+    "title": "Presidio Boundary Polygon",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Presidio-Boundary-Polygon/jt6f-vx2z",
+    "id": "jt6f-vx2z",
+    "downloadUrl": "https://data.sfgov.org/api/views/jt6f-vx2z/rows.csv"
+  },
+  {
+    "title": "Schools_College",
+    "url": "https://data.sfgov.org/Economy-and-Community/Schools_College/6adp-a5yv",
+    "id": "6adp-a5yv",
+    "downloadUrl": "https://data.sfgov.org/api/views/6adp-a5yv/rows.csv"
+  },
+  {
+    "title": "ESNCAG - Boundary File",
+    "url": "https://data.sfgov.org/dataset/ESNCAG-Boundary-File/8cs3-kxq7",
+    "id": "8cs3-kxq7",
+    "downloadUrl": "https://data.sfgov.org/api/views/8cs3-kxq7/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2021 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2021-Q1/prmp-bj7n",
+    "id": "prmp-bj7n",
+    "downloadUrl": "https://data.sfgov.org/api/views/prmp-bj7n/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Public Funds Disbursed - November 3, 2015 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Public-Funds-Disbursed-November-3/pnpu-7zb5",
+    "id": "pnpu-7zb5",
+    "downloadUrl": "https://data.sfgov.org/api/views/pnpu-7zb5/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Status Of Voluntary Expenditure Ceiling VECs in November 8, 2016 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Status-Of-Voluntary-Expenditure-C/4va5-ssaq",
+    "id": "4va5-ssaq",
+    "downloadUrl": "https://data.sfgov.org/api/views/4va5-ssaq/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2022 Q1 [REVISED]",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2022-Q1-REVISED-/ybkd-mgtp",
+    "id": "ybkd-mgtp",
+    "downloadUrl": "https://data.sfgov.org/api/views/ybkd-mgtp/rows.csv"
+  },
+  {
+    "title": "Nonprofit Wage and Equity Survey - Organization-Level Survey Data - FY23",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Nonprofit-Wage-and-Equity-Survey-Organization-Leve/u7aq-9xrd",
+    "id": "u7aq-9xrd",
+    "downloadUrl": "https://data.sfgov.org/api/views/u7aq-9xrd/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 1998",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-1998/piqy-pimd",
+    "id": "piqy-pimd",
+    "downloadUrl": "https://data.sfgov.org/api/views/piqy-pimd/rows.csv"
+  },
+  {
+    "title": "SFEC Form 128 - Acceptance of Expense Ceiling - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-128-Acceptance-of-Expense-Ceiling-Filing/h8vs-2sf8",
+    "id": "h8vs-2sf8",
+    "downloadUrl": "https://data.sfgov.org/api/views/h8vs-2sf8/rows.csv"
+  },
+  {
+    "title": "Former San Francisco Redevelopment Agency Project Areas",
+    "url": "https://data.sfgov.org/dataset/Former-San-Francisco-Redevelopment-Agency-Project-/m288-24sn",
+    "id": "m288-24sn",
+    "downloadUrl": "https://data.sfgov.org/api/views/m288-24sn/rows.csv"
+  },
+  {
+    "title": "108\" Inundation Vulnerability Zone Line (Sea Level Rise + 100YR Flood Event)",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/108-Inundation-Vulnerability-Zone-Line-Sea-Level-R/92e4-7ptg",
+    "id": "92e4-7ptg",
+    "downloadUrl": "https://data.sfgov.org/api/views/92e4-7ptg/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2019 Q3",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2019-Q3/7yx4-u2y9",
+    "id": "7yx4-u2y9",
+    "downloadUrl": "https://data.sfgov.org/api/views/7yx4-u2y9/rows.csv"
+  },
+  {
+    "title": "Parcel Change Log",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Parcel-Change-Log/nqyt-nfmd",
+    "id": "nqyt-nfmd",
+    "downloadUrl": "https://data.sfgov.org/api/views/nqyt-nfmd/rows.csv"
+  },
+  {
+    "title": "Travel Decision Survey 2021",
+    "url": "https://data.sfgov.org/Transportation/Travel-Decision-Survey-2021/b7eg-vqw2",
+    "id": "b7eg-vqw2",
+    "downloadUrl": "https://data.sfgov.org/api/views/b7eg-vqw2/rows.csv"
+  },
+  {
+    "title": "SFEC Form 113 - Important Notice for Initiative, Recall and Referendum Petitions - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-113-Important-Notice-for-Initiative-Reca/48rt-5dkm",
+    "id": "48rt-5dkm",
+    "downloadUrl": "https://data.sfgov.org/api/views/48rt-5dkm/rows.csv"
+  },
+  {
+    "title": "SFEC 143 - Requests by Candidates for Independent Determination of Filings - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-143-Requests-by-Candidates-for-Independent-De/5cap-nnzt",
+    "id": "5cap-nnzt",
+    "downloadUrl": "https://data.sfgov.org/api/views/5cap-nnzt/rows.csv"
+  },
+  {
+    "title": "National Register Historic Districts",
+    "url": "https://data.sfgov.org/dataset/National-Register-Historic-Districts/4yr8-u35c",
+    "id": "4yr8-u35c",
+    "downloadUrl": "https://data.sfgov.org/api/views/4yr8-u35c/rows.csv"
+  },
+  {
+    "title": "San Francisco Municipal Natural Gas Equipment Inventory",
+    "url": "https://data.sfgov.org/Energy-and-Environment/San-Francisco-Municipal-Natural-Gas-Equipment-Inve/vc6r-v7av",
+    "id": "vc6r-v7av",
+    "downloadUrl": "https://data.sfgov.org/api/views/vc6r-v7av/rows.csv"
+  },
+  {
+    "title": "Campaign Finance - Individual Expenditure Ceilings IECs - November 8, 2016 Election",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Individual-Expenditure-Ceilings-I/c27p-2c4v",
+    "id": "c27p-2c4v",
+    "downloadUrl": "https://data.sfgov.org/api/views/c27p-2c4v/rows.csv"
+  },
+  {
+    "title": "Planning Department Records - Non-Projects",
+    "url": "https://data.sfgov.org/Economy-and-Community/Planning-Department-Records-Non-Projects/y673-d69b",
+    "id": "y673-d69b",
+    "downloadUrl": "https://data.sfgov.org/api/views/y673-d69b/rows.csv"
+  },
+  {
+    "title": "Traffic Crashes Resulting in Fatality",
+    "url": "https://data.sfgov.org/Public-Safety/Traffic-Crashes-Resulting-in-Fatality/dau3-4s8f",
+    "id": "dau3-4s8f",
+    "downloadUrl": "https://data.sfgov.org/api/views/dau3-4s8f/rows.csv"
+  },
+  {
+    "title": "Green Connections Network",
+    "url": "https://data.sfgov.org/dataset/Green-Connections-Network/ta46-stby",
+    "id": "ta46-stby",
+    "downloadUrl": "https://data.sfgov.org/api/views/ta46-stby/rows.csv"
+  },
+  {
+    "title": "Neighborhood-Specific Impact Fee Areas",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Neighborhood-Specific-Impact-Fee-Areas/ntc3-dd64",
+    "id": "ntc3-dd64",
+    "downloadUrl": "https://data.sfgov.org/api/views/ntc3-dd64/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2023 Q4",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2023-Q4/e5s3-iffk",
+    "id": "e5s3-iffk",
+    "downloadUrl": "https://data.sfgov.org/api/views/e5s3-iffk/rows.csv"
+  },
+  {
+    "title": "SFEC Form 134b - Candidate's Notice of Exceeding 100 Percent of the Voluntary Expenditure Ceiling - Filings",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/SFEC-Form-134b-Candidate-s-Notice-of-Exceeding-100/r6ws-g6g2",
+    "id": "r6ws-g6g2",
+    "downloadUrl": "https://data.sfgov.org/api/views/r6ws-g6g2/rows.csv"
+  },
+  {
+    "title": "Census 2010: Blocks for San Francisco",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Census-2010-Blocks-for-San-Francisco/hn5x-7sr8",
+    "id": "hn5x-7sr8",
+    "downloadUrl": "https://data.sfgov.org/api/views/hn5x-7sr8/rows.csv"
+  },
+  {
+    "title": "street intersections",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/street-intersections/veef-x49p",
+    "id": "veef-x49p",
+    "downloadUrl": "https://data.sfgov.org/api/views/veef-x49p/rows.csv"
+  },
+  {
+    "title": "Election Precincts - Historical, Defined 2012",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Election-Precincts-Historical-Defined-2012/bsfq-aeyw",
+    "id": "bsfq-aeyw",
+    "downloadUrl": "https://data.sfgov.org/api/views/bsfq-aeyw/rows.csv"
+  },
+  {
+    "title": "Aircraft Noise Climates",
+    "url": "https://data.sfgov.org/Transportation/Aircraft-Noise-Climates/qxw2-ncq3",
+    "id": "qxw2-ncq3",
+    "downloadUrl": "https://data.sfgov.org/api/views/qxw2-ncq3/rows.csv"
+  },
+  {
+    "title": "Bureau of Fire Prevention Districts - Fire Department",
+    "url": "https://data.sfgov.org/dataset/Bureau-of-Fire-Prevention-Districts-Fire-Departmen/knrt-8a7e",
+    "id": "knrt-8a7e",
+    "downloadUrl": "https://data.sfgov.org/api/views/knrt-8a7e/rows.csv"
+  },
+  {
+    "title": "Invest in Neighborhood Areas",
+    "url": "https://data.sfgov.org/Economy-and-Community/Invest-in-Neighborhood-Areas/667d-aah6",
+    "id": "667d-aah6",
+    "downloadUrl": "https://data.sfgov.org/api/views/667d-aah6/rows.csv"
+  },
+  {
+    "title": "FEMA FIRM Flood Hazards (Coastal) - 2021 Update",
+    "url": "https://data.sfgov.org/Energy-and-Environment/FEMA-FIRM-Flood-Hazards-Coastal-2021-Update/jyce-e25k",
+    "id": "jyce-e25k",
+    "downloadUrl": "https://data.sfgov.org/api/views/jyce-e25k/rows.csv"
+  },
+  {
+    "title": "BART Districts",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/BART-Districts/wtuh-7epc",
+    "id": "wtuh-7epc",
+    "downloadUrl": "https://data.sfgov.org/api/views/wtuh-7epc/rows.csv"
+  },
+  {
+    "title": "Right of Way Polygons",
+    "url": "https://data.sfgov.org/City-Infrastructure/Right-of-Way-Polygons/h8n7-e4ns",
+    "id": "h8n7-e4ns",
+    "downloadUrl": "https://data.sfgov.org/api/views/h8n7-e4ns/rows.csv"
+  },
+  {
+    "title": "Planning Neighborhood Groups Map",
+    "url": "https://data.sfgov.org/dataset/Planning-Neighborhood-Groups-Map/mw29-m2za",
+    "id": "mw29-m2za",
+    "downloadUrl": "https://data.sfgov.org/api/views/mw29-m2za/rows.csv"
+  },
+  {
+    "title": "Green_Roofs",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Green_Roofs/sfnk-6tdn",
+    "id": "sfnk-6tdn",
+    "downloadUrl": "https://data.sfgov.org/api/views/sfnk-6tdn/rows.csv"
+  },
+  {
+    "title": "COVID-19 Deaths by Population Characteristics",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/COVID-19-Deaths-by-Population-Characteristics/kv9m-37qh",
+    "id": "kv9m-37qh",
+    "downloadUrl": "https://data.sfgov.org/api/views/kv9m-37qh/rows.csv"
+  },
+  {
+    "title": "SFPD Sectors",
+    "url": "https://data.sfgov.org/Public-Safety/SFPD-Sectors/s6gb-yvth",
+    "id": "s6gb-yvth",
+    "downloadUrl": "https://data.sfgov.org/api/views/s6gb-yvth/rows.csv"
+  },
+  {
+    "title": "Supervisor Districts (2002)",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Supervisor-Districts-2002-/qdm2-fi8r",
+    "id": "qdm2-fi8r",
+    "downloadUrl": "https://data.sfgov.org/api/views/qdm2-fi8r/rows.csv"
+  },
+  {
+    "title": "NeighborhoodQuadrants",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/NeighborhoodQuadrants/6dn4-si7z",
+    "id": "6dn4-si7z",
+    "downloadUrl": "https://data.sfgov.org/api/views/6dn4-si7z/rows.csv"
+  },
+  {
+    "title": "Transit Rail Signals maintainted by MTA",
+    "url": "https://data.sfgov.org/City-Infrastructure/Transit-Rail-Signals-maintainted-by-MTA/642n-3htf",
+    "id": "642n-3htf",
+    "downloadUrl": "https://data.sfgov.org/api/views/642n-3htf/rows.csv"
+  },
+  {
+    "title": "2002 Election Precincts",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/2002-Election-Precincts/2iky-e78c",
+    "id": "2iky-e78c",
+    "downloadUrl": "https://data.sfgov.org/api/views/2iky-e78c/rows.csv"
+  },
+  {
+    "title": "census2000_blk_nowater",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/census2000_blk_nowater/rxa3-yi4a",
+    "id": "rxa3-yi4a",
+    "downloadUrl": "https://data.sfgov.org/api/views/rxa3-yi4a/rows.csv"
+  },
+  {
+    "title": "Red Light Camera Citations",
+    "url": "https://data.sfgov.org/Transportation/Red-Light-Camera-Citations/uzmr-g2uc",
+    "id": "uzmr-g2uc",
+    "downloadUrl": "https://data.sfgov.org/api/views/uzmr-g2uc/rows.csv"
+  },
+  {
+    "title": "Analysis Neighborhoods - 2010 census tracts assigned to neighborhoods",
+    "url": "https://data.sfgov.org/dataset/Analysis-Neighborhoods-2010-census-tracts-assigned/m46u-xzix",
+    "id": "m46u-xzix",
+    "downloadUrl": "https://data.sfgov.org/api/views/m46u-xzix/rows.csv"
+  },
+  {
+    "title": "Green Benefit Districts",
+    "url": "https://data.sfgov.org/dataset/Green-Benefit-Districts/hyj5-mm3b",
+    "id": "hyj5-mm3b",
+    "downloadUrl": "https://data.sfgov.org/api/views/hyj5-mm3b/rows.csv"
+  },
+  {
+    "title": "HistoricZoningDistricts2008",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/HistoricZoningDistricts2008/tsdh-z53a",
+    "id": "tsdh-z53a",
+    "downloadUrl": "https://data.sfgov.org/api/views/tsdh-z53a/rows.csv"
+  },
+  {
+    "title": "SF Shoreline and Islands",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/SF-Shoreline-and-Islands/txuc-3kzm",
+    "id": "txuc-3kzm",
+    "downloadUrl": "https://data.sfgov.org/api/views/txuc-3kzm/rows.csv"
+  },
+  {
+    "title": "Planning Districts",
+    "url": "https://data.sfgov.org/dataset/Planning-Districts/kyw5-5shs",
+    "id": "kyw5-5shs",
+    "downloadUrl": "https://data.sfgov.org/api/views/kyw5-5shs/rows.csv"
+  },
+  {
+    "title": "MTA.Muni_simpleroutes_data",
+    "url": "https://data.sfgov.org/Transportation/MTA-Muni_simpleroutes_data/my8t-jqzp",
+    "id": "my8t-jqzp",
+    "downloadUrl": "https://data.sfgov.org/api/views/my8t-jqzp/rows.csv"
+  },
+  {
+    "title": "census2000_tracts_nowater",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/census2000_tracts_nowater/ubhq-cziz",
+    "id": "ubhq-cziz",
+    "downloadUrl": "https://data.sfgov.org/api/views/ubhq-cziz/rows.csv"
+  },
+  {
+    "title": "AHBP_eligible_parcels",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/AHBP_eligible_parcels/fizh-zaxt",
+    "id": "fizh-zaxt",
+    "downloadUrl": "https://data.sfgov.org/api/views/fizh-zaxt/rows.csv"
+  },
+  {
+    "title": "AHBP_zoning_districts",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/AHBP_zoning_districts/y5fw-t3z4",
+    "id": "y5fw-t3z4",
+    "downloadUrl": "https://data.sfgov.org/api/views/y5fw-t3z4/rows.csv"
+  },
+  {
+    "title": "1992 Election Precincts",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/1992-Election-Precincts/msvd-8edx",
+    "id": "msvd-8edx",
+    "downloadUrl": "https://data.sfgov.org/api/views/msvd-8edx/rows.csv"
+  },
+  {
+    "title": "Nonprofit Wage and Equity Survey - Position-Level Cohort Data - FY23",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Nonprofit-Wage-and-Equity-Survey-Position-Level-Co/jsip-bbxj",
+    "id": "jsip-bbxj",
+    "downloadUrl": "https://data.sfgov.org/api/views/jsip-bbxj/rows.csv"
+  },
+  {
+    "title": "Campaign Finance Expenditures Explorer App",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Campaign-Finance-Expenditures-Explorer-App/yh6b-y6di",
+    "id": "yh6b-y6di",
+    "downloadUrl": "https://data.sfgov.org/api/views/yh6b-y6di/rows.csv"
+  },
+  {
+    "title": "Parking Control Office Beats",
+    "url": "https://data.sfgov.org/Transportation/Parking-Control-Office-Beats/jc6y-96en",
+    "id": "jc6y-96en",
+    "downloadUrl": "https://data.sfgov.org/api/views/jc6y-96en/rows.csv"
+  },
+  {
+    "title": "Landmark Districts",
+    "url": "https://data.sfgov.org/dataset/Landmark-Districts/knm6-5ej6",
+    "id": "knm6-5ej6",
+    "downloadUrl": "https://data.sfgov.org/api/views/knm6-5ej6/rows.csv"
+  },
+  {
+    "title": "SF Mask",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/SF-Mask/apq2-dy2m",
+    "id": "apq2-dy2m",
+    "downloadUrl": "https://data.sfgov.org/api/views/apq2-dy2m/rows.csv"
+  },
+  {
+    "title": "Police Use of Force (December 21, 2016, to April 11, 2022)",
+    "url": "https://data.sfgov.org/Public-Safety/Police-Use-of-Force-December-21-2016-to-April-11-2/hrt5-562g",
+    "id": "hrt5-562g",
+    "downloadUrl": "https://data.sfgov.org/api/views/hrt5-562g/rows.csv"
+  },
+  {
+    "title": "Areas Damaged by Fire Following 1906 Earthquake",
+    "url": "https://data.sfgov.org/dataset/Areas-Damaged-by-Fire-Following-1906-Earthquake/ff3a-iqhv",
+    "id": "ff3a-iqhv",
+    "downloadUrl": "https://data.sfgov.org/api/views/ff3a-iqhv/rows.csv"
+  },
+  {
+    "title": "Planning Department's Current Planning Team Boundaries",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Planning-Department-s-Current-Planning-Team-Bounda/ujhp-tya6",
+    "id": "ujhp-tya6",
+    "downloadUrl": "https://data.sfgov.org/api/views/ujhp-tya6/rows.csv"
+  },
+  {
+    "title": "San Francisco Plant Community Areas",
+    "url": "https://data.sfgov.org/dataset/San-Francisco-Plant-Community-Areas/xkgt-9n9y",
+    "id": "xkgt-9n9y",
+    "downloadUrl": "https://data.sfgov.org/api/views/xkgt-9n9y/rows.csv"
+  },
+  {
+    "title": "Police Accountability Misconduct Cases and Allegations",
+    "url": "https://data.sfgov.org/City-Management-and-Ethics/Police-Accountability-Misconduct-Cases-and-Allegat/b4we-97wx",
+    "id": "b4we-97wx",
+    "downloadUrl": "https://data.sfgov.org/api/views/b4we-97wx/rows.csv"
+  },
+  {
+    "title": "SF Development Pipeline 2024 Q1",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/SF-Development-Pipeline-2024-Q1/gev6-y85j",
+    "id": "gev6-y85j",
+    "downloadUrl": "https://data.sfgov.org/api/views/gev6-y85j/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2000",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2000/itx2-wzp5",
+    "id": "itx2-wzp5",
+    "downloadUrl": "https://data.sfgov.org/api/views/itx2-wzp5/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - Jan 2015",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-Jan-2015/ada2-cu6t",
+    "id": "ada2-cu6t",
+    "downloadUrl": "https://data.sfgov.org/api/views/ada2-cu6t/rows.csv"
+  },
+  {
+    "title": "SFMTA Sidewalk Widths",
+    "url": "https://data.sfgov.org/Public-Safety/SFMTA-Sidewalk-Widths/biiy-mtrk",
+    "id": "biiy-mtrk",
+    "downloadUrl": "https://data.sfgov.org/api/views/biiy-mtrk/rows.csv"
+  },
+  {
+    "title": "Port Jurisdiction",
+    "url": "https://data.sfgov.org/dataset/Port-Jurisdiction/jmv6-xier",
+    "id": "jmv6-xier",
+    "downloadUrl": "https://data.sfgov.org/api/views/jmv6-xier/rows.csv"
+  },
+  {
+    "title": "Maher",
+    "url": "https://data.sfgov.org/Energy-and-Environment/Maher/v5ic-hjgw",
+    "id": "v5ic-hjgw",
+    "downloadUrl": "https://data.sfgov.org/api/views/v5ic-hjgw/rows.csv"
+  },
+  {
+    "title": "Ambulance Patient Offload Times",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Ambulance-Patient-Offload-Times/6x9q-izga",
+    "id": "6x9q-izga",
+    "downloadUrl": "https://data.sfgov.org/api/views/6x9q-izga/rows.csv"
+  },
+  {
+    "title": "SFMTA - Off-Street Parking Locations (Lots and Parking Garages)",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Off-Street-Parking-Locations-Lots-and-Parkin/mizu-nf6z",
+    "id": "mizu-nf6z",
+    "downloadUrl": "https://data.sfgov.org/api/views/mizu-nf6z/rows.csv"
+  },
+  {
+    "title": "Arterial Streets of San Francisco",
+    "url": "https://data.sfgov.org/dataset/Arterial-Streets-of-San-Francisco/3wks-ifmi",
+    "id": "3wks-ifmi",
+    "downloadUrl": "https://data.sfgov.org/api/views/3wks-ifmi/rows.csv"
+  },
+  {
+    "title": "Vision Zero Benchmarking",
+    "url": "https://data.sfgov.org/dataset/Vision-Zero-Benchmarking/3z93-mft8",
+    "id": "3z93-mft8",
+    "downloadUrl": "https://data.sfgov.org/api/views/3z93-mft8/rows.csv"
+  },
+  {
+    "title": "Regularly scheduled tow-away zone GIS data",
+    "url": "https://data.sfgov.org/dataset/Regularly-scheduled-tow-away-zone-GIS-data/ynvq-waab",
+    "id": "ynvq-waab",
+    "downloadUrl": "https://data.sfgov.org/api/views/ynvq-waab/rows.csv"
+  },
+  {
+    "title": "sfpd_districts_historic",
+    "url": "https://data.sfgov.org/Public-Safety/sfpd_districts_historic/2dsh-iggd",
+    "id": "2dsh-iggd",
+    "downloadUrl": "https://data.sfgov.org/api/views/2dsh-iggd/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2010",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2010/x4gj-zjx7",
+    "id": "x4gj-zjx7",
+    "downloadUrl": "https://data.sfgov.org/api/views/x4gj-zjx7/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2009",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2009/jud5-ja46",
+    "id": "jud5-ja46",
+    "downloadUrl": "https://data.sfgov.org/api/views/jud5-ja46/rows.csv"
+  },
+  {
+    "title": "Hospital Diversions",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Hospital-Diversions/t4sf-777q",
+    "id": "t4sf-777q",
+    "downloadUrl": "https://data.sfgov.org/api/views/t4sf-777q/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2011",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2011/rt4q-mf68",
+    "id": "rt4q-mf68",
+    "downloadUrl": "https://data.sfgov.org/api/views/rt4q-mf68/rows.csv"
+  },
+  {
+    "title": "Community Benefits Districts",
+    "url": "https://data.sfgov.org/Economy-and-Community/Community-Benefits-Districts/c28a-f6gs",
+    "id": "c28a-f6gs",
+    "downloadUrl": "https://data.sfgov.org/api/views/c28a-f6gs/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2007",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2007/pe87-v8tx",
+    "id": "pe87-v8tx",
+    "downloadUrl": "https://data.sfgov.org/api/views/pe87-v8tx/rows.csv"
+  },
+  {
+    "title": "Historic Height & Bulk Districts - 2011",
+    "url": "https://data.sfgov.org/dataset/Historic-Height-Bulk-Districts-2011/rwdp-2k4t",
+    "id": "rwdp-2k4t",
+    "downloadUrl": "https://data.sfgov.org/api/views/rwdp-2k4t/rows.csv"
+  },
+  {
+    "title": "Metadata Crosswalk Dataset",
+    "url": "https://data.sfgov.org/dataset/Metadata-Crosswalk-Dataset/yvhp-ze5x",
+    "id": "yvhp-ze5x",
+    "downloadUrl": "https://data.sfgov.org/api/views/yvhp-ze5x/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2001",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2001/8m6w-8yuk",
+    "id": "8m6w-8yuk",
+    "downloadUrl": "https://data.sfgov.org/api/views/8m6w-8yuk/rows.csv"
+  },
+  {
+    "title": "Historic Special Use Districts - 2012",
+    "url": "https://data.sfgov.org/dataset/Historic-Special-Use-Districts-2012/ff5j-uv3a",
+    "id": "ff5j-uv3a",
+    "downloadUrl": "https://data.sfgov.org/api/views/ff5j-uv3a/rows.csv"
+  },
+  {
+    "title": "Realtor Neighborhoods",
+    "url": "https://data.sfgov.org/dataset/Realtor-Neighborhoods/2kjj-ysvr",
+    "id": "2kjj-ysvr",
+    "downloadUrl": "https://data.sfgov.org/api/views/2kjj-ysvr/rows.csv"
+  },
+  {
+    "title": "COVID-19 Hospital Admissions Over Time",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/COVID-19-Hospital-Admissions-Over-Time/82gu-asz5",
+    "id": "82gu-asz5",
+    "downloadUrl": "https://data.sfgov.org/api/views/82gu-asz5/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2005",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2005/b52k-gy2v",
+    "id": "b52k-gy2v",
+    "downloadUrl": "https://data.sfgov.org/api/views/b52k-gy2v/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2014",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2014/hg44-eza7",
+    "id": "hg44-eza7",
+    "downloadUrl": "https://data.sfgov.org/api/views/hg44-eza7/rows.csv"
+  },
+  {
+    "title": "Historic Special Use Districts - 2014",
+    "url": "https://data.sfgov.org/dataset/Historic-Special-Use-Districts-2014/b6kc-439r",
+    "id": "b6kc-439r",
+    "downloadUrl": "https://data.sfgov.org/api/views/b6kc-439r/rows.csv"
+  },
+  {
+    "title": "Historic Height & Bulk Districts - 2014",
+    "url": "https://data.sfgov.org/dataset/Historic-Height-Bulk-Districts-2014/gu4h-44qp",
+    "id": "gu4h-44qp",
+    "downloadUrl": "https://data.sfgov.org/api/views/gu4h-44qp/rows.csv"
+  },
+  {
+    "title": "Historic Height & Bulk Districts - 2013",
+    "url": "https://data.sfgov.org/dataset/Historic-Height-Bulk-Districts-2013/9mmf-fv7s",
+    "id": "9mmf-fv7s",
+    "downloadUrl": "https://data.sfgov.org/api/views/9mmf-fv7s/rows.csv"
+  },
+  {
+    "title": "San Francisco Development Pipeline",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/San-Francisco-Development-Pipeline/6jgi-cpb4",
+    "id": "6jgi-cpb4",
+    "downloadUrl": "https://data.sfgov.org/api/views/6jgi-cpb4/rows.csv"
+  },
+  {
+    "title": "Historic Height & Bulk Districts - 2012",
+    "url": "https://data.sfgov.org/dataset/Historic-Height-Bulk-Districts-2012/nh4m-jbyj",
+    "id": "nh4m-jbyj",
+    "downloadUrl": "https://data.sfgov.org/api/views/nh4m-jbyj/rows.csv"
+  },
+  {
+    "title": "Historic Height & Bulk Districts - 2010",
+    "url": "https://data.sfgov.org/dataset/Historic-Height-Bulk-Districts-2010/xzb6-i4dc",
+    "id": "xzb6-i4dc",
+    "downloadUrl": "https://data.sfgov.org/api/views/xzb6-i4dc/rows.csv"
+  },
+  {
+    "title": "Zoning Map - Zoning Districts",
+    "url": "https://data.sfgov.org/dataset/Zoning-Map-Zoning-Districts/xzez-p3nc",
+    "id": "xzez-p3nc",
+    "downloadUrl": "https://data.sfgov.org/api/views/xzez-p3nc/rows.csv"
+  },
+  {
+    "title": "SFMTA - Mobility Data Specification",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Mobility-Data-Specification/h5q5-vfti",
+    "id": "h5q5-vfti",
+    "downloadUrl": "https://data.sfgov.org/api/views/h5q5-vfti/rows.csv"
+  },
+  {
+    "title": "sfpd_plots",
+    "url": "https://data.sfgov.org/Public-Safety/sfpd_plots/evfd-nvbj",
+    "id": "evfd-nvbj",
+    "downloadUrl": "https://data.sfgov.org/api/views/evfd-nvbj/rows.csv"
+  },
+  {
+    "title": "Map of Central Market/Tenderloin Boundary Polygon",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Map-of-Central-Market-Tenderloin-Boundary-Polygon/aiwq-f44x",
+    "id": "aiwq-f44x",
+    "downloadUrl": "https://data.sfgov.org/api/views/aiwq-f44x/rows.csv"
+  },
+  {
+    "title": "Historical Zoning Districts - April 2000",
+    "url": "https://data.sfgov.org/dataset/Historical-Zoning-Districts-April-2000/cfhj-8c6b",
+    "id": "cfhj-8c6b",
+    "downloadUrl": "https://data.sfgov.org/api/views/cfhj-8c6b/rows.csv"
+  },
+  {
+    "title": "SFMTA Metered Street Blocks",
+    "url": "https://data.sfgov.org/Transportation/SFMTA-Metered-Street-Blocks/27b3-yjjx",
+    "id": "27b3-yjjx",
+    "downloadUrl": "https://data.sfgov.org/api/views/27b3-yjjx/rows.csv"
+  },
+  {
+    "title": "bayarea_general",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/bayarea_general/a8z7-xscr",
+    "id": "a8z7-xscr",
+    "downloadUrl": "https://data.sfgov.org/api/views/a8z7-xscr/rows.csv"
+  },
+  {
+    "title": "RPD Parks",
+    "url": "https://data.sfgov.org/Culture-and-Recreation/RPD-Parks/3nje-yn2u",
+    "id": "3nje-yn2u",
+    "downloadUrl": "https://data.sfgov.org/api/views/3nje-yn2u/rows.csv"
+  },
+  {
+    "title": "Intersection-Level Traffic Calming Devices",
+    "url": "https://data.sfgov.org/Transportation/Intersection-Level-Traffic-Calming-Devices/bp3t-bd4t",
+    "id": "bp3t-bd4t",
+    "downloadUrl": "https://data.sfgov.org/api/views/bp3t-bd4t/rows.csv"
+  },
+  {
+    "title": "MTA.parkingmanagementdistricts_data",
+    "url": "https://data.sfgov.org/Transportation/MTA-parkingmanagementdistricts_data/qmxt-r2x4",
+    "id": "qmxt-r2x4",
+    "downloadUrl": "https://data.sfgov.org/api/views/qmxt-r2x4/rows.csv"
+  },
+  {
+    "title": "StreetStructures",
+    "url": "https://data.sfgov.org/City-Infrastructure/StreetStructures/aw7j-9354",
+    "id": "aw7j-9354",
+    "downloadUrl": "https://data.sfgov.org/api/views/aw7j-9354/rows.csv"
+  },
+  {
+    "title": "Mid-Block Traffic Calming Areas",
+    "url": "https://data.sfgov.org/Transportation/Mid-Block-Traffic-Calming-Areas/abhw-ffzx",
+    "id": "abhw-ffzx",
+    "downloadUrl": "https://data.sfgov.org/api/views/abhw-ffzx/rows.csv"
+  },
+  {
+    "title": "Historic Resources",
+    "url": "https://data.sfgov.org/dataset/Historic-Resources/njrt-gtwr",
+    "id": "njrt-gtwr",
+    "downloadUrl": "https://data.sfgov.org/api/views/njrt-gtwr/rows.csv"
+  },
+  {
+    "title": "Historic Special Use Districts -2013",
+    "url": "https://data.sfgov.org/dataset/Historic-Special-Use-Districts-2013/hbc8-ncn7",
+    "id": "hbc8-ncn7",
+    "downloadUrl": "https://data.sfgov.org/api/views/hbc8-ncn7/rows.csv"
+  },
+  {
+    "title": "MTA.equitystrategy_nhoods_data",
+    "url": "https://data.sfgov.org/Transportation/MTA-equitystrategy_nhoods_data/qqn9-j3rz",
+    "id": "qqn9-j3rz",
+    "downloadUrl": "https://data.sfgov.org/api/views/qqn9-j3rz/rows.csv"
+  },
+  {
+    "title": "Zoning Map - Special Sign Districts",
+    "url": "https://data.sfgov.org/dataset/Zoning-Map-Special-Sign-Districts/ikk5-s7ew",
+    "id": "ikk5-s7ew",
+    "downloadUrl": "https://data.sfgov.org/api/views/ikk5-s7ew/rows.csv"
+  },
+  {
+    "title": "San Francisco Mid-Block Points",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/San-Francisco-Mid-Block-Points/iqyu-pwpr",
+    "id": "iqyu-pwpr",
+    "downloadUrl": "https://data.sfgov.org/api/views/iqyu-pwpr/rows.csv"
+  },
+  {
+    "title": "Zoning Map - Special Use Districts",
+    "url": "https://data.sfgov.org/dataset/Zoning-Map-Special-Use-Districts/rxfc-8aap",
+    "id": "rxfc-8aap",
+    "downloadUrl": "https://data.sfgov.org/api/views/rxfc-8aap/rows.csv"
+  },
+  {
+    "title": "California Register Historic Districts",
+    "url": "https://data.sfgov.org/dataset/California-Register-Historic-Districts/m22e-6hkz",
+    "id": "m22e-6hkz",
+    "downloadUrl": "https://data.sfgov.org/api/views/m22e-6hkz/rows.csv"
+  },
+  {
+    "title": "Article 11 Rating",
+    "url": "https://data.sfgov.org/dataset/Article-11-Rating/ejht-vp5d",
+    "id": "ejht-vp5d",
+    "downloadUrl": "https://data.sfgov.org/api/views/ejht-vp5d/rows.csv"
+  },
+  {
+    "title": "Hospital Suspensions",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Hospital-Suspensions/6x9s-ipug",
+    "id": "6x9s-ipug",
+    "downloadUrl": "https://data.sfgov.org/api/views/6x9s-ipug/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2012",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2012/vfz8-awmy",
+    "id": "vfz8-awmy",
+    "downloadUrl": "https://data.sfgov.org/api/views/vfz8-awmy/rows.csv"
+  },
+  {
+    "title": "Street Vending Permits",
+    "url": "https://data.sfgov.org/Economy-and-Community/Street-Vending-Permits/34ws-kyf6",
+    "id": "34ws-kyf6",
+    "downloadUrl": "https://data.sfgov.org/api/views/34ws-kyf6/rows.csv"
+  },
+  {
+    "title": "Zoning Map - Height Districts",
+    "url": "https://data.sfgov.org/dataset/Zoning-Map-Height-Districts/usp2-teig",
+    "id": "usp2-teig",
+    "downloadUrl": "https://data.sfgov.org/api/views/usp2-teig/rows.csv"
+  },
+  {
+    "title": "Aircraft Noise Exceedances",
+    "url": "https://data.sfgov.org/Transportation/Aircraft-Noise-Exceedances/tiju-qyvs",
+    "id": "tiju-qyvs",
+    "downloadUrl": "https://data.sfgov.org/api/views/tiju-qyvs/rows.csv"
+  },
+  {
+    "title": "Historic Height & Bulk Districts - 2009",
+    "url": "https://data.sfgov.org/dataset/Historic-Height-Bulk-Districts-2009/a4wu-zqx3",
+    "id": "a4wu-zqx3",
+    "downloadUrl": "https://data.sfgov.org/api/views/a4wu-zqx3/rows.csv"
+  },
+  {
+    "title": "Coastal Zone Area",
+    "url": "https://data.sfgov.org/dataset/Coastal-Zone-Area/aeam-6mb5",
+    "id": "aeam-6mb5",
+    "downloadUrl": "https://data.sfgov.org/api/views/aeam-6mb5/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2006",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2006/afkh-hfhr",
+    "id": "afkh-hfhr",
+    "downloadUrl": "https://data.sfgov.org/api/views/afkh-hfhr/rows.csv"
+  },
+  {
+    "title": "Historic Special Use Districts - 2015",
+    "url": "https://data.sfgov.org/dataset/Historic-Special-Use-Districts-2015/y7mn-8sik",
+    "id": "y7mn-8sik",
+    "downloadUrl": "https://data.sfgov.org/api/views/y7mn-8sik/rows.csv"
+  },
+  {
+    "title": "Elect_StAsmbly_Dists",
+    "url": "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Elect_StAsmbly_Dists/bt7b-fdtx",
+    "id": "bt7b-fdtx",
+    "downloadUrl": "https://data.sfgov.org/api/views/bt7b-fdtx/rows.csv"
+  },
+  {
+    "title": "Historic Special Use Districts - 2011",
+    "url": "https://data.sfgov.org/dataset/Historic-Special-Use-Districts-2011/8vnp-htwm",
+    "id": "8vnp-htwm",
+    "downloadUrl": "https://data.sfgov.org/api/views/8vnp-htwm/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - March 2005",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-March-2005/5uzm-v8n8",
+    "id": "5uzm-v8n8",
+    "downloadUrl": "https://data.sfgov.org/api/views/5uzm-v8n8/rows.csv"
+  },
+  {
+    "title": "Vision Zero High Injury Network",
+    "url": "https://data.sfgov.org/Health-and-Social-Services/Vision-Zero-High-Injury-Network/8vtn-qytr",
+    "id": "8vtn-qytr",
+    "downloadUrl": "https://data.sfgov.org/api/views/8vtn-qytr/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2003",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2003/6ru7-zq4y",
+    "id": "6ru7-zq4y",
+    "downloadUrl": "https://data.sfgov.org/api/views/6ru7-zq4y/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2002",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2002/3yi7-eyfd",
+    "id": "3yi7-eyfd",
+    "downloadUrl": "https://data.sfgov.org/api/views/3yi7-eyfd/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2013",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2013/6jb9-g73z",
+    "id": "6jb9-g73z",
+    "downloadUrl": "https://data.sfgov.org/api/views/6jb9-g73z/rows.csv"
+  },
+  {
+    "title": "Historic Zoning Districts - 2004",
+    "url": "https://data.sfgov.org/dataset/Historic-Zoning-Districts-2004/s3eh-jdwb",
+    "id": "s3eh-jdwb",
+    "downloadUrl": "https://data.sfgov.org/api/views/s3eh-jdwb/rows.csv"
+  },
+  {
+    "title": "Mayor's Office of Housing and Community Development Non-Unit Inclusionary Housing Alternatives",
+    "url": "https://data.sfgov.org/Housing-and-Buildings/Mayor-s-Office-of-Housing-and-Community-Developmen/g6kh-9pnv",
+    "id": "g6kh-9pnv",
+    "downloadUrl": "https://data.sfgov.org/api/views/g6kh-9pnv/rows.csv"
+  },
+  {
+    "title": "Historic Special Use Districts - 2010",
+    "url": "https://data.sfgov.org/dataset/Historic-Special-Use-Districts-2010/6a3d-758c",
+    "id": "6a3d-758c",
+    "downloadUrl": "https://data.sfgov.org/api/views/6a3d-758c/rows.csv"
+  }
+]
