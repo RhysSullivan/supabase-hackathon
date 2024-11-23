@@ -1,5 +1,5 @@
-import { createBrowserClient } from "@supabase/ssr";
-import { env } from "~/env";
+import { env } from '@/env';
+import { createBrowserClient } from '@supabase/ssr';
 
 export const createClient = () =>
   createBrowserClient(
