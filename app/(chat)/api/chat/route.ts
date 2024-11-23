@@ -198,10 +198,10 @@ async function executeSearchDatasetsTool({ query }: { query: string }) {
   const { data: matches } = (await supabase.rpc('match_csv_data', {
     query_embedding: e, // pass the query embedding
     match_threshold: 0.4, // choose an appropriate threshold for your data
-    match_count: 1, // choose the number of matches
+    match_count: 15, // choose the number of matches
   })) as { data: DatasetMetadata[] };
   console.log('Search datasets - Matches:', matches.at(0)?.title);
-  return matches;
+  return matches?.map((m) => m.title);
 }
 
 async function executeListDatasetsTool() {
