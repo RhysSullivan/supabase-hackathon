@@ -4,8 +4,10 @@ import * as fs from 'node:fs';
 
 async function crawlDatasets() {
   const stagehand = new Stagehand({
-    env: 'LOCAL',
-    verbose: 1,
+    // env: 'LOCAL',
+    // verbose: 1,
+    env: 'BROWSERBASE',
+    enableCaching: true,
   });
 
   await stagehand.init();
