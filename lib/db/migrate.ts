@@ -8,11 +8,11 @@ config({
 });
 
 const runMigrate = async () => {
-  if (!process.env.POSTGRES_URL) {
-    throw new Error('POSTGRES_URL is not defined');
+  if (!process.env.DATABASE_URL) {
+    throw new Error('DATABASE_URL is not defined');
   }
 
-  const connection = postgres(process.env.POSTGRES_URL, { max: 1 });
+  const connection = postgres(process.env.DATABASE_URL, { max: 1 });
   const db = drizzle(connection);
 
   console.log('⏳ Running migrations...');
