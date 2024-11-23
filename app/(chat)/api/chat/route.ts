@@ -204,12 +204,15 @@ export async function POST(request: Request) {
         execute: executeSearchDatasetsTool,
       },
       getData: {
-        description: 'Question about city data',
+        description:
+          'Ask questions about a dataset. Run the search for a data set tool before this tool.',
         parameters: z.object({
           query: z.string(),
+          dataset: z.string(),
         }),
-        execute: async ({ query }) => {
+        execute: async ({ query, dataset }) => {
           try {
+            console.log('Get data - Dataset:', dataset);
             return await executeDataTool({ query });
           } catch (error) {
             console.error('Error executing data tool:', error);
