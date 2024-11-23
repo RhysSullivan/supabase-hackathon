@@ -254,11 +254,43 @@ async function executeSearchDatasetsTool({
     match_threshold: matchThreshold,
     match_count: matchCount,
   })) as { data: DatasetMetadata[] };
+
+  // Add relevance ranking using LLM
+  const rankedMatches = await generateObject({
+    model: customModel(),
+    schema: z.object({
+      rankedIndices: z.array(z.number()),
+      reasoning: z.string(),
+    }),
+    prompt: `
+      Given this user query: "${query}"
+      
+      And these datasets:
+      ${matches.map((m, i) => `${i}. ${m.title}\nDescription: ${m.description}`).join('\n\n')}
+
+      Return the indices of the datasets reordered by relevance to the query, with the most relevant first.
+      Consider both the title and description when determining relevance.
+      
+      Also provide brief reasoning for the top matches.
+    `,
+  });
+
   console.log(
-    'Search datasets - Matches:',
-    matches.map((m) => m.title),
+    'Search datasets - Ranking reasoning:',
+    rankedMatches.object.reasoning,
   );
-  return matches.map((m) => {
+
+  // Reorder matches based on LLM ranking
+  const reorderedMatches = rankedMatches.object.rankedIndices.map(
+    (i) => matches[i],
+  );
+
+  console.log(
+    'Search datasets - Ranked matches:',
+    reorderedMatches.map((m) => m.title),
+  );
+
+  return reorderedMatches.map((m) => {
     const { description_vector, title_vector, ...rest } = m;
     return rest;
   });

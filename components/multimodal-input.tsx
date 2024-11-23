@@ -30,12 +30,12 @@ const suggestedActions = [
     action: "List all datasets",
   },
   {
-    title: "What questions can I ask about the Fire Incidents dataset?",
-    action: "What questions can I ask about the Fire Incidents dataset?",
+    title: "What street in SF has the most accidents?",
+    action: "What street in SF has the most accidents?",
   },
   {
-    title: "How has crime changed from 2003 to 2018?",
-    action: "How has crime changed from 2003 to 2018?",
+    title: "How has crime changed from 2003 to 2018 in SF?",
+    action: "How has crime changed from 2003 to 2018 in SF?",
   },
 ];
 
