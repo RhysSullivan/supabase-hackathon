@@ -11,9 +11,9 @@ import { getMostRecentUserMessage } from '@/lib/utils';
 
 export const maxDuration = 60;
 
-type AllowedTools = 'getWeather';
+type AllowedTools = 'getWeather' | 'getData';
 
-const weatherTools: AllowedTools[] = ['getWeather'];
+const weatherTools: AllowedTools[] = ['getWeather', 'getData'];
 
 const allTools: AllowedTools[] = [...weatherTools];
 
@@ -54,6 +54,15 @@ export async function POST(request: Request) {
 
           const weatherData = await response.json();
           return weatherData;
+        },
+      },
+      getData: {
+        description: 'Question about city data',
+        parameters: z.object({
+          query: z.string(),
+        }),
+        execute: async ({ query }) => {
+          return query;
         },
       },
     },
