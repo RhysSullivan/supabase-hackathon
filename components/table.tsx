@@ -7,14 +7,32 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-
-type DataItem = Record<string, string | number | bigint>;
+import type { ToolReturns } from "@/app/(chat)/api/chat/route";
 
 interface GenericTableProps {
-  data: DataItem[];
+  res: ToolReturns["getData"];
 }
 
-export function GenericTable({ data }: GenericTableProps) {
+function formatCellValue(value: any): string {
+  if (value === null || value === undefined) {
+    return "";
+  }
+  // if its a number, format it with commas
+  if (typeof value === "bigint" || typeof value === "number") {
+    return value.toLocaleString();
+  }
+  if (typeof value === "object") {
+    if (value instanceof Date) {
+      return value.toLocaleString();
+    }
+    return JSON.stringify(value);
+  }
+  return String(value);
+}
+
+export function GenericTable({ res }: GenericTableProps) {
+  const { data, sql, query, dataset } = res;
+
   if (!data || data.length === 0) {
     return <p>No data available</p>;
   }
@@ -37,9 +55,7 @@ export function GenericTable({ data }: GenericTableProps) {
             <TableRow key={index}>
               {columns.map((column) => (
                 <TableCell key={column}>
-                  {typeof row[column] === "bigint"
-                    ? row[column].toString()
-                    : row[column]}
+                  {formatCellValue(row[column])}
                 </TableCell>
               ))}
             </TableRow>

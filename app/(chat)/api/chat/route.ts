@@ -66,10 +66,19 @@ async function executeDataTool({ query }: { query: string }) {
   console.log('Get data - Searching for:', query);
   const db = await Database.create(':memory:');
   console.log('Get data - Created DB');
-  const csvUrl =
-    'https://spwogmmcqrgmnfmscszi.supabase.co/storage/v1/object/public/data/csv/traffic-1.csv';
-  console.log('Get data - Creating table');
+  const datasets = await executeSearchDatasetsTool({
+    query,
+    matchCount: 1,
+  });
+  const dataset = datasets.at(0);
+  console.log('Get data - Dataset:', dataset?.title);
 
+  if (!dataset) {
+    console.log('Did not find', dataset);
+    throw new Error('No dataset found');
+  }
+  const csvUrl = `https://spwogmmcqrgmnfmscszi.supabase.co/storage/v1/object/public/data/csv/${dataset.id}.csv`;
+  console.log('Get data - Creating table for', dataset.title);
   await db
     .run(
       `CREATE TEMPORARY TABLE temp_table AS SELECT * FROM read_csv_auto('${csvUrl}', sample_size=-1, ignore_errors=true)`,
@@ -82,7 +91,7 @@ async function executeDataTool({ query }: { query: string }) {
   const smallSchema = JSON.stringify(schema, null, 0);
 
   const relevantColumns = await generateObject({
-    model: customModel('claude-3-5-haiku-latest'),
+    model: customModel(),
     schema: z.object({
       canAnswer: z.boolean(),
       columns: z.array(z.string()),
@@ -155,26 +164,58 @@ async function executeDataTool({ query }: { query: string }) {
   console.log('Get data - Creating SQL');
   const prompt = `
     The schema of the table is:
-    
-    ${smallSchema}
-    
-    The table is named temp_table. 
-    
-    Relevant columns for this query: ${relevantColumns.object.columns.join(', ')}
-    Reasoning: ${relevantColumns.object.reasoning}
-    
-    Example values: ${examplesText}
 
-    Generate a SQL query that answers the question: ${query}
+${smallSchema}
 
-    Unless the query is specifically asking about all data, assume it's asking about aggregate data.
-    Add data casts if they are needed.
-    Apply aliases to the columns in the query to make it more readable.
-    i.e accident_count -> Accident Count
+The table is named temp_table. 
+
+Relevant columns for this query: ${relevantColumns.object.columns.join(', ')}
+Reasoning: ${relevantColumns.object.reasoning}
+
+Example values: ${examplesText}
+
+Generate a SQL query that answers the question: ${query}
+
+SQL Requirements:
+1. Use DuckDB dialect only - no SQLite-specific functions
+2. Available date/time functions:
+   - strftime('%Y', date) for year
+   - strftime('%m', date) for month
+   - strftime('%Y-%m-%d', date) for full date
+   - Do NOT use DATE() function
+3. Date comparisons:
+   - Use direct string comparisons: date >= '2024-01-01'
+   - Or use TRY_CAST(date AS DATE) when needed
+
+Column Naming Requirements:
+1. Use readable column aliases with proper spacing:
+   - accident_count AS "Accident Count"
+   - yearly_total AS "Yearly Total"
+2. Capitalize important words in aliases
+3. Use quotes around aliases with spaces
+
+Data Requirements:
+1. Unless specified, focus on aggregate data
+2. Add appropriate type casts using TRY_CAST()
+3. Round decimal calculations to 2 places using ROUND()
+4. Include appropriate filters to handle NULL values
+
+The current date is ${new Date().toISOString().split('T')[0]}.
+
+After generating the query, verify:
+1. All date functions are DuckDB-compatible
+2. Column aliases are properly quoted and readable
+3. Appropriate type casting is used
+4. No SQLite-specific functions are included
+5. All source column names exactly match the provided list
+6. Double quotes are used for ALL column names containing spaces
+
+Remember: Column names must match EXACTLY as provided - no underscores, different spacing, or case changes are allowed.
+
     `;
   console.log('Get data - Prompt:', prompt);
   const sql = await generateObject({
-    model: customModel('claude-3-5-haiku-latest'),
+    model: customModel(),
     schema: z.object({
       sql: z.string(),
     }),
@@ -183,10 +224,23 @@ async function executeDataTool({ query }: { query: string }) {
   console.log('Get data - SQL:', sql.object.sql);
   const data = await db.all(sql.object.sql);
   console.log('Get data - Data:', data);
-  return superjson.stringify(data);
+  return {
+    data,
+    sql: sql.object.sql,
+    query,
+    dataset: dataset,
+  };
 }
 
-async function executeSearchDatasetsTool({ query }: { query: string }) {
+async function executeSearchDatasetsTool({
+  query,
+  matchThreshold = -1,
+  matchCount = 15,
+}: {
+  query: string;
+  matchThreshold?: number;
+  matchCount?: number;
+}) {
   console.log('Search datasets - Searching for:', query);
   const embedding = await client.embed({
     model: 'voyage-3',
@@ -196,12 +250,18 @@ async function executeSearchDatasetsTool({ query }: { query: string }) {
   // biome-ignore lint/style/noNonNullAssertion: <explanation>
   const e = embedding.data!.at(0)!.embedding!;
   const { data: matches } = (await supabase.rpc('match_csv_data', {
-    query_embedding: e, // pass the query embedding
-    match_threshold: 0.4, // choose an appropriate threshold for your data
-    match_count: 15, // choose the number of matches
+    query_embedding: e,
+    match_threshold: matchThreshold,
+    match_count: matchCount,
   })) as { data: DatasetMetadata[] };
-  console.log('Search datasets - Matches:', matches.at(0)?.title);
-  return matches?.map((m) => m.title);
+  console.log(
+    'Search datasets - Matches:',
+    matches.map((m) => m.title),
+  );
+  return matches.map((m) => {
+    const { description_vector, title_vector, ...rest } = m;
+    return rest;
+  });
 }
 
 async function executeListDatasetsTool() {
@@ -210,8 +270,7 @@ async function executeListDatasetsTool() {
 }
 
 // Infer tool return types from execute functions
-type ToolReturns = {
-  getWeather: Awaited<ReturnType<typeof executeWeatherTool>>;
+export type ToolReturns = {
   getData: Awaited<ReturnType<typeof executeDataTool>>;
   searchDatasets: Awaited<ReturnType<typeof executeSearchDatasetsTool>>;
   listDatasets: Awaited<ReturnType<typeof executeListDatasetsTool>>;
@@ -220,7 +279,6 @@ type ToolReturns = {
 type AllowedTools = keyof ToolReturns;
 
 const weatherTools: AllowedTools[] = [
-  'getWeather',
   'getData',
   'searchDatasets',
   'listDatasets',
@@ -247,22 +305,16 @@ export async function POST(request: Request) {
     model: customModel(),
     system: systemPrompt,
     messages: coreMessages,
-    maxSteps: 5,
+    maxSteps: 1,
     experimental_activeTools: allTools,
     tools: {
-      getWeather: {
-        description: 'Get the current weather at a location',
-        parameters: z.object({
-          latitude: z.number(),
-          longitude: z.number(),
-        }),
-        execute: executeWeatherTool,
-      },
       searchDatasets: {
         description:
           'Search for a dataset. Used if the user is just looking for what data sets are available but does not have a specific query',
         parameters: z.object({
           query: z.string(),
+          matchThreshold: z.number().optional(),
+          matchCount: z.number().optional(),
         }),
         execute: executeSearchDatasetsTool,
       },
@@ -280,7 +332,8 @@ export async function POST(request: Request) {
         execute: async ({ query, dataset }) => {
           try {
             console.log('Get data - Dataset:', dataset);
-            return await executeDataTool({ query });
+            const result = await executeDataTool({ query });
+            return superjson.stringify(result);
           } catch (error) {
             console.error('Error executing data tool:', error);
             throw error;

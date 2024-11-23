@@ -22,12 +22,20 @@ import { Textarea } from "./ui/textarea";
 
 const suggestedActions = [
   {
-    title: "Tell me about traffic safety in Pac Heights",
-    action: "Tell me about traffic safety in Pac Heights",
+    title: "What datasets do we have around public safety?",
+    action: "What datasets do we have around public safety?",
   },
   {
-    title: "Tell me about the weather in San Francisco",
-    action: "Tell me about the weather in San Francisco",
+    title: "List all datasets",
+    action: "List all datasets",
+  },
+  {
+    title: "What questions can I ask about the Fire Incidents dataset?",
+    action: "What questions can I ask about the Fire Incidents dataset?",
+  },
+  {
+    title: "How has crime changed from 2003 to 2018?",
+    action: "How has crime changed from 2003 to 2018?",
   },
 ];
 

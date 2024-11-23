@@ -13,7 +13,7 @@ type AnthropicMessagesModelId =
   | 'claude-3-sonnet-20240229'
   | 'claude-3-haiku-20240307';
 export const customModel = (
-  id: AnthropicMessagesModelId = 'claude-3-5-sonnet-20241022',
+  id: AnthropicMessagesModelId = 'claude-3-5-sonnet-latest',
 ) => {
   return wrapLanguageModel({
     model: anthropic(id),
