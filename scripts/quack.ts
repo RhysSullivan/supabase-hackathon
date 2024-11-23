@@ -8,10 +8,16 @@ db.all("DESCRIBE temp_traffic", function(err, res) {
       console.warn(err);
       return;
     }
-    console.log(res)
+    // print the results with no formatting, whitespace, etc.
+    // console.log(JSON.stringify(res, null, 0))
 });
 
-db.all("SELECT * FROM temp_traffic LIMIT 1", function(err, res) {
+db.all(`SELECT DISTINCT
+    analysis_neighborhood
+FROM temp_traffic
+WHERE analysis_neighborhood IS NOT NULL
+AND analysis_neighborhood != ''
+ORDER BY analysis_neighborhood;`, function(err, res) {
     if (err) {
       console.warn(err);
       return;
