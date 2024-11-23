@@ -29,6 +29,7 @@ export const env = createEnv({
     NODE_ENV: z
       .enum(["development", "test", "production"])
       .default("development"),
+    VOYAGE_API_KEY: z.string(),
   },
 
   /**
@@ -68,6 +69,7 @@ export const env = createEnv({
     BROWSERBASE_PROJECT_ID: process.env.BROWSERBASE_PROJECT_ID,
     // NODE
     NODE_ENV: process.env.NODE_ENV,
+    VOYAGE_API_KEY: process.env.VOYAGE_API_KEY,
   },
   /**
    * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially
