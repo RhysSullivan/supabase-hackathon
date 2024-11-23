@@ -9,6 +9,7 @@
     "lint": "next lint && biome lint --write --unsafe",
     "lint:fix": "next lint --fix && biome lint --write --unsafe",
     "format": "biome format --write",
+    "typecheck": "tsc --noEmit",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "npx tsx lib/db/migrate.ts",
     "db:studio": "drizzle-kit studio",
@@ -19,7 +20,6 @@
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^1.0.2",
-    "@ai-sdk/openai": "1.0.0-canary.3",
     "@radix-ui/react-alert-dialog": "^1.1.2",
     "@radix-ui/react-dialog": "^1.1.2",
     "@radix-ui/react-dropdown-menu": "^2.1.1",
@@ -47,7 +47,6 @@
     "lucide-react": "^0.446.0",
     "nanoid": "^5.0.8",
     "next": "15.0.3-canary.2",
-    "next-auth": "5.0.0-beta.25",
     "next-themes": "^0.3.0",
     "orderedmap": "^2.1.1",
     "postgres": "^3.4.4",
