@@ -113,12 +113,6 @@ async function executeDataTool({ query }: { query: string }) {
     `,
   });
 
-  if (!relevantColumns.object.canAnswer) {
-    throw new Error(
-      `Cannot answer this question: ${relevantColumns.object.reasoning}`,
-    );
-  }
-
   const MAX_EXAMPLES = 5; // Configurable maximum number of examples when many unique values exist
   const DISTINCT_THRESHOLD = 50; // Configurable threshold for when to limit examples
 
@@ -162,8 +156,7 @@ async function executeDataTool({ query }: { query: string }) {
     .join('\n\n');
 
   console.log('Get data - Creating SQL');
-  const prompt = `
-    The schema of the table is:
+  const prompt = `The schema of the table is:
 
 ${smallSchema}
 
@@ -186,6 +179,10 @@ SQL Requirements:
 3. Date comparisons:
    - Use direct string comparisons: date >= '2024-01-01'
    - Or use TRY_CAST(date AS DATE) when needed
+4. STRING_AGG limitations:
+   - Do not use LIMIT within STRING_AGG()
+   - Instead, limit rows in a subquery before aggregating
+   - Example: STRING_AGG(col, ', ') FROM (SELECT DISTINCT col FROM table LIMIT 5) t
 
 Column Naming Requirements:
 1. Use readable column aliases with proper spacing:
@@ -199,6 +196,9 @@ Data Requirements:
 2. Add appropriate type casts using TRY_CAST()
 3. Round decimal calculations to 2 places using ROUND()
 4. Include appropriate filters to handle NULL values
+5. When limiting aggregated string results:
+   - Apply LIMIT in a subquery before STRING_AGG
+   - Never use LIMIT inside STRING_AGG function
 
 The current date is ${new Date().toISOString().split('T')[0]}.
 
@@ -209,10 +209,13 @@ After generating the query, verify:
 4. No SQLite-specific functions are included
 5. All source column names exactly match the provided list
 6. Double quotes are used for ALL column names containing spaces
+7. STRING_AGG usage follows DuckDB syntax:
+   - No LIMIT clause within STRING_AGG
+   - Limits applied in subqueries before aggregation
 
-Remember: Column names must match EXACTLY as provided - no underscores, different spacing, or case changes are allowed.
-
-    `;
+Remember: 
+- Column names must match EXACTLY as provided - no underscores, different spacing, or case changes are allowed
+- Never use LIMIT inside STRING_AGG - always limit rows in a subquery first`;
   console.log('Get data - Prompt:', prompt);
   const sql = await generateObject({
     model: customModel(),

@@ -6,12 +6,9 @@ import { motion } from "framer-motion";
 import { SparklesIcon } from "./icons";
 import { Markdown } from "./markdown";
 import { MessageActions } from "./message-actions";
-import { Weather } from "./weather";
-
 import SuperJSON from "superjson";
 import { GenericTable } from "./table";
 import type { ToolReturns } from "@/app/(chat)/api/chat/route";
-import { Button } from "./ui/button";
 import { ExternalLinkIcon } from "lucide-react";
 
 function Tool(props: { toolName: string; result: any }) {
