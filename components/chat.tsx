@@ -10,13 +10,7 @@ import { useScrollToBottom } from "@/components/use-scroll-to-bottom";
 import { MultimodalInput } from "./multimodal-input";
 import { Overview } from "./overview";
 
-export function Chat({
-  id,
-  initialMessages,
-}: {
-  id: string;
-  initialMessages: Array<Message>;
-}) {
+export function Chat({ initialMessages }: { initialMessages: Array<Message> }) {
   const {
     messages,
     setMessages,
@@ -26,9 +20,7 @@ export function Chat({
     append,
     isLoading,
     stop,
-    data: streamingData,
   } = useChat({
-    body: { id },
     initialMessages,
   });
 
@@ -48,7 +40,6 @@ export function Chat({
           {messages.map((message, index) => (
             <PreviewMessage
               key={message.id}
-              chatId={id}
               message={message}
               isLoading={isLoading && messages.length - 1 === index}
             />
@@ -67,7 +58,6 @@ export function Chat({
         </div>
         <form className="flex mx-auto px-4 bg-background pb-4 md:pb-6 gap-2 w-full md:max-w-3xl">
           <MultimodalInput
-            chatId={id}
             input={input}
             setInput={setInput}
             handleSubmit={handleSubmit}

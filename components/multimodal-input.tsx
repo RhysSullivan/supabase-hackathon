@@ -22,19 +22,16 @@ import { Textarea } from "./ui/textarea";
 
 const suggestedActions = [
   {
-    title: "What is the weather",
-    label: "in San Francisco?",
-    action: "What is the weather in San Francisco?",
+    title: "Tell me about traffic safety in Pac Heights",
+    action: "Tell me about traffic safety in Pac Heights",
   },
   {
-    title: "Help me draft an essay",
-    label: "about Silicon Valley",
-    action: "Help me draft a short essay about Silicon Valley",
+    title: "Tell me about the weather in San Francisco",
+    action: "Tell me about the weather in San Francisco",
   },
 ];
 
 export function MultimodalInput({
-  chatId,
   input,
   setInput,
   isLoading,
@@ -45,7 +42,6 @@ export function MultimodalInput({
   handleSubmit,
   className,
 }: {
-  chatId: string;
   input: string;
   setInput: (value: string) => void;
   isLoading: boolean;

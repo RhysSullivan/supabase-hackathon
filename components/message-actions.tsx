@@ -13,11 +13,9 @@ import {
 } from "./ui/tooltip";
 
 export function MessageActions({
-  chatId,
   message,
   isLoading,
 }: {
-  chatId: string;
   message: Message;
   isLoading: boolean;
 }) {

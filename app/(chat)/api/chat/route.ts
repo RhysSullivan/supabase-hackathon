@@ -44,35 +44,68 @@ async function executeDataTool({ query }: { query: string }) {
   const schema = await db.all('DESCRIBE temp_table');
   const smallSchema = JSON.stringify(schema, null, 0);
 
+  const relevantColumns = await generateObject({
+    model: customModel('claude-3-5-haiku-latest'),
+    schema: z.object({
+      canAnswer: z.boolean(),
+      columns: z.array(z.string()),
+      reasoning: z.string(),
+    }),
+    prompt: `
+      Given this table schema:
+      ${smallSchema}
+      
+      And this user question:
+      "${query}"
+
+      Can this table answer the question? Return:
+      - canAnswer: boolean indicating if the table can answer this question
+      - columns: array of column names that would be needed to answer this question
+      - reasoning: brief explanation of why the question can or cannot be answered
+
+      Only return true for canAnswer if the table definitely has the required data.
+    `,
+  });
+
+  if (!relevantColumns.object.canAnswer) {
+    throw new Error(
+      `Cannot answer this question: ${relevantColumns.object.reasoning}`,
+    );
+  }
+
   const MAX_EXAMPLES = 5; // Configurable maximum number of examples when many unique values exist
   const DISTINCT_THRESHOLD = 50; // Configurable threshold for when to limit examples
 
-  // Get sample data for each column
+  // Modify example collection to only use relevant columns
   const columnExamples = await Promise.all(
-    schema.map(async (column) => {
-      // First, count distinct values
-      const countResult = await db.all(
-        `SELECT COUNT(DISTINCT "${column.column_name}") as count 
-         FROM temp_table 
-         WHERE "${column.column_name}" IS NOT NULL`,
-      );
-      const distinctCount = countResult[0].count;
+    schema
+      .filter((column) =>
+        relevantColumns.object.columns.includes(column.column_name),
+      )
+      .map(async (column) => {
+        // First, count distinct values
+        const countResult = await db.all(
+          `SELECT COUNT(DISTINCT "${column.column_name}") as count 
+           FROM temp_table 
+           WHERE "${column.column_name}" IS NOT NULL`,
+        );
+        const distinctCount = countResult[0].count;
 
-      // Adjust LIMIT based on distinct count
-      const limit =
-        distinctCount > DISTINCT_THRESHOLD ? MAX_EXAMPLES : distinctCount;
+        // Adjust LIMIT based on distinct count
+        const limit =
+          distinctCount > DISTINCT_THRESHOLD ? MAX_EXAMPLES : distinctCount;
 
-      const samples = await db.all(
-        `SELECT DISTINCT "${column.column_name}" 
-         FROM temp_table 
-         WHERE "${column.column_name}" IS NOT NULL 
-         LIMIT ${limit}`,
-      );
-      return {
-        column: column.column_name,
-        examples: samples.map((s) => s[column.column_name]),
-      };
-    }),
+        const samples = await db.all(
+          `SELECT DISTINCT "${column.column_name}" 
+           FROM temp_table 
+           WHERE "${column.column_name}" IS NOT NULL 
+           LIMIT ${limit}`,
+        );
+        return {
+          column: column.column_name,
+          examples: samples.map((s) => s[column.column_name]),
+        };
+      }),
   );
 
   const examplesText = columnExamples
@@ -90,10 +123,12 @@ async function executeDataTool({ query }: { query: string }) {
     
     The table is named temp_table. 
     
+    Relevant columns for this query: ${relevantColumns.object.columns.join(', ')}
+    Reasoning: ${relevantColumns.object.reasoning}
+    
     Example values: ${examplesText}
 
     Generate a SQL query that answers the question: ${query}
-
 
     Unless the query is specifically asking about all data, assume it's asking about aggregate data.
     Add data casts if they are needed.

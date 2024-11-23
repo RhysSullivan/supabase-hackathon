@@ -27,11 +27,9 @@ function Tool(props: { toolName: string; result: any }) {
 }
 
 export const PreviewMessage = ({
-  chatId,
   message,
   isLoading,
 }: {
-  chatId: string;
   message: Message;
   isLoading: boolean;
 }) => {
@@ -90,7 +88,6 @@ export const PreviewMessage = ({
 
           <MessageActions
             key={`action-${message.id}`}
-            chatId={chatId}
             message={message}
             isLoading={isLoading}
           />
