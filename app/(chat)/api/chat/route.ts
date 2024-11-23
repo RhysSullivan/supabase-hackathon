@@ -75,11 +75,20 @@ export async function POST(request: Request) {
             schema: z.object({
               sql: z.string(),
             }),
-            prompt: `The schema of the table is ${smallSchema} the table is named temp_table. Generate a SQL query that answers the question: ${query}`,
+            prompt: `
+            The schema of the table is:
+            
+            ${smallSchema} 
+            
+            the table is named temp_table. 
+            
+            Generate a SQL query that answers the question: ${query}
+            
+            `,
           });
           const data = await db.all(sql.object.sql);
           console.log(data);
-          return data;
+          return 'hello world';
         },
       },
     },
