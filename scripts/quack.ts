@@ -102,7 +102,7 @@ const db = setupDuckDbConnection(config);
 const storagePath = await uploadCsvToStorage(
   config,
   'traffic.csv',
-  await fetchCsvFromUrl('https://data.sfgov.org/resource/ybh5-27n2.csv'),
+  await fetchCsvFromUrl('https://data.sfgov.org/resource/ubvf-ztfx.csv?$limit=50000'),
 );
 
 const result = await queryCsvFromStorage(
