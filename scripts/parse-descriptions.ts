@@ -2,14 +2,14 @@ import { Stagehand } from '@browserbasehq/stagehand';
 import fs from 'fs/promises';
 import path from 'path';
 
-interface Dataset {
+export interface Dataset {
   title: string;
   url: string;
   id: string;
   downloadUrl: string;
 }
 
-interface DatasetDetails {
+export interface DatasetDetails {
   title: string;
   url: string;
   id: string;
